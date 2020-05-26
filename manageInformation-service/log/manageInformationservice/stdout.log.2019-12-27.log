@@ -1,0 +1,173 @@
+2019-12-27 19:06:19,092 [INFO] [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-27 19:06:21,998 [INFO] [main] c.e.m.ManageInformationServiceApplication [SpringApplication.java : 651] No active profile set, falling back to default profiles: default
+2019-12-27 19:06:24,085 [WARN] [main] org.springframework.boot.actuate.endpoint.EndpointId [EndpointId.java : 155] Endpoint ID 'hystrix.stream' contains invalid characters, please migrate to a valid format.
+2019-12-27 19:06:25,785 [WARN] [main] org.springframework.boot.actuate.endpoint.EndpointId [EndpointId.java : 155] Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2019-12-27 19:06:26,250 [INFO] [main] org.springframework.cloud.context.scope.GenericScope [GenericScope.java : 295] BeanFactory id=863a76e6-552a-3333-85d9-937dfa8d3807
+2019-12-27 19:06:27,011 [INFO] [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-27 19:06:27,739 [INFO] [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-27 19:06:31,855 [INFO] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [TomcatWebServer.java : 92] Tomcat initialized with port(s): 8004 (http)
+2019-12-27 19:06:31,916 [INFO] [main] org.apache.catalina.core.StandardService [DirectJDKLog.java : 173] Starting service [Tomcat]
+2019-12-27 19:06:31,917 [INFO] [main] org.apache.catalina.core.StandardEngine [DirectJDKLog.java : 173] Starting Servlet engine: [Apache Tomcat/9.0.29]
+2019-12-27 19:06:32,737 [INFO] [main] o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [DirectJDKLog.java : 173] Initializing Spring embedded WebApplicationContext
+2019-12-27 19:06:32,738 [INFO] [main] org.springframework.web.context.ContextLoader [ServletWebServerApplicationContext.java : 284] Root WebApplicationContext: initialization completed in 10685 ms
+2019-12-27 19:06:33,132 [WARN] [main] com.netflix.config.sources.URLConfigurationSource [URLConfigurationSource.java : 121] No URLs will be polled as dynamic configuration sources.
+2019-12-27 19:06:33,133 [INFO] [main] com.netflix.config.sources.URLConfigurationSource [URLConfigurationSource.java : 122] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-12-27 19:06:33,304 [INFO] [main] com.netflix.config.DynamicPropertyFactory [DynamicPropertyFactory.java : 281] DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@42ecc554
+2019-12-27 19:06:34,894 [INFO] [main] o.s.boot.actuate.endpoint.web.ServletEndpointRegistrar [ServletEndpointRegistrar.java : 75] Registered '/actuator/hystrix.stream' to hystrix.stream-actuator-endpoint
+2019-12-27 19:06:36,821 [INFO] [main] o.s.boot.actuate.endpoint.web.EndpointLinksResolver [EndpointLinksResolver.java : 58] Exposing 1 endpoint(s) beneath base path '/actuator'
+2019-12-27 19:06:37,770 [INFO] [main] s.d.spring.web.PropertySourcedRequestMappingHandlerMapping [PropertySourcedRequestMappingHandlerMapping.java : 69] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2019-12-27 19:06:37,817 [WARN] [main] com.netflix.config.sources.URLConfigurationSource [URLConfigurationSource.java : 121] No URLs will be polled as dynamic configuration sources.
+2019-12-27 19:06:37,819 [INFO] [main] com.netflix.config.sources.URLConfigurationSource [URLConfigurationSource.java : 122] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-12-27 19:06:43,456 [INFO] [main] org.springframework.cloud.commons.util.InetUtils [InetUtils.java : 170] Cannot determine local hostname
+2019-12-27 19:06:46,433 [INFO] [main] org.springframework.cloud.commons.util.InetUtils [InetUtils.java : 170] Cannot determine local hostname
+2019-12-27 19:06:49,353 [INFO] [main] org.springframework.cloud.commons.util.InetUtils [InetUtils.java : 170] Cannot determine local hostname
+2019-12-27 19:06:49,442 [WARN] [main] o.s.c.l.c.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger [BlockingLoadBalancerClientAutoConfiguration.java : 106] You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2019-12-27 19:06:49,546 [WARN] [main] o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger [LoadBalancerCacheAutoConfiguration.java : 81] Spring Cloud LoadBalancer is currently working with default default cache. You can switch to using Caffeine cache, by adding it to the classpath.
+2019-12-27 19:06:49,707 [INFO] [main] org.springframework.cloud.netflix.eureka.InstanceInfoFactory [InstanceInfoFactory.java : 72] Setting initial instance status as: STARTING
+2019-12-27 19:06:49,887 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 365] Initializing Eureka in region us-east-1
+2019-12-27 19:06:50,406 [INFO] [main] com.netflix.discovery.provider.DiscoveryJerseyProvider [DiscoveryJerseyProvider.java : 70] Using JSON encoding codec LegacyJacksonJson
+2019-12-27 19:06:50,416 [INFO] [main] com.netflix.discovery.provider.DiscoveryJerseyProvider [DiscoveryJerseyProvider.java : 71] Using JSON decoding codec LegacyJacksonJson
+2019-12-27 19:06:51,021 [INFO] [main] com.netflix.discovery.provider.DiscoveryJerseyProvider [DiscoveryJerseyProvider.java : 80] Using XML encoding codec XStreamXml
+2019-12-27 19:06:51,022 [INFO] [main] com.netflix.discovery.provider.DiscoveryJerseyProvider [DiscoveryJerseyProvider.java : 81] Using XML decoding codec XStreamXml
+2019-12-27 19:06:51,606 [INFO] [main] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-27 19:06:52,393 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 976] Disable delta property : false
+2019-12-27 19:06:52,394 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 977] Single vip registry refresh property : null
+2019-12-27 19:06:52,394 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 978] Force full registry fetch : false
+2019-12-27 19:06:52,395 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 979] Application is null : false
+2019-12-27 19:06:52,396 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 980] Registered Applications size is zero : true
+2019-12-27 19:06:52,397 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 982] Application version is -1: true
+2019-12-27 19:06:52,398 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 1065] Getting all instance registry info from the eureka server
+2019-12-27 19:06:53,121 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 1074] The response status is 200
+2019-12-27 19:06:53,142 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 1288] Starting heartbeat executor: renew interval is: 30
+2019-12-27 19:06:53,148 [INFO] [main] com.netflix.discovery.InstanceInfoReplicator [InstanceInfoReplicator.java : 60] InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-12-27 19:06:53,160 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 465] Discovery Client initialized at timestamp 1577444813157 with initial instances count: 2
+2019-12-27 19:06:53,169 [INFO] [main] o.s.c.netflix.eureka.serviceregistry.EurekaServiceRegistry [EurekaServiceRegistry.java : 41] Registering application MANAGEINFORMATION-PRODUCER with eureka with status UP
+2019-12-27 19:06:53,171 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 1323] Saw local status change event StatusChangeEvent [timestamp=1577444813171, current=UP, previous=STARTING]
+2019-12-27 19:06:53,182 [INFO] [main] s.d.spring.web.plugins.DocumentationPluginsBootstrapper [DocumentationPluginsBootstrapper.java : 160] Context refreshed
+2019-12-27 19:06:53,182 [INFO] [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 844] DiscoveryClient_MANAGEINFORMATION-PRODUCER/localhost:manageInformation-producer:8004: registering service...
+2019-12-27 19:06:53,302 [INFO] [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 853] DiscoveryClient_MANAGEINFORMATION-PRODUCER/localhost:manageInformation-producer:8004 - registration status: 204
+2019-12-27 19:06:53,327 [INFO] [main] s.d.spring.web.plugins.DocumentationPluginsBootstrapper [DocumentationPluginsBootstrapper.java : 163] Found 1 custom documentation plugin(s)
+2019-12-27 19:06:53,422 [INFO] [main] s.d.spring.web.scanners.ApiListingReferenceScanner [ApiListingReferenceScanner.java : 41] Scanning for api listing references
+2019-12-27 19:06:54,061 [INFO] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [TomcatWebServer.java : 204] Tomcat started on port(s): 8004 (http) with context path ''
+2019-12-27 19:06:54,063 [INFO] [main] o.s.c.n.eureka.serviceregistry.EurekaAutoServiceRegistration [EurekaAutoServiceRegistration.java : 145] Updating port to 8004
+2019-12-27 19:06:57,476 [INFO] [main] org.springframework.cloud.commons.util.InetUtils [InetUtils.java : 170] Cannot determine local hostname
+2019-12-27 19:06:57,497 [INFO] [main] c.e.m.ManageInformationServiceApplication [StartupInfoLogger.java : 61] Started ManageInformationServiceApplication in 46.846 seconds (JVM running for 49.68)
+2019-12-27 19:11:52,404 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-27 19:16:52,405 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-27 19:21:52,406 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-27 19:26:52,408 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-27 19:31:52,410 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-27 19:36:52,411 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-27 19:41:52,412 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-27 19:46:52,413 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-27 19:51:52,415 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-27 19:56:52,416 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-27 20:01:52,418 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-27 20:06:52,420 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-27 20:11:09,040 [INFO] [http-nio-8004-exec-4] o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [DirectJDKLog.java : 173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-27 20:11:09,041 [INFO] [http-nio-8004-exec-4] org.springframework.web.servlet.DispatcherServlet [FrameworkServlet.java : 525] Initializing Servlet 'dispatcherServlet'
+2019-12-27 20:11:09,066 [INFO] [http-nio-8004-exec-4] org.springframework.web.servlet.DispatcherServlet [FrameworkServlet.java : 547] Completed initialization in 24 ms
+2019-12-27 20:11:52,421 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-27 20:16:52,422 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-27 20:21:52,423 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-27 20:26:52,425 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-27 20:31:52,428 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-27 20:35:30,420 [WARN] [http-nio-8004-exec-9] o.s.web.servlet.mvc.support.DefaultHandlerExceptionResolver [AbstractHandlerExceptionResolver.java : 199] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2019-12-27 20:36:05,335 [INFO] [http-nio-8004-exec-1] com.zaxxer.hikari.HikariDataSource [HikariDataSource.java : 110] HikariPool-1 - Starting...
+2019-12-27 20:36:05,989 [INFO] [http-nio-8004-exec-1] com.zaxxer.hikari.HikariDataSource [HikariDataSource.java : 123] HikariPool-1 - Start completed.
+2019-12-27 20:36:06,002 [DEBUG] [http-nio-8004-exec-1] c.e.m.mapper.InformationMapper.insertUsersFollowByID [BaseJdbcLogger.java : 143] ==>  Preparing: insert into Lol_Follow values (? , ?) 
+2019-12-27 20:36:06,039 [DEBUG] [http-nio-8004-exec-1] c.e.m.mapper.InformationMapper.insertUsersFollowByID [BaseJdbcLogger.java : 143] ==> Parameters: 1(Integer), 2(Integer)
+2019-12-27 20:36:52,430 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-27 20:41:52,431 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-27 20:46:52,432 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-27 20:51:52,434 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-27 20:56:52,435 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-27 21:01:52,437 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-27 21:06:52,439 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-27 21:11:52,441 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-27 21:16:52,442 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-27 21:21:52,443 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-27 21:26:52,444 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-27 21:31:52,446 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-27 21:36:52,448 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-27 21:41:52,449 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-27 21:44:40,016 [WARN] [http-nio-8004-exec-8] o.s.web.servlet.mvc.support.DefaultHandlerExceptionResolver [AbstractHandlerExceptionResolver.java : 199] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; nested exception is java.lang.NumberFormatException: For input string: "null"]
+2019-12-27 21:44:45,408 [ERROR] [http-nio-8004-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/].[dispatcherServlet] [DirectJDKLog.java : 175] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NumberFormatException: For input string: "null"] with root cause
+java.lang.NumberFormatException: For input string: "null"
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:68)
+	at java.base/java.lang.Integer.parseInt(Integer.java:658)
+	at java.base/java.lang.Integer.parseInt(Integer.java:776)
+	at com.eruka.manageInformationservice.controller.InformationController.getUserInfomationByID(InformationController.java:32)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:888)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:108)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1591)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+2019-12-27 21:46:52,451 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-27 21:51:52,452 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-27 21:56:52,455 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-27 22:01:52,457 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-27 22:06:52,459 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-27 22:11:52,460 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-27 22:16:52,461 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-27 22:21:52,463 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-27 22:26:52,465 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-27 22:31:52,467 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-27 22:36:52,469 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-27 22:41:52,470 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-27 22:46:52,471 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-27 22:51:52,473 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-27 22:56:52,475 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-27 23:01:52,477 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-27 23:06:52,480 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-27 23:11:52,523 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-27 23:16:52,525 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-27 23:21:52,526 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-27 23:26:52,527 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-27 23:31:52,528 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-27 23:36:52,531 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-27 23:41:52,533 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-27 23:46:52,535 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-27 23:51:52,537 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-27 23:56:52,540 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration

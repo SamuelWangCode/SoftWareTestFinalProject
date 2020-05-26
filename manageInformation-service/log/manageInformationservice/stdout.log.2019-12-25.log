@@ -1,0 +1,520 @@
+2019-12-25 10:24:41,813 [INFO] [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-25 10:24:43,798 [INFO] [main] c.e.m.ManageInformationServiceApplication [SpringApplication.java : 651] No active profile set, falling back to default profiles: default
+2019-12-25 10:24:45,355 [WARN] [main] org.springframework.boot.actuate.endpoint.EndpointId [EndpointId.java : 155] Endpoint ID 'hystrix.stream' contains invalid characters, please migrate to a valid format.
+2019-12-25 10:24:45,981 [WARN] [main] org.springframework.boot.actuate.endpoint.EndpointId [EndpointId.java : 155] Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2019-12-25 10:24:46,213 [INFO] [main] org.springframework.cloud.context.scope.GenericScope [GenericScope.java : 295] BeanFactory id=863a76e6-552a-3333-85d9-937dfa8d3807
+2019-12-25 10:24:46,484 [INFO] [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-25 10:24:46,803 [INFO] [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-25 10:24:47,434 [INFO] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [TomcatWebServer.java : 92] Tomcat initialized with port(s): 8004 (http)
+2019-12-25 10:24:47,445 [INFO] [main] org.apache.catalina.core.StandardService [DirectJDKLog.java : 173] Starting service [Tomcat]
+2019-12-25 10:24:47,445 [INFO] [main] org.apache.catalina.core.StandardEngine [DirectJDKLog.java : 173] Starting Servlet engine: [Apache Tomcat/9.0.29]
+2019-12-25 10:24:47,686 [INFO] [main] o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [DirectJDKLog.java : 173] Initializing Spring embedded WebApplicationContext
+2019-12-25 10:24:47,687 [INFO] [main] org.springframework.web.context.ContextLoader [ServletWebServerApplicationContext.java : 284] Root WebApplicationContext: initialization completed in 3831 ms
+2019-12-25 10:24:47,793 [WARN] [main] com.netflix.config.sources.URLConfigurationSource [URLConfigurationSource.java : 121] No URLs will be polled as dynamic configuration sources.
+2019-12-25 10:24:47,794 [INFO] [main] com.netflix.config.sources.URLConfigurationSource [URLConfigurationSource.java : 122] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-12-25 10:24:47,810 [INFO] [main] com.netflix.config.DynamicPropertyFactory [DynamicPropertyFactory.java : 281] DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@5efe5b25
+2019-12-25 10:24:48,078 [INFO] [main] o.s.boot.actuate.endpoint.web.ServletEndpointRegistrar [ServletEndpointRegistrar.java : 75] Registered '/actuator/hystrix.stream' to hystrix.stream-actuator-endpoint
+2019-12-25 10:24:48,802 [INFO] [main] o.s.boot.actuate.endpoint.web.EndpointLinksResolver [EndpointLinksResolver.java : 58] Exposing 1 endpoint(s) beneath base path '/actuator'
+2019-12-25 10:24:49,103 [INFO] [main] s.d.spring.web.PropertySourcedRequestMappingHandlerMapping [PropertySourcedRequestMappingHandlerMapping.java : 69] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2019-12-25 10:24:49,124 [WARN] [main] com.netflix.config.sources.URLConfigurationSource [URLConfigurationSource.java : 121] No URLs will be polled as dynamic configuration sources.
+2019-12-25 10:24:49,125 [INFO] [main] com.netflix.config.sources.URLConfigurationSource [URLConfigurationSource.java : 122] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-12-25 10:24:52,634 [WARN] [main] o.s.c.l.c.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger [BlockingLoadBalancerClientAutoConfiguration.java : 106] You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2019-12-25 10:24:52,706 [WARN] [main] o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger [LoadBalancerCacheAutoConfiguration.java : 81] Spring Cloud LoadBalancer is currently working with default default cache. You can switch to using Caffeine cache, by adding it to the classpath.
+2019-12-25 10:24:52,864 [INFO] [main] org.springframework.cloud.netflix.eureka.InstanceInfoFactory [InstanceInfoFactory.java : 72] Setting initial instance status as: STARTING
+2019-12-25 10:24:52,984 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 365] Initializing Eureka in region us-east-1
+2019-12-25 10:24:53,315 [INFO] [main] com.netflix.discovery.provider.DiscoveryJerseyProvider [DiscoveryJerseyProvider.java : 70] Using JSON encoding codec LegacyJacksonJson
+2019-12-25 10:24:53,316 [INFO] [main] com.netflix.discovery.provider.DiscoveryJerseyProvider [DiscoveryJerseyProvider.java : 71] Using JSON decoding codec LegacyJacksonJson
+2019-12-25 10:24:53,948 [INFO] [main] com.netflix.discovery.provider.DiscoveryJerseyProvider [DiscoveryJerseyProvider.java : 80] Using XML encoding codec XStreamXml
+2019-12-25 10:24:53,978 [INFO] [main] com.netflix.discovery.provider.DiscoveryJerseyProvider [DiscoveryJerseyProvider.java : 81] Using XML decoding codec XStreamXml
+2019-12-25 10:24:54,573 [INFO] [main] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-25 10:24:55,404 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 976] Disable delta property : false
+2019-12-25 10:24:55,414 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 977] Single vip registry refresh property : null
+2019-12-25 10:24:55,415 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 978] Force full registry fetch : false
+2019-12-25 10:24:55,415 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 979] Application is null : false
+2019-12-25 10:24:55,416 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 980] Registered Applications size is zero : true
+2019-12-25 10:24:55,416 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 982] Application version is -1: true
+2019-12-25 10:24:55,417 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 1065] Getting all instance registry info from the eureka server
+2019-12-25 10:24:55,754 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 1074] The response status is 200
+2019-12-25 10:24:55,762 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 1288] Starting heartbeat executor: renew interval is: 30
+2019-12-25 10:24:55,765 [INFO] [main] com.netflix.discovery.InstanceInfoReplicator [InstanceInfoReplicator.java : 60] InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-12-25 10:24:55,769 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 465] Discovery Client initialized at timestamp 1577240695768 with initial instances count: 2
+2019-12-25 10:24:55,779 [INFO] [main] o.s.c.netflix.eureka.serviceregistry.EurekaServiceRegistry [EurekaServiceRegistry.java : 41] Registering application MANAGEINFORMATION-PRODUCER with eureka with status UP
+2019-12-25 10:24:55,781 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 1323] Saw local status change event StatusChangeEvent [timestamp=1577240695781, current=UP, previous=STARTING]
+2019-12-25 10:24:55,784 [INFO] [main] s.d.spring.web.plugins.DocumentationPluginsBootstrapper [DocumentationPluginsBootstrapper.java : 160] Context refreshed
+2019-12-25 10:24:55,785 [INFO] [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 844] DiscoveryClient_MANAGEINFORMATION-PRODUCER/LAPTOP-9V9UUKHU:manageInformation-producer:8004: registering service...
+2019-12-25 10:24:55,846 [INFO] [main] s.d.spring.web.plugins.DocumentationPluginsBootstrapper [DocumentationPluginsBootstrapper.java : 163] Found 1 custom documentation plugin(s)
+2019-12-25 10:24:55,850 [INFO] [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 853] DiscoveryClient_MANAGEINFORMATION-PRODUCER/LAPTOP-9V9UUKHU:manageInformation-producer:8004 - registration status: 204
+2019-12-25 10:24:55,928 [INFO] [main] s.d.spring.web.scanners.ApiListingReferenceScanner [ApiListingReferenceScanner.java : 41] Scanning for api listing references
+2019-12-25 10:24:56,688 [INFO] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [TomcatWebServer.java : 204] Tomcat started on port(s): 8004 (http) with context path ''
+2019-12-25 10:24:56,689 [INFO] [main] o.s.c.n.eureka.serviceregistry.EurekaAutoServiceRegistration [EurekaAutoServiceRegistration.java : 145] Updating port to 8004
+2019-12-25 10:24:57,569 [INFO] [main] c.e.m.ManageInformationServiceApplication [StartupInfoLogger.java : 61] Started ManageInformationServiceApplication in 18.033 seconds (JVM running for 18.981)
+2019-12-25 10:25:47,082 [INFO] [http-nio-8004-exec-1] o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [DirectJDKLog.java : 173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-25 10:25:47,082 [INFO] [http-nio-8004-exec-1] org.springframework.web.servlet.DispatcherServlet [FrameworkServlet.java : 525] Initializing Servlet 'dispatcherServlet'
+2019-12-25 10:25:47,127 [INFO] [http-nio-8004-exec-1] org.springframework.web.servlet.DispatcherServlet [FrameworkServlet.java : 547] Completed initialization in 44 ms
+2019-12-25 10:25:47,257 [INFO] [http-nio-8004-exec-1] com.zaxxer.hikari.HikariDataSource [HikariDataSource.java : 110] HikariPool-1 - Starting...
+2019-12-25 10:25:47,914 [INFO] [http-nio-8004-exec-1] com.zaxxer.hikari.HikariDataSource [HikariDataSource.java : 123] HikariPool-1 - Start completed.
+2019-12-25 10:25:47,925 [DEBUG] [http-nio-8004-exec-1] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 143] ==>  Preparing: select * from Lol_UserInfo where uID = ? 
+2019-12-25 10:25:47,962 [DEBUG] [http-nio-8004-exec-1] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 143] ==> Parameters: 1(Integer)
+2019-12-25 10:25:48,044 [TRACE] [http-nio-8004-exec-1] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 149] <==    Columns: uID, nickName, icon, gender, lolAccount, prefer
+2019-12-25 10:25:48,045 [TRACE] [http-nio-8004-exec-1] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 149] <==        Row: 1, ff1235222, default.jpg, 0, null, 2
+2019-12-25 10:25:48,047 [DEBUG] [http-nio-8004-exec-1] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 143] <==      Total: 1
+2019-12-25 10:28:32,519 [DEBUG] [http-nio-8004-exec-3] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 143] ==>  Preparing: select * from Lol_UserInfo where uID = ? 
+2019-12-25 10:28:32,520 [DEBUG] [http-nio-8004-exec-3] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 143] ==> Parameters: 1(Integer)
+2019-12-25 10:28:32,559 [TRACE] [http-nio-8004-exec-3] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 149] <==    Columns: uID, nickName, icon, gender, lolAccount, prefer
+2019-12-25 10:28:32,559 [TRACE] [http-nio-8004-exec-3] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 149] <==        Row: 1, ff1235222, default.jpg, 0, null, 2
+2019-12-25 10:28:32,562 [DEBUG] [http-nio-8004-exec-3] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 143] <==      Total: 1
+2019-12-25 10:28:38,694 [DEBUG] [http-nio-8004-exec-5] c.e.m.mapper.InformationMapper.updateUserInforByID [BaseJdbcLogger.java : 143] ==>  Preparing: update Lol_UserInfo set nickName = ?, gender = ? , prefer = ? where uID = ? 
+2019-12-25 10:28:38,695 [DEBUG] [http-nio-8004-exec-5] c.e.m.mapper.InformationMapper.updateUserInforByID [BaseJdbcLogger.java : 143] ==> Parameters: ff12(String), 0(Integer), 2(Integer), 1(Integer)
+2019-12-25 10:28:38,817 [DEBUG] [http-nio-8004-exec-5] c.e.m.mapper.InformationMapper.updateUserInforByID [BaseJdbcLogger.java : 143] <==    Updates: 1
+2019-12-25 10:28:40,198 [DEBUG] [http-nio-8004-exec-6] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 143] ==>  Preparing: select * from Lol_UserInfo where uID = ? 
+2019-12-25 10:28:40,199 [DEBUG] [http-nio-8004-exec-6] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 143] ==> Parameters: 1(Integer)
+2019-12-25 10:28:40,239 [TRACE] [http-nio-8004-exec-6] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 149] <==    Columns: uID, nickName, icon, gender, lolAccount, prefer
+2019-12-25 10:28:40,240 [TRACE] [http-nio-8004-exec-6] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 149] <==        Row: 1, ff12, default.jpg, 0, null, 2
+2019-12-25 10:28:40,241 [DEBUG] [http-nio-8004-exec-6] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 143] <==      Total: 1
+2019-12-25 10:28:51,741 [DEBUG] [http-nio-8004-exec-7] c.e.m.mapper.InformationMapper.selectUsersFollowByUid [BaseJdbcLogger.java : 143] ==>  Preparing: select u.* from Lol_UserInfo u inner join Lol_Follow f on f.fID = u.uID where f.uID = ? 
+2019-12-25 10:28:51,742 [DEBUG] [http-nio-8004-exec-7] c.e.m.mapper.InformationMapper.selectUsersFollowByUid [BaseJdbcLogger.java : 143] ==> Parameters: 1(Integer)
+2019-12-25 10:28:51,784 [TRACE] [http-nio-8004-exec-7] c.e.m.mapper.InformationMapper.selectUsersFollowByUid [BaseJdbcLogger.java : 149] <==    Columns: uID, nickName, icon, gender, lolAccount, prefer
+2019-12-25 10:28:51,786 [TRACE] [http-nio-8004-exec-7] c.e.m.mapper.InformationMapper.selectUsersFollowByUid [BaseJdbcLogger.java : 149] <==        Row: 2, fufu, default.jpg, 0, null, 0
+2019-12-25 10:28:51,788 [DEBUG] [http-nio-8004-exec-7] c.e.m.mapper.InformationMapper.selectUsersFollowByUid [BaseJdbcLogger.java : 143] <==      Total: 1
+2019-12-25 10:29:04,156 [DEBUG] [http-nio-8004-exec-8] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 143] ==>  Preparing: select * from Lol_UserInfo where uID = ? 
+2019-12-25 10:29:04,157 [DEBUG] [http-nio-8004-exec-8] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 143] ==> Parameters: 1(Integer)
+2019-12-25 10:29:04,195 [TRACE] [http-nio-8004-exec-8] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 149] <==    Columns: uID, nickName, icon, gender, lolAccount, prefer
+2019-12-25 10:29:04,196 [TRACE] [http-nio-8004-exec-8] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 149] <==        Row: 1, ff12, default.jpg, 0, null, 2
+2019-12-25 10:29:04,196 [DEBUG] [http-nio-8004-exec-8] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 143] <==      Total: 1
+2019-12-25 10:29:56,842 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-25 10:34:56,844 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-25 10:39:56,845 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-25 10:42:20,995 [DEBUG] [http-nio-8004-exec-10] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 143] ==>  Preparing: select * from Lol_UserInfo where uID = ? 
+2019-12-25 10:42:20,997 [DEBUG] [http-nio-8004-exec-10] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 143] ==> Parameters: 1(Integer)
+2019-12-25 10:42:21,039 [TRACE] [http-nio-8004-exec-10] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 149] <==    Columns: uID, nickName, icon, gender, lolAccount, prefer
+2019-12-25 10:42:21,042 [TRACE] [http-nio-8004-exec-10] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 149] <==        Row: 1, ff12, default.jpg, 0, null, 2
+2019-12-25 10:42:21,043 [DEBUG] [http-nio-8004-exec-10] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 143] <==      Total: 1
+2019-12-25 10:42:24,790 [DEBUG] [http-nio-8004-exec-1] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 143] ==>  Preparing: select * from Lol_UserInfo where uID = ? 
+2019-12-25 10:42:24,791 [DEBUG] [http-nio-8004-exec-1] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 143] ==> Parameters: 1(Integer)
+2019-12-25 10:42:24,835 [TRACE] [http-nio-8004-exec-1] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 149] <==    Columns: uID, nickName, icon, gender, lolAccount, prefer
+2019-12-25 10:42:24,837 [TRACE] [http-nio-8004-exec-1] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 149] <==        Row: 1, ff12, default.jpg, 0, null, 2
+2019-12-25 10:42:24,838 [DEBUG] [http-nio-8004-exec-1] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 143] <==      Total: 1
+2019-12-25 10:42:27,870 [DEBUG] [http-nio-8004-exec-2] c.e.m.mapper.InformationMapper.selectUsersFollowByUid [BaseJdbcLogger.java : 143] ==>  Preparing: select u.* from Lol_UserInfo u inner join Lol_Follow f on f.fID = u.uID where f.uID = ? 
+2019-12-25 10:42:27,873 [DEBUG] [http-nio-8004-exec-2] c.e.m.mapper.InformationMapper.selectUsersFollowByUid [BaseJdbcLogger.java : 143] ==> Parameters: 1(Integer)
+2019-12-25 10:42:27,913 [TRACE] [http-nio-8004-exec-2] c.e.m.mapper.InformationMapper.selectUsersFollowByUid [BaseJdbcLogger.java : 149] <==    Columns: uID, nickName, icon, gender, lolAccount, prefer
+2019-12-25 10:42:27,914 [TRACE] [http-nio-8004-exec-2] c.e.m.mapper.InformationMapper.selectUsersFollowByUid [BaseJdbcLogger.java : 149] <==        Row: 2, fufu, default.jpg, 0, null, 0
+2019-12-25 10:42:27,921 [DEBUG] [http-nio-8004-exec-2] c.e.m.mapper.InformationMapper.selectUsersFollowByUid [BaseJdbcLogger.java : 143] <==      Total: 1
+2019-12-25 10:42:49,431 [DEBUG] [http-nio-8004-exec-3] c.e.m.mapper.InformationMapper.selectUsersFollowByUid [BaseJdbcLogger.java : 143] ==>  Preparing: select u.* from Lol_UserInfo u inner join Lol_Follow f on f.fID = u.uID where f.uID = ? 
+2019-12-25 10:42:49,433 [DEBUG] [http-nio-8004-exec-3] c.e.m.mapper.InformationMapper.selectUsersFollowByUid [BaseJdbcLogger.java : 143] ==> Parameters: 1(Integer)
+2019-12-25 10:42:49,486 [TRACE] [http-nio-8004-exec-3] c.e.m.mapper.InformationMapper.selectUsersFollowByUid [BaseJdbcLogger.java : 149] <==    Columns: uID, nickName, icon, gender, lolAccount, prefer
+2019-12-25 10:42:49,486 [TRACE] [http-nio-8004-exec-3] c.e.m.mapper.InformationMapper.selectUsersFollowByUid [BaseJdbcLogger.java : 149] <==        Row: 2, fufu, default.jpg, 0, null, 0
+2019-12-25 10:42:49,487 [DEBUG] [http-nio-8004-exec-3] c.e.m.mapper.InformationMapper.selectUsersFollowByUid [BaseJdbcLogger.java : 143] <==      Total: 1
+2019-12-25 10:42:51,147 [DEBUG] [http-nio-8004-exec-4] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 143] ==>  Preparing: select * from Lol_UserInfo where uID = ? 
+2019-12-25 10:42:51,148 [DEBUG] [http-nio-8004-exec-4] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 143] ==> Parameters: 2(Integer)
+2019-12-25 10:42:51,185 [TRACE] [http-nio-8004-exec-4] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 149] <==    Columns: uID, nickName, icon, gender, lolAccount, prefer
+2019-12-25 10:42:51,186 [TRACE] [http-nio-8004-exec-4] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 149] <==        Row: 2, fufu, default.jpg, 0, null, 0
+2019-12-25 10:42:51,186 [DEBUG] [http-nio-8004-exec-4] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 143] <==      Total: 1
+2019-12-25 10:44:16,244 [DEBUG] [http-nio-8004-exec-6] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 143] ==>  Preparing: select * from Lol_UserInfo where uID = ? 
+2019-12-25 10:44:16,245 [DEBUG] [http-nio-8004-exec-6] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 143] ==> Parameters: 2(Integer)
+2019-12-25 10:44:16,283 [TRACE] [http-nio-8004-exec-6] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 149] <==    Columns: uID, nickName, icon, gender, lolAccount, prefer
+2019-12-25 10:44:16,284 [TRACE] [http-nio-8004-exec-6] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 149] <==        Row: 2, fufu, default.jpg, 0, null, 0
+2019-12-25 10:44:16,285 [DEBUG] [http-nio-8004-exec-6] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 143] <==      Total: 1
+2019-12-25 10:44:56,847 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-25 10:45:13,882 [DEBUG] [http-nio-8004-exec-7] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 143] ==>  Preparing: select * from Lol_UserInfo where uID = ? 
+2019-12-25 10:45:13,883 [DEBUG] [http-nio-8004-exec-7] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 143] ==> Parameters: 2(Integer)
+2019-12-25 10:45:13,921 [TRACE] [http-nio-8004-exec-7] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 149] <==    Columns: uID, nickName, icon, gender, lolAccount, prefer
+2019-12-25 10:45:13,922 [TRACE] [http-nio-8004-exec-7] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 149] <==        Row: 2, fufu, default.jpg, 0, null, 0
+2019-12-25 10:45:13,923 [DEBUG] [http-nio-8004-exec-7] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 143] <==      Total: 1
+2019-12-25 10:47:08,126 [DEBUG] [http-nio-8004-exec-9] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 143] ==>  Preparing: select * from Lol_UserInfo where uID = ? 
+2019-12-25 10:47:08,128 [DEBUG] [http-nio-8004-exec-9] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 143] ==> Parameters: 2(Integer)
+2019-12-25 10:47:08,174 [TRACE] [http-nio-8004-exec-9] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 149] <==    Columns: uID, nickName, icon, gender, lolAccount, prefer
+2019-12-25 10:47:08,175 [TRACE] [http-nio-8004-exec-9] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 149] <==        Row: 2, fufu, default.jpg, 0, null, 0
+2019-12-25 10:47:08,175 [DEBUG] [http-nio-8004-exec-9] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 143] <==      Total: 1
+2019-12-25 10:49:26,133 [DEBUG] [http-nio-8004-exec-1] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 143] ==>  Preparing: select * from Lol_UserInfo where uID = ? 
+2019-12-25 10:49:26,134 [DEBUG] [http-nio-8004-exec-1] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 143] ==> Parameters: 2(Integer)
+2019-12-25 10:49:26,172 [TRACE] [http-nio-8004-exec-1] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 149] <==    Columns: uID, nickName, icon, gender, lolAccount, prefer
+2019-12-25 10:49:26,173 [TRACE] [http-nio-8004-exec-1] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 149] <==        Row: 2, fufu, default.jpg, 0, null, 0
+2019-12-25 10:49:26,174 [DEBUG] [http-nio-8004-exec-1] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 143] <==      Total: 1
+2019-12-25 10:49:26,585 [DEBUG] [http-nio-8004-exec-2] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 143] ==>  Preparing: select * from Lol_UserInfo where uID = ? 
+2019-12-25 10:49:26,587 [DEBUG] [http-nio-8004-exec-2] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 143] ==> Parameters: 2(Integer)
+2019-12-25 10:49:26,630 [TRACE] [http-nio-8004-exec-2] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 149] <==    Columns: uID, nickName, icon, gender, lolAccount, prefer
+2019-12-25 10:49:26,631 [TRACE] [http-nio-8004-exec-2] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 149] <==        Row: 2, fufu, default.jpg, 0, null, 0
+2019-12-25 10:49:26,633 [DEBUG] [http-nio-8004-exec-2] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 143] <==      Total: 1
+2019-12-25 10:49:40,910 [DEBUG] [http-nio-8004-exec-3] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 143] ==>  Preparing: select * from Lol_UserInfo where uID = ? 
+2019-12-25 10:49:40,911 [DEBUG] [http-nio-8004-exec-3] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 143] ==> Parameters: 2(Integer)
+2019-12-25 10:49:40,951 [TRACE] [http-nio-8004-exec-3] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 149] <==    Columns: uID, nickName, icon, gender, lolAccount, prefer
+2019-12-25 10:49:40,952 [TRACE] [http-nio-8004-exec-3] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 149] <==        Row: 2, fufu, default.jpg, 0, null, 0
+2019-12-25 10:49:40,954 [DEBUG] [http-nio-8004-exec-3] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 143] <==      Total: 1
+2019-12-25 10:49:56,848 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-25 10:50:51,413 [DEBUG] [http-nio-8004-exec-5] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 143] ==>  Preparing: select * from Lol_UserInfo where uID = ? 
+2019-12-25 10:50:51,414 [DEBUG] [http-nio-8004-exec-5] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 143] ==> Parameters: 2(Integer)
+2019-12-25 10:50:51,454 [TRACE] [http-nio-8004-exec-5] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 149] <==    Columns: uID, nickName, icon, gender, lolAccount, prefer
+2019-12-25 10:50:51,455 [TRACE] [http-nio-8004-exec-5] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 149] <==        Row: 2, fufu, default.jpg, 0, null, 0
+2019-12-25 10:50:51,456 [DEBUG] [http-nio-8004-exec-5] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 143] <==      Total: 1
+2019-12-25 10:51:48,221 [DEBUG] [http-nio-8004-exec-6] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 143] ==>  Preparing: select * from Lol_UserInfo where uID = ? 
+2019-12-25 10:51:48,222 [DEBUG] [http-nio-8004-exec-6] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 143] ==> Parameters: 2(Integer)
+2019-12-25 10:51:48,260 [TRACE] [http-nio-8004-exec-6] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 149] <==    Columns: uID, nickName, icon, gender, lolAccount, prefer
+2019-12-25 10:51:48,261 [TRACE] [http-nio-8004-exec-6] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 149] <==        Row: 2, fufu, default.jpg, 0, null, 0
+2019-12-25 10:51:48,262 [DEBUG] [http-nio-8004-exec-6] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 143] <==      Total: 1
+2019-12-25 10:52:01,655 [DEBUG] [http-nio-8004-exec-7] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 143] ==>  Preparing: select * from Lol_UserInfo where uID = ? 
+2019-12-25 10:52:01,656 [DEBUG] [http-nio-8004-exec-7] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 143] ==> Parameters: 2(Integer)
+2019-12-25 10:52:01,702 [TRACE] [http-nio-8004-exec-7] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 149] <==    Columns: uID, nickName, icon, gender, lolAccount, prefer
+2019-12-25 10:52:01,703 [TRACE] [http-nio-8004-exec-7] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 149] <==        Row: 2, fufu, default.jpg, 0, null, 0
+2019-12-25 10:52:01,704 [DEBUG] [http-nio-8004-exec-7] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 143] <==      Total: 1
+2019-12-25 10:54:56,849 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-25 10:59:56,850 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-25 11:03:40,201 [INFO] [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-25 11:03:41,049 [INFO] [main] c.e.m.ManageInformationServiceApplication [SpringApplication.java : 651] No active profile set, falling back to default profiles: default
+2019-12-25 11:03:42,014 [WARN] [main] org.springframework.boot.actuate.endpoint.EndpointId [EndpointId.java : 155] Endpoint ID 'hystrix.stream' contains invalid characters, please migrate to a valid format.
+2019-12-25 11:03:43,139 [WARN] [main] org.springframework.boot.actuate.endpoint.EndpointId [EndpointId.java : 155] Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2019-12-25 11:03:43,647 [INFO] [main] org.springframework.cloud.context.scope.GenericScope [GenericScope.java : 295] BeanFactory id=863a76e6-552a-3333-85d9-937dfa8d3807
+2019-12-25 11:03:44,378 [INFO] [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-25 11:03:44,866 [INFO] [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-25 11:03:45,833 [INFO] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [TomcatWebServer.java : 92] Tomcat initialized with port(s): 8004 (http)
+2019-12-25 11:03:45,850 [INFO] [main] org.apache.catalina.core.StandardService [DirectJDKLog.java : 173] Starting service [Tomcat]
+2019-12-25 11:03:45,850 [INFO] [main] org.apache.catalina.core.StandardEngine [DirectJDKLog.java : 173] Starting Servlet engine: [Apache Tomcat/9.0.29]
+2019-12-25 11:03:46,365 [INFO] [main] o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [DirectJDKLog.java : 173] Initializing Spring embedded WebApplicationContext
+2019-12-25 11:03:46,366 [INFO] [main] org.springframework.web.context.ContextLoader [ServletWebServerApplicationContext.java : 284] Root WebApplicationContext: initialization completed in 5269 ms
+2019-12-25 11:03:46,563 [WARN] [main] com.netflix.config.sources.URLConfigurationSource [URLConfigurationSource.java : 121] No URLs will be polled as dynamic configuration sources.
+2019-12-25 11:03:46,565 [INFO] [main] com.netflix.config.sources.URLConfigurationSource [URLConfigurationSource.java : 122] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-12-25 11:03:46,599 [INFO] [main] com.netflix.config.DynamicPropertyFactory [DynamicPropertyFactory.java : 281] DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@47fa3671
+2019-12-25 11:03:47,024 [INFO] [main] o.s.boot.actuate.endpoint.web.ServletEndpointRegistrar [ServletEndpointRegistrar.java : 75] Registered '/actuator/hystrix.stream' to hystrix.stream-actuator-endpoint
+2019-12-25 11:03:49,029 [INFO] [main] o.s.boot.actuate.endpoint.web.EndpointLinksResolver [EndpointLinksResolver.java : 58] Exposing 1 endpoint(s) beneath base path '/actuator'
+2019-12-25 11:03:49,348 [INFO] [main] s.d.spring.web.PropertySourcedRequestMappingHandlerMapping [PropertySourcedRequestMappingHandlerMapping.java : 69] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2019-12-25 11:03:49,388 [WARN] [main] com.netflix.config.sources.URLConfigurationSource [URLConfigurationSource.java : 121] No URLs will be polled as dynamic configuration sources.
+2019-12-25 11:03:49,390 [INFO] [main] com.netflix.config.sources.URLConfigurationSource [URLConfigurationSource.java : 122] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-12-25 11:03:51,473 [WARN] [main] o.s.c.l.c.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger [BlockingLoadBalancerClientAutoConfiguration.java : 106] You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2019-12-25 11:03:51,536 [WARN] [main] o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger [LoadBalancerCacheAutoConfiguration.java : 81] Spring Cloud LoadBalancer is currently working with default default cache. You can switch to using Caffeine cache, by adding it to the classpath.
+2019-12-25 11:03:51,590 [INFO] [main] org.springframework.cloud.netflix.eureka.InstanceInfoFactory [InstanceInfoFactory.java : 72] Setting initial instance status as: STARTING
+2019-12-25 11:03:51,665 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 365] Initializing Eureka in region us-east-1
+2019-12-25 11:03:51,900 [INFO] [main] com.netflix.discovery.provider.DiscoveryJerseyProvider [DiscoveryJerseyProvider.java : 70] Using JSON encoding codec LegacyJacksonJson
+2019-12-25 11:03:51,901 [INFO] [main] com.netflix.discovery.provider.DiscoveryJerseyProvider [DiscoveryJerseyProvider.java : 71] Using JSON decoding codec LegacyJacksonJson
+2019-12-25 11:03:52,052 [INFO] [main] com.netflix.discovery.provider.DiscoveryJerseyProvider [DiscoveryJerseyProvider.java : 80] Using XML encoding codec XStreamXml
+2019-12-25 11:03:52,053 [INFO] [main] com.netflix.discovery.provider.DiscoveryJerseyProvider [DiscoveryJerseyProvider.java : 81] Using XML decoding codec XStreamXml
+2019-12-25 11:03:52,250 [INFO] [main] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-25 11:03:52,585 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 976] Disable delta property : false
+2019-12-25 11:03:52,586 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 977] Single vip registry refresh property : null
+2019-12-25 11:03:52,586 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 978] Force full registry fetch : false
+2019-12-25 11:03:52,587 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 979] Application is null : false
+2019-12-25 11:03:52,587 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 980] Registered Applications size is zero : true
+2019-12-25 11:03:52,587 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 982] Application version is -1: true
+2019-12-25 11:03:52,587 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 1065] Getting all instance registry info from the eureka server
+2019-12-25 11:03:52,754 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 1074] The response status is 200
+2019-12-25 11:03:52,758 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 1288] Starting heartbeat executor: renew interval is: 30
+2019-12-25 11:03:52,761 [INFO] [main] com.netflix.discovery.InstanceInfoReplicator [InstanceInfoReplicator.java : 60] InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-12-25 11:03:52,765 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 465] Discovery Client initialized at timestamp 1577243032764 with initial instances count: 3
+2019-12-25 11:03:52,769 [INFO] [main] o.s.c.netflix.eureka.serviceregistry.EurekaServiceRegistry [EurekaServiceRegistry.java : 41] Registering application MANAGEINFORMATION-PRODUCER with eureka with status UP
+2019-12-25 11:03:52,770 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 1323] Saw local status change event StatusChangeEvent [timestamp=1577243032770, current=UP, previous=STARTING]
+2019-12-25 11:03:52,773 [INFO] [main] s.d.spring.web.plugins.DocumentationPluginsBootstrapper [DocumentationPluginsBootstrapper.java : 160] Context refreshed
+2019-12-25 11:03:52,779 [INFO] [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 844] DiscoveryClient_MANAGEINFORMATION-PRODUCER/100.66.130.98:manageInformation-producer:8004: registering service...
+2019-12-25 11:03:52,810 [INFO] [main] s.d.spring.web.plugins.DocumentationPluginsBootstrapper [DocumentationPluginsBootstrapper.java : 163] Found 1 custom documentation plugin(s)
+2019-12-25 11:03:52,818 [INFO] [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 853] DiscoveryClient_MANAGEINFORMATION-PRODUCER/100.66.130.98:manageInformation-producer:8004 - registration status: 204
+2019-12-25 11:03:52,864 [INFO] [main] s.d.spring.web.scanners.ApiListingReferenceScanner [ApiListingReferenceScanner.java : 41] Scanning for api listing references
+2019-12-25 11:03:53,105 [INFO] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [TomcatWebServer.java : 204] Tomcat started on port(s): 8004 (http) with context path ''
+2019-12-25 11:03:53,106 [INFO] [main] o.s.c.n.eureka.serviceregistry.EurekaAutoServiceRegistration [EurekaAutoServiceRegistration.java : 145] Updating port to 8004
+2019-12-25 11:03:53,607 [INFO] [main] c.e.m.ManageInformationServiceApplication [StartupInfoLogger.java : 61] Started ManageInformationServiceApplication in 15.717 seconds (JVM running for 16.743)
+2019-12-25 11:05:39,595 [INFO] [http-nio-8004-exec-1] o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [DirectJDKLog.java : 173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-25 11:05:39,596 [INFO] [http-nio-8004-exec-1] org.springframework.web.servlet.DispatcherServlet [FrameworkServlet.java : 525] Initializing Servlet 'dispatcherServlet'
+2019-12-25 11:05:39,607 [INFO] [http-nio-8004-exec-1] org.springframework.web.servlet.DispatcherServlet [FrameworkServlet.java : 547] Completed initialization in 11 ms
+2019-12-25 11:05:39,682 [INFO] [http-nio-8004-exec-1] com.zaxxer.hikari.HikariDataSource [HikariDataSource.java : 110] HikariPool-1 - Starting...
+2019-12-25 11:05:41,098 [INFO] [http-nio-8004-exec-1] com.zaxxer.hikari.HikariDataSource [HikariDataSource.java : 123] HikariPool-1 - Start completed.
+2019-12-25 11:05:41,113 [DEBUG] [http-nio-8004-exec-1] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 143] ==>  Preparing: select * from Lol_UserInfo where uID = ? 
+2019-12-25 11:05:41,159 [DEBUG] [http-nio-8004-exec-1] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 143] ==> Parameters: 2(Integer)
+2019-12-25 11:05:41,260 [TRACE] [http-nio-8004-exec-1] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 149] <==    Columns: uID, nickName, icon, gender, lolAccount, prefer
+2019-12-25 11:05:41,261 [TRACE] [http-nio-8004-exec-1] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 149] <==        Row: 2, fufu, default.jpg, 0, null, 0
+2019-12-25 11:05:41,263 [DEBUG] [http-nio-8004-exec-1] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 143] <==      Total: 1
+2019-12-25 11:06:25,571 [DEBUG] [http-nio-8004-exec-2] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 143] ==>  Preparing: select * from Lol_UserInfo where uID = ? 
+2019-12-25 11:06:25,572 [DEBUG] [http-nio-8004-exec-2] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 143] ==> Parameters: 2(Integer)
+2019-12-25 11:06:25,603 [TRACE] [http-nio-8004-exec-2] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 149] <==    Columns: uID, nickName, icon, gender, lolAccount, prefer
+2019-12-25 11:06:25,604 [TRACE] [http-nio-8004-exec-2] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 149] <==        Row: 2, fufu, default.jpg, 0, null, 0
+2019-12-25 11:06:25,604 [DEBUG] [http-nio-8004-exec-2] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 143] <==      Total: 1
+2019-12-25 11:06:46,801 [DEBUG] [http-nio-8004-exec-3] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 143] ==>  Preparing: select * from Lol_UserInfo where uID = ? 
+2019-12-25 11:06:46,802 [DEBUG] [http-nio-8004-exec-3] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 143] ==> Parameters: 2(Integer)
+2019-12-25 11:06:46,836 [TRACE] [http-nio-8004-exec-3] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 149] <==    Columns: uID, nickName, icon, gender, lolAccount, prefer
+2019-12-25 11:06:46,837 [TRACE] [http-nio-8004-exec-3] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 149] <==        Row: 2, fufu, default.jpg, 0, null, 0
+2019-12-25 11:06:46,839 [DEBUG] [http-nio-8004-exec-3] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 143] <==      Total: 1
+2019-12-25 11:06:55,627 [DEBUG] [http-nio-8004-exec-4] c.e.m.mapper.InformationMapper.insertUsersFollowByID [BaseJdbcLogger.java : 143] ==>  Preparing: insert into Lol_Follow values (? , ?) 
+2019-12-25 11:06:55,635 [DEBUG] [http-nio-8004-exec-4] c.e.m.mapper.InformationMapper.insertUsersFollowByID [BaseJdbcLogger.java : 143] ==> Parameters: 1(Integer), 2(Integer)
+2019-12-25 11:07:44,137 [DEBUG] [http-nio-8004-exec-5] c.e.m.mapper.InformationMapper.insertUsersFollowByID [BaseJdbcLogger.java : 143] ==>  Preparing: insert into Lol_Follow values (? , ?) 
+2019-12-25 11:07:44,138 [DEBUG] [http-nio-8004-exec-5] c.e.m.mapper.InformationMapper.insertUsersFollowByID [BaseJdbcLogger.java : 143] ==> Parameters: 1(Integer), 2(Integer)
+2019-12-25 11:08:52,591 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-25 11:11:48,550 [DEBUG] [http-nio-8004-exec-9] c.e.m.mapper.InformationMapper.insertUsersFollowByID [BaseJdbcLogger.java : 143] ==>  Preparing: insert into Lol_Follow values (? , ?) 
+2019-12-25 11:11:48,552 [DEBUG] [http-nio-8004-exec-9] c.e.m.mapper.InformationMapper.insertUsersFollowByID [BaseJdbcLogger.java : 143] ==> Parameters: 1(Integer), 2(Integer)
+2019-12-25 11:12:09,987 [DEBUG] [http-nio-8004-exec-10] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 143] ==>  Preparing: select * from Lol_UserInfo where uID = ? 
+2019-12-25 11:12:09,987 [DEBUG] [http-nio-8004-exec-10] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 143] ==> Parameters: 2(Integer)
+2019-12-25 11:12:10,028 [TRACE] [http-nio-8004-exec-10] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 149] <==    Columns: uID, nickName, icon, gender, lolAccount, prefer
+2019-12-25 11:12:10,028 [TRACE] [http-nio-8004-exec-10] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 149] <==        Row: 2, fufu, default.jpg, 0, null, 0
+2019-12-25 11:12:10,029 [DEBUG] [http-nio-8004-exec-10] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 143] <==      Total: 1
+2019-12-25 11:12:13,214 [DEBUG] [http-nio-8004-exec-1] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 143] ==>  Preparing: select * from Lol_UserInfo where uID = ? 
+2019-12-25 11:12:13,215 [DEBUG] [http-nio-8004-exec-1] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 143] ==> Parameters: 2(Integer)
+2019-12-25 11:12:13,247 [TRACE] [http-nio-8004-exec-1] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 149] <==    Columns: uID, nickName, icon, gender, lolAccount, prefer
+2019-12-25 11:12:13,248 [TRACE] [http-nio-8004-exec-1] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 149] <==        Row: 2, fufu, default.jpg, 0, null, 0
+2019-12-25 11:12:13,248 [DEBUG] [http-nio-8004-exec-1] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 143] <==      Total: 1
+2019-12-25 11:12:16,534 [DEBUG] [http-nio-8004-exec-2] c.e.m.mapper.InformationMapper.insertUsersFollowByID [BaseJdbcLogger.java : 143] ==>  Preparing: insert into Lol_Follow values (? , ?) 
+2019-12-25 11:12:16,535 [DEBUG] [http-nio-8004-exec-2] c.e.m.mapper.InformationMapper.insertUsersFollowByID [BaseJdbcLogger.java : 143] ==> Parameters: 1(Integer), 2(Integer)
+2019-12-25 11:13:52,593 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-25 11:16:31,748 [DEBUG] [http-nio-8004-exec-4] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 143] ==>  Preparing: select * from Lol_UserInfo where uID = ? 
+2019-12-25 11:16:31,750 [DEBUG] [http-nio-8004-exec-4] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 143] ==> Parameters: 2(Integer)
+2019-12-25 11:16:31,782 [TRACE] [http-nio-8004-exec-4] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 149] <==    Columns: uID, nickName, icon, gender, lolAccount, prefer
+2019-12-25 11:16:31,782 [TRACE] [http-nio-8004-exec-4] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 149] <==        Row: 2, fufu, default.jpg, 0, null, 0
+2019-12-25 11:16:31,783 [DEBUG] [http-nio-8004-exec-4] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 143] <==      Total: 1
+2019-12-25 11:18:52,594 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-25 11:23:52,596 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-25 11:28:52,598 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-25 11:32:29,679 [WARN] [http-nio-8004-exec-8] com.zaxxer.hikari.pool.PoolBase [PoolBase.java : 179] HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@5c057d1d (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2019-12-25 11:32:29,697 [WARN] [http-nio-8004-exec-8] com.zaxxer.hikari.pool.PoolBase [PoolBase.java : 179] HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@753f241b (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2019-12-25 11:32:29,699 [WARN] [http-nio-8004-exec-8] com.zaxxer.hikari.pool.PoolBase [PoolBase.java : 179] HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@2254234 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2019-12-25 11:32:29,703 [WARN] [http-nio-8004-exec-8] com.zaxxer.hikari.pool.PoolBase [PoolBase.java : 179] HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@4f984827 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2019-12-25 11:32:29,707 [WARN] [http-nio-8004-exec-8] com.zaxxer.hikari.pool.PoolBase [PoolBase.java : 179] HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@7fb050d (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2019-12-25 11:32:29,708 [WARN] [http-nio-8004-exec-8] com.zaxxer.hikari.pool.PoolBase [PoolBase.java : 179] HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@be8f615 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2019-12-25 11:32:29,710 [WARN] [http-nio-8004-exec-8] com.zaxxer.hikari.pool.PoolBase [PoolBase.java : 179] HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@23f431be (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2019-12-25 11:32:29,712 [WARN] [http-nio-8004-exec-8] com.zaxxer.hikari.pool.PoolBase [PoolBase.java : 179] HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@2ea08c97 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2019-12-25 11:32:29,714 [WARN] [http-nio-8004-exec-8] com.zaxxer.hikari.pool.PoolBase [PoolBase.java : 179] HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@712c3723 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2019-12-25 11:32:29,716 [WARN] [http-nio-8004-exec-8] com.zaxxer.hikari.pool.PoolBase [PoolBase.java : 179] HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@3db83f4d (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2019-12-25 11:32:30,557 [DEBUG] [http-nio-8004-exec-8] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 143] ==>  Preparing: select * from Lol_UserInfo where uID = ? 
+2019-12-25 11:32:30,558 [DEBUG] [http-nio-8004-exec-8] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 143] ==> Parameters: 1(Integer)
+2019-12-25 11:32:30,602 [TRACE] [http-nio-8004-exec-8] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 149] <==    Columns: uID, nickName, icon, gender, lolAccount, prefer
+2019-12-25 11:32:30,603 [TRACE] [http-nio-8004-exec-8] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 149] <==        Row: 1, ff12, default.jpg, 0, null, 2
+2019-12-25 11:32:30,603 [DEBUG] [http-nio-8004-exec-8] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 143] <==      Total: 1
+2019-12-25 11:33:52,615 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-25 11:38:52,617 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-25 11:42:20,962 [DEBUG] [http-nio-8004-exec-10] c.e.m.mapper.InformationMapper.selectUsersFollowByUid [BaseJdbcLogger.java : 143] ==>  Preparing: select u.* from Lol_UserInfo u inner join Lol_Follow f on f.fID = u.uID where f.uID = ? 
+2019-12-25 11:42:20,964 [DEBUG] [http-nio-8004-exec-10] c.e.m.mapper.InformationMapper.selectUsersFollowByUid [BaseJdbcLogger.java : 143] ==> Parameters: 1(Integer)
+2019-12-25 11:42:20,996 [TRACE] [http-nio-8004-exec-10] c.e.m.mapper.InformationMapper.selectUsersFollowByUid [BaseJdbcLogger.java : 149] <==    Columns: uID, nickName, icon, gender, lolAccount, prefer
+2019-12-25 11:42:20,997 [TRACE] [http-nio-8004-exec-10] c.e.m.mapper.InformationMapper.selectUsersFollowByUid [BaseJdbcLogger.java : 149] <==        Row: 2, fufu, default.jpg, 0, null, 0
+2019-12-25 11:42:20,999 [DEBUG] [http-nio-8004-exec-10] c.e.m.mapper.InformationMapper.selectUsersFollowByUid [BaseJdbcLogger.java : 143] <==      Total: 1
+2019-12-25 11:42:23,635 [DEBUG] [http-nio-8004-exec-1] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 143] ==>  Preparing: select * from Lol_UserInfo where uID = ? 
+2019-12-25 11:42:23,638 [DEBUG] [http-nio-8004-exec-1] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 143] ==> Parameters: 2(Integer)
+2019-12-25 11:42:23,673 [TRACE] [http-nio-8004-exec-1] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 149] <==    Columns: uID, nickName, icon, gender, lolAccount, prefer
+2019-12-25 11:42:23,674 [TRACE] [http-nio-8004-exec-1] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 149] <==        Row: 2, fufu, default.jpg, 0, null, 0
+2019-12-25 11:42:23,675 [DEBUG] [http-nio-8004-exec-1] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 143] <==      Total: 1
+2019-12-25 11:43:52,648 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-25 13:05:37,028 [INFO] [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-25 13:05:39,420 [INFO] [main] c.e.m.ManageInformationServiceApplication [SpringApplication.java : 651] No active profile set, falling back to default profiles: default
+2019-12-25 13:05:43,310 [WARN] [main] org.springframework.boot.actuate.endpoint.EndpointId [EndpointId.java : 155] Endpoint ID 'hystrix.stream' contains invalid characters, please migrate to a valid format.
+2019-12-25 13:05:47,164 [WARN] [main] org.springframework.boot.actuate.endpoint.EndpointId [EndpointId.java : 155] Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2019-12-25 13:05:47,790 [INFO] [main] org.springframework.cloud.context.scope.GenericScope [GenericScope.java : 295] BeanFactory id=863a76e6-552a-3333-85d9-937dfa8d3807
+2019-12-25 13:05:49,382 [INFO] [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-25 13:05:50,070 [INFO] [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-25 13:05:52,723 [INFO] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [TomcatWebServer.java : 92] Tomcat initialized with port(s): 8004 (http)
+2019-12-25 13:05:52,845 [INFO] [main] org.apache.catalina.core.StandardService [DirectJDKLog.java : 173] Starting service [Tomcat]
+2019-12-25 13:05:52,847 [INFO] [main] org.apache.catalina.core.StandardEngine [DirectJDKLog.java : 173] Starting Servlet engine: [Apache Tomcat/9.0.29]
+2019-12-25 13:05:53,472 [INFO] [main] o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [DirectJDKLog.java : 173] Initializing Spring embedded WebApplicationContext
+2019-12-25 13:05:53,479 [INFO] [main] org.springframework.web.context.ContextLoader [ServletWebServerApplicationContext.java : 284] Root WebApplicationContext: initialization completed in 13982 ms
+2019-12-25 13:05:53,790 [WARN] [main] com.netflix.config.sources.URLConfigurationSource [URLConfigurationSource.java : 121] No URLs will be polled as dynamic configuration sources.
+2019-12-25 13:05:53,791 [INFO] [main] com.netflix.config.sources.URLConfigurationSource [URLConfigurationSource.java : 122] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-12-25 13:05:53,804 [INFO] [main] com.netflix.config.DynamicPropertyFactory [DynamicPropertyFactory.java : 281] DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@df7d1d4
+2019-12-25 13:05:54,816 [INFO] [main] o.s.boot.actuate.endpoint.web.ServletEndpointRegistrar [ServletEndpointRegistrar.java : 75] Registered '/actuator/hystrix.stream' to hystrix.stream-actuator-endpoint
+2019-12-25 13:05:58,856 [INFO] [main] o.s.boot.actuate.endpoint.web.EndpointLinksResolver [EndpointLinksResolver.java : 58] Exposing 1 endpoint(s) beneath base path '/actuator'
+2019-12-25 13:05:59,219 [INFO] [main] s.d.spring.web.PropertySourcedRequestMappingHandlerMapping [PropertySourcedRequestMappingHandlerMapping.java : 69] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2019-12-25 13:05:59,244 [WARN] [main] com.netflix.config.sources.URLConfigurationSource [URLConfigurationSource.java : 121] No URLs will be polled as dynamic configuration sources.
+2019-12-25 13:05:59,245 [INFO] [main] com.netflix.config.sources.URLConfigurationSource [URLConfigurationSource.java : 122] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-12-25 13:06:03,478 [WARN] [main] o.s.c.l.c.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger [BlockingLoadBalancerClientAutoConfiguration.java : 106] You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2019-12-25 13:06:03,550 [WARN] [main] o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger [LoadBalancerCacheAutoConfiguration.java : 81] Spring Cloud LoadBalancer is currently working with default default cache. You can switch to using Caffeine cache, by adding it to the classpath.
+2019-12-25 13:06:03,627 [INFO] [main] org.springframework.cloud.netflix.eureka.InstanceInfoFactory [InstanceInfoFactory.java : 72] Setting initial instance status as: STARTING
+2019-12-25 13:06:03,810 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 365] Initializing Eureka in region us-east-1
+2019-12-25 13:06:04,117 [INFO] [main] com.netflix.discovery.provider.DiscoveryJerseyProvider [DiscoveryJerseyProvider.java : 70] Using JSON encoding codec LegacyJacksonJson
+2019-12-25 13:06:04,118 [INFO] [main] com.netflix.discovery.provider.DiscoveryJerseyProvider [DiscoveryJerseyProvider.java : 71] Using JSON decoding codec LegacyJacksonJson
+2019-12-25 13:06:04,403 [INFO] [main] com.netflix.discovery.provider.DiscoveryJerseyProvider [DiscoveryJerseyProvider.java : 80] Using XML encoding codec XStreamXml
+2019-12-25 13:06:04,403 [INFO] [main] com.netflix.discovery.provider.DiscoveryJerseyProvider [DiscoveryJerseyProvider.java : 81] Using XML decoding codec XStreamXml
+2019-12-25 13:06:05,106 [INFO] [main] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-25 13:06:05,795 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 976] Disable delta property : false
+2019-12-25 13:06:05,796 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 977] Single vip registry refresh property : null
+2019-12-25 13:06:05,796 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 978] Force full registry fetch : false
+2019-12-25 13:06:05,796 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 979] Application is null : false
+2019-12-25 13:06:05,797 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 980] Registered Applications size is zero : true
+2019-12-25 13:06:05,797 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 982] Application version is -1: true
+2019-12-25 13:06:05,798 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 1065] Getting all instance registry info from the eureka server
+2019-12-25 13:06:06,055 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 1074] The response status is 200
+2019-12-25 13:06:06,058 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 1288] Starting heartbeat executor: renew interval is: 30
+2019-12-25 13:06:06,061 [INFO] [main] com.netflix.discovery.InstanceInfoReplicator [InstanceInfoReplicator.java : 60] InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-12-25 13:06:06,075 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 465] Discovery Client initialized at timestamp 1577250366074 with initial instances count: 2
+2019-12-25 13:06:06,087 [INFO] [main] o.s.c.netflix.eureka.serviceregistry.EurekaServiceRegistry [EurekaServiceRegistry.java : 41] Registering application MANAGEINFORMATION-PRODUCER with eureka with status UP
+2019-12-25 13:06:06,089 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 1323] Saw local status change event StatusChangeEvent [timestamp=1577250366089, current=UP, previous=STARTING]
+2019-12-25 13:06:06,093 [INFO] [main] s.d.spring.web.plugins.DocumentationPluginsBootstrapper [DocumentationPluginsBootstrapper.java : 160] Context refreshed
+2019-12-25 13:06:06,144 [INFO] [main] s.d.spring.web.plugins.DocumentationPluginsBootstrapper [DocumentationPluginsBootstrapper.java : 163] Found 1 custom documentation plugin(s)
+2019-12-25 13:06:06,139 [INFO] [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 844] DiscoveryClient_MANAGEINFORMATION-PRODUCER/LAPTOP-9V9UUKHU:manageInformation-producer:8004: registering service...
+2019-12-25 13:06:06,197 [INFO] [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 853] DiscoveryClient_MANAGEINFORMATION-PRODUCER/LAPTOP-9V9UUKHU:manageInformation-producer:8004 - registration status: 204
+2019-12-25 13:06:06,207 [INFO] [main] s.d.spring.web.scanners.ApiListingReferenceScanner [ApiListingReferenceScanner.java : 41] Scanning for api listing references
+2019-12-25 13:06:06,446 [INFO] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [TomcatWebServer.java : 204] Tomcat started on port(s): 8004 (http) with context path ''
+2019-12-25 13:06:06,447 [INFO] [main] o.s.c.n.eureka.serviceregistry.EurekaAutoServiceRegistration [EurekaAutoServiceRegistration.java : 145] Updating port to 8004
+2019-12-25 13:06:06,985 [INFO] [main] c.e.m.ManageInformationServiceApplication [StartupInfoLogger.java : 61] Started ManageInformationServiceApplication in 33.077 seconds (JVM running for 34.441)
+2019-12-25 13:08:02,877 [INFO] [http-nio-8004-exec-1] o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [DirectJDKLog.java : 173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-25 13:08:02,877 [INFO] [http-nio-8004-exec-1] org.springframework.web.servlet.DispatcherServlet [FrameworkServlet.java : 525] Initializing Servlet 'dispatcherServlet'
+2019-12-25 13:08:02,887 [INFO] [http-nio-8004-exec-1] org.springframework.web.servlet.DispatcherServlet [FrameworkServlet.java : 547] Completed initialization in 10 ms
+2019-12-25 13:08:03,062 [INFO] [http-nio-8004-exec-1] com.zaxxer.hikari.HikariDataSource [HikariDataSource.java : 110] HikariPool-1 - Starting...
+2019-12-25 13:08:03,867 [INFO] [http-nio-8004-exec-1] com.zaxxer.hikari.HikariDataSource [HikariDataSource.java : 123] HikariPool-1 - Start completed.
+2019-12-25 13:08:03,882 [DEBUG] [http-nio-8004-exec-1] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 143] ==>  Preparing: select * from Lol_UserInfo where uID = ? 
+2019-12-25 13:08:03,940 [DEBUG] [http-nio-8004-exec-1] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 143] ==> Parameters: 1(Integer)
+2019-12-25 13:08:04,033 [TRACE] [http-nio-8004-exec-1] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 149] <==    Columns: uID, nickName, icon, gender, lolAccount, prefer
+2019-12-25 13:08:04,034 [TRACE] [http-nio-8004-exec-1] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 149] <==        Row: 1, ff12, default.jpg, 0, null, 2
+2019-12-25 13:08:04,040 [DEBUG] [http-nio-8004-exec-1] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 143] <==      Total: 1
+2019-12-25 13:08:09,211 [DEBUG] [http-nio-8004-exec-2] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 143] ==>  Preparing: select * from Lol_UserInfo where uID = ? 
+2019-12-25 13:08:09,212 [DEBUG] [http-nio-8004-exec-2] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 143] ==> Parameters: 1(Integer)
+2019-12-25 13:08:09,250 [TRACE] [http-nio-8004-exec-2] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 149] <==    Columns: uID, nickName, icon, gender, lolAccount, prefer
+2019-12-25 13:08:09,250 [TRACE] [http-nio-8004-exec-2] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 149] <==        Row: 1, ff12, default.jpg, 0, null, 2
+2019-12-25 13:08:09,251 [DEBUG] [http-nio-8004-exec-2] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 143] <==      Total: 1
+2019-12-25 13:08:13,647 [DEBUG] [http-nio-8004-exec-3] c.e.m.mapper.InformationMapper.selectUsersFollowByUid [BaseJdbcLogger.java : 143] ==>  Preparing: select u.* from Lol_UserInfo u inner join Lol_Follow f on f.fID = u.uID where f.uID = ? 
+2019-12-25 13:08:13,648 [DEBUG] [http-nio-8004-exec-3] c.e.m.mapper.InformationMapper.selectUsersFollowByUid [BaseJdbcLogger.java : 143] ==> Parameters: 1(Integer)
+2019-12-25 13:08:13,692 [TRACE] [http-nio-8004-exec-3] c.e.m.mapper.InformationMapper.selectUsersFollowByUid [BaseJdbcLogger.java : 149] <==    Columns: uID, nickName, icon, gender, lolAccount, prefer
+2019-12-25 13:08:13,694 [TRACE] [http-nio-8004-exec-3] c.e.m.mapper.InformationMapper.selectUsersFollowByUid [BaseJdbcLogger.java : 149] <==        Row: 2, fufu, default.jpg, 0, null, 0
+2019-12-25 13:08:13,696 [DEBUG] [http-nio-8004-exec-3] c.e.m.mapper.InformationMapper.selectUsersFollowByUid [BaseJdbcLogger.java : 143] <==      Total: 1
+2019-12-25 13:08:18,344 [DEBUG] [http-nio-8004-exec-4] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 143] ==>  Preparing: select * from Lol_UserInfo where uID = ? 
+2019-12-25 13:08:18,349 [DEBUG] [http-nio-8004-exec-4] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 143] ==> Parameters: 2(Integer)
+2019-12-25 13:08:18,387 [TRACE] [http-nio-8004-exec-4] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 149] <==    Columns: uID, nickName, icon, gender, lolAccount, prefer
+2019-12-25 13:08:18,387 [TRACE] [http-nio-8004-exec-4] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 149] <==        Row: 2, fufu, default.jpg, 0, null, 0
+2019-12-25 13:08:18,388 [DEBUG] [http-nio-8004-exec-4] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 143] <==      Total: 1
+2019-12-25 13:10:09,082 [ERROR] [http-nio-8004-exec-6] o.a.c.c.C.[Tomcat].[localhost].[/].[dispatcherServlet] [DirectJDKLog.java : 175] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NumberFormatException: For input string: "undefined"] with root cause
+java.lang.NumberFormatException: For input string: "undefined"
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:68)
+	at java.base/java.lang.Integer.parseInt(Integer.java:658)
+	at java.base/java.lang.Integer.parseInt(Integer.java:776)
+	at com.eruka.manageInformationservice.controller.InformationController.getUserInfomationByID(InformationController.java:32)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:888)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:108)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1591)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+2019-12-25 13:11:05,801 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-25 13:13:10,185 [ERROR] [http-nio-8004-exec-7] o.a.c.c.C.[Tomcat].[localhost].[/].[dispatcherServlet] [DirectJDKLog.java : 175] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NumberFormatException: For input string: "undefined"] with root cause
+java.lang.NumberFormatException: For input string: "undefined"
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:68)
+	at java.base/java.lang.Integer.parseInt(Integer.java:658)
+	at java.base/java.lang.Integer.parseInt(Integer.java:776)
+	at com.eruka.manageInformationservice.controller.InformationController.getUserInfomationByID(InformationController.java:32)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:888)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:108)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1591)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+2019-12-25 13:13:41,572 [DEBUG] [http-nio-8004-exec-8] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 143] ==>  Preparing: select * from Lol_UserInfo where uID = ? 
+2019-12-25 13:13:41,573 [DEBUG] [http-nio-8004-exec-8] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 143] ==> Parameters: 1(Integer)
+2019-12-25 13:13:41,613 [TRACE] [http-nio-8004-exec-8] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 149] <==    Columns: uID, nickName, icon, gender, lolAccount, prefer
+2019-12-25 13:13:41,614 [TRACE] [http-nio-8004-exec-8] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 149] <==        Row: 1, ff12, default.jpg, 0, null, 2
+2019-12-25 13:13:41,614 [DEBUG] [http-nio-8004-exec-8] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 143] <==      Total: 1
+2019-12-25 13:13:54,646 [DEBUG] [http-nio-8004-exec-9] c.e.m.mapper.InformationMapper.selectUsersFollowByUid [BaseJdbcLogger.java : 143] ==>  Preparing: select u.* from Lol_UserInfo u inner join Lol_Follow f on f.fID = u.uID where f.uID = ? 
+2019-12-25 13:13:54,648 [DEBUG] [http-nio-8004-exec-9] c.e.m.mapper.InformationMapper.selectUsersFollowByUid [BaseJdbcLogger.java : 143] ==> Parameters: 1(Integer)
+2019-12-25 13:13:54,689 [TRACE] [http-nio-8004-exec-9] c.e.m.mapper.InformationMapper.selectUsersFollowByUid [BaseJdbcLogger.java : 149] <==    Columns: uID, nickName, icon, gender, lolAccount, prefer
+2019-12-25 13:13:54,691 [TRACE] [http-nio-8004-exec-9] c.e.m.mapper.InformationMapper.selectUsersFollowByUid [BaseJdbcLogger.java : 149] <==        Row: 2, fufu, default.jpg, 0, null, 0
+2019-12-25 13:13:54,698 [DEBUG] [http-nio-8004-exec-9] c.e.m.mapper.InformationMapper.selectUsersFollowByUid [BaseJdbcLogger.java : 143] <==      Total: 1
+2019-12-25 13:13:56,906 [DEBUG] [http-nio-8004-exec-10] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 143] ==>  Preparing: select * from Lol_UserInfo where uID = ? 
+2019-12-25 13:13:56,907 [DEBUG] [http-nio-8004-exec-10] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 143] ==> Parameters: 2(Integer)
+2019-12-25 13:13:56,949 [TRACE] [http-nio-8004-exec-10] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 149] <==    Columns: uID, nickName, icon, gender, lolAccount, prefer
+2019-12-25 13:13:56,949 [TRACE] [http-nio-8004-exec-10] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 149] <==        Row: 2, fufu, default.jpg, 0, null, 0
+2019-12-25 13:13:56,950 [DEBUG] [http-nio-8004-exec-10] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 143] <==      Total: 1
+2019-12-25 13:14:43,584 [DEBUG] [http-nio-8004-exec-1] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 143] ==>  Preparing: select * from Lol_UserInfo where uID = ? 
+2019-12-25 13:14:43,585 [DEBUG] [http-nio-8004-exec-1] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 143] ==> Parameters: 2(Integer)
+2019-12-25 13:14:43,625 [TRACE] [http-nio-8004-exec-1] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 149] <==    Columns: uID, nickName, icon, gender, lolAccount, prefer
+2019-12-25 13:14:43,626 [TRACE] [http-nio-8004-exec-1] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 149] <==        Row: 2, fufu, default.jpg, 0, null, 0
+2019-12-25 13:14:43,627 [DEBUG] [http-nio-8004-exec-1] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 143] <==      Total: 1
+2019-12-25 13:15:01,664 [DEBUG] [http-nio-8004-exec-2] c.e.m.mapper.InformationMapper.selectUsersFollowByUid [BaseJdbcLogger.java : 143] ==>  Preparing: select u.* from Lol_UserInfo u inner join Lol_Follow f on f.fID = u.uID where f.uID = ? 
+2019-12-25 13:15:01,665 [DEBUG] [http-nio-8004-exec-2] c.e.m.mapper.InformationMapper.selectUsersFollowByUid [BaseJdbcLogger.java : 143] ==> Parameters: 1(Integer)
+2019-12-25 13:15:01,705 [TRACE] [http-nio-8004-exec-2] c.e.m.mapper.InformationMapper.selectUsersFollowByUid [BaseJdbcLogger.java : 149] <==    Columns: uID, nickName, icon, gender, lolAccount, prefer
+2019-12-25 13:15:01,705 [TRACE] [http-nio-8004-exec-2] c.e.m.mapper.InformationMapper.selectUsersFollowByUid [BaseJdbcLogger.java : 149] <==        Row: 2, fufu, default.jpg, 0, null, 0
+2019-12-25 13:15:01,706 [DEBUG] [http-nio-8004-exec-2] c.e.m.mapper.InformationMapper.selectUsersFollowByUid [BaseJdbcLogger.java : 143] <==      Total: 1
+2019-12-25 13:15:10,191 [DEBUG] [http-nio-8004-exec-3] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 143] ==>  Preparing: select * from Lol_UserInfo where uID = ? 
+2019-12-25 13:15:10,192 [DEBUG] [http-nio-8004-exec-3] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 143] ==> Parameters: 2(Integer)
+2019-12-25 13:15:10,233 [TRACE] [http-nio-8004-exec-3] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 149] <==    Columns: uID, nickName, icon, gender, lolAccount, prefer
+2019-12-25 13:15:10,234 [TRACE] [http-nio-8004-exec-3] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 149] <==        Row: 2, fufu, default.jpg, 0, null, 0
+2019-12-25 13:15:10,235 [DEBUG] [http-nio-8004-exec-3] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 143] <==      Total: 1
+2019-12-25 13:16:03,397 [DEBUG] [http-nio-8004-exec-4] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 143] ==>  Preparing: select * from Lol_UserInfo where uID = ? 
+2019-12-25 13:16:03,399 [DEBUG] [http-nio-8004-exec-4] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 143] ==> Parameters: 1(Integer)
+2019-12-25 13:16:03,439 [TRACE] [http-nio-8004-exec-4] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 149] <==    Columns: uID, nickName, icon, gender, lolAccount, prefer
+2019-12-25 13:16:03,439 [TRACE] [http-nio-8004-exec-4] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 149] <==        Row: 1, ff12, default.jpg, 0, null, 2
+2019-12-25 13:16:03,440 [DEBUG] [http-nio-8004-exec-4] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 143] <==      Total: 1
+2019-12-25 13:16:05,803 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-25 13:16:13,170 [DEBUG] [http-nio-8004-exec-5] c.e.m.mapper.InformationMapper.getUserByname [BaseJdbcLogger.java : 143] ==>  Preparing: select * from Lol_UserInfo where nickName like CONCAT(CONCAT('%', ?), '%') 
+2019-12-25 13:16:13,171 [DEBUG] [http-nio-8004-exec-5] c.e.m.mapper.InformationMapper.getUserByname [BaseJdbcLogger.java : 143] ==> Parameters: fufu(String)
+2019-12-25 13:16:13,210 [TRACE] [http-nio-8004-exec-5] c.e.m.mapper.InformationMapper.getUserByname [BaseJdbcLogger.java : 149] <==    Columns: uID, nickName, icon, gender, lolAccount, prefer
+2019-12-25 13:16:13,211 [TRACE] [http-nio-8004-exec-5] c.e.m.mapper.InformationMapper.getUserByname [BaseJdbcLogger.java : 149] <==        Row: 2, fufu, default.jpg, 0, null, 0
+2019-12-25 13:16:13,211 [DEBUG] [http-nio-8004-exec-5] c.e.m.mapper.InformationMapper.getUserByname [BaseJdbcLogger.java : 143] <==      Total: 1
+2019-12-25 13:16:16,242 [DEBUG] [http-nio-8004-exec-6] c.e.m.mapper.InformationMapper.getUserByname [BaseJdbcLogger.java : 143] ==>  Preparing: select * from Lol_UserInfo where nickName like CONCAT(CONCAT('%', ?), '%') 
+2019-12-25 13:16:16,243 [DEBUG] [http-nio-8004-exec-6] c.e.m.mapper.InformationMapper.getUserByname [BaseJdbcLogger.java : 143] ==> Parameters: f(String)
+2019-12-25 13:16:16,282 [TRACE] [http-nio-8004-exec-6] c.e.m.mapper.InformationMapper.getUserByname [BaseJdbcLogger.java : 149] <==    Columns: uID, nickName, icon, gender, lolAccount, prefer
+2019-12-25 13:16:16,283 [TRACE] [http-nio-8004-exec-6] c.e.m.mapper.InformationMapper.getUserByname [BaseJdbcLogger.java : 149] <==        Row: 1, ff12, default.jpg, 0, null, 2
+2019-12-25 13:16:16,284 [TRACE] [http-nio-8004-exec-6] c.e.m.mapper.InformationMapper.getUserByname [BaseJdbcLogger.java : 149] <==        Row: 2, fufu, default.jpg, 0, null, 0
+2019-12-25 13:16:16,284 [DEBUG] [http-nio-8004-exec-6] c.e.m.mapper.InformationMapper.getUserByname [BaseJdbcLogger.java : 143] <==      Total: 2
+2019-12-25 13:16:18,315 [DEBUG] [http-nio-8004-exec-7] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 143] ==>  Preparing: select * from Lol_UserInfo where uID = ? 
+2019-12-25 13:16:18,317 [DEBUG] [http-nio-8004-exec-7] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 143] ==> Parameters: 2(Integer)
+2019-12-25 13:16:18,357 [TRACE] [http-nio-8004-exec-7] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 149] <==    Columns: uID, nickName, icon, gender, lolAccount, prefer
+2019-12-25 13:16:18,358 [TRACE] [http-nio-8004-exec-7] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 149] <==        Row: 2, fufu, default.jpg, 0, null, 0
+2019-12-25 13:16:18,358 [DEBUG] [http-nio-8004-exec-7] c.e.m.mapper.InformationMapper.getUserInfoByuID [BaseJdbcLogger.java : 143] <==      Total: 1
+2019-12-25 13:16:21,419 [DEBUG] [http-nio-8004-exec-8] c.e.m.mapper.InformationMapper.insertUsersFollowByID [BaseJdbcLogger.java : 143] ==>  Preparing: insert into Lol_Follow values (? , ?) 
+2019-12-25 13:16:21,420 [DEBUG] [http-nio-8004-exec-8] c.e.m.mapper.InformationMapper.insertUsersFollowByID [BaseJdbcLogger.java : 143] ==> Parameters: 1(Integer), 2(Integer)

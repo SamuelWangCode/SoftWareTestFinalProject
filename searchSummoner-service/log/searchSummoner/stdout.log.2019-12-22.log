@@ -1,0 +1,600 @@
+2019-12-22 10:30:36,036 [INFO] [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-22 10:30:36,960 [INFO] [main] c.e.searchSummonerservice.SearchSummonerServiceApplication [SpringApplication.java : 651] No active profile set, falling back to default profiles: default
+2019-12-22 10:30:37,638 [WARN] [main] org.springframework.boot.actuate.endpoint.EndpointId [EndpointId.java : 155] Endpoint ID 'hystrix.stream' contains invalid characters, please migrate to a valid format.
+2019-12-22 10:30:38,284 [WARN] [main] org.springframework.boot.actuate.endpoint.EndpointId [EndpointId.java : 155] Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2019-12-22 10:30:38,393 [WARN] [main] org.mybatis.spring.mapper.ClassPathMapperScanner [Logger.java : 44] No MyBatis mapper was found in '[com.eruka.searchSummonerservice]' package. Please check your configuration.
+2019-12-22 10:30:38,485 [INFO] [main] org.springframework.cloud.context.scope.GenericScope [GenericScope.java : 295] BeanFactory id=cac7cda7-a140-3ce0-9466-694fd0419514
+2019-12-22 10:30:38,721 [INFO] [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-22 10:30:39,042 [INFO] [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-22 10:30:39,672 [INFO] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [TomcatWebServer.java : 92] Tomcat initialized with port(s): 8002 (http)
+2019-12-22 10:30:39,683 [INFO] [main] org.apache.catalina.core.StandardService [DirectJDKLog.java : 173] Starting service [Tomcat]
+2019-12-22 10:30:39,683 [INFO] [main] org.apache.catalina.core.StandardEngine [DirectJDKLog.java : 173] Starting Servlet engine: [Apache Tomcat/9.0.29]
+2019-12-22 10:30:39,906 [INFO] [main] o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [DirectJDKLog.java : 173] Initializing Spring embedded WebApplicationContext
+2019-12-22 10:30:39,906 [INFO] [main] org.springframework.web.context.ContextLoader [ServletWebServerApplicationContext.java : 284] Root WebApplicationContext: initialization completed in 2926 ms
+2019-12-22 10:30:40,021 [WARN] [main] com.netflix.config.sources.URLConfigurationSource [URLConfigurationSource.java : 121] No URLs will be polled as dynamic configuration sources.
+2019-12-22 10:30:40,022 [INFO] [main] com.netflix.config.sources.URLConfigurationSource [URLConfigurationSource.java : 122] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-12-22 10:30:40,035 [INFO] [main] com.netflix.config.DynamicPropertyFactory [DynamicPropertyFactory.java : 281] DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@6463da36
+2019-12-22 10:30:40,239 [INFO] [main] o.s.boot.actuate.endpoint.web.ServletEndpointRegistrar [ServletEndpointRegistrar.java : 75] Registered '/actuator/hystrix.stream' to hystrix.stream-actuator-endpoint
+2019-12-22 10:30:40,631 [INFO] [main] o.s.boot.actuate.endpoint.web.EndpointLinksResolver [EndpointLinksResolver.java : 58] Exposing 1 endpoint(s) beneath base path '/actuator'
+2019-12-22 10:30:40,860 [INFO] [main] s.d.spring.web.PropertySourcedRequestMappingHandlerMapping [PropertySourcedRequestMappingHandlerMapping.java : 69] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2019-12-22 10:30:40,883 [WARN] [main] com.netflix.config.sources.URLConfigurationSource [URLConfigurationSource.java : 121] No URLs will be polled as dynamic configuration sources.
+2019-12-22 10:30:40,884 [INFO] [main] com.netflix.config.sources.URLConfigurationSource [URLConfigurationSource.java : 122] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-12-22 10:30:42,990 [WARN] [main] o.s.c.l.c.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger [BlockingLoadBalancerClientAutoConfiguration.java : 106] You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2019-12-22 10:30:43,155 [INFO] [main] org.springframework.cloud.netflix.eureka.InstanceInfoFactory [InstanceInfoFactory.java : 72] Setting initial instance status as: STARTING
+2019-12-22 10:30:43,226 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 365] Initializing Eureka in region us-east-1
+2019-12-22 10:30:43,434 [INFO] [main] com.netflix.discovery.provider.DiscoveryJerseyProvider [DiscoveryJerseyProvider.java : 70] Using JSON encoding codec LegacyJacksonJson
+2019-12-22 10:30:43,435 [INFO] [main] com.netflix.discovery.provider.DiscoveryJerseyProvider [DiscoveryJerseyProvider.java : 71] Using JSON decoding codec LegacyJacksonJson
+2019-12-22 10:30:43,579 [INFO] [main] com.netflix.discovery.provider.DiscoveryJerseyProvider [DiscoveryJerseyProvider.java : 80] Using XML encoding codec XStreamXml
+2019-12-22 10:30:43,580 [INFO] [main] com.netflix.discovery.provider.DiscoveryJerseyProvider [DiscoveryJerseyProvider.java : 81] Using XML decoding codec XStreamXml
+2019-12-22 10:30:43,740 [INFO] [main] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-22 10:30:44,078 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 976] Disable delta property : false
+2019-12-22 10:30:44,079 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 977] Single vip registry refresh property : null
+2019-12-22 10:30:44,080 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 978] Force full registry fetch : false
+2019-12-22 10:30:44,080 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 979] Application is null : false
+2019-12-22 10:30:44,081 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 980] Registered Applications size is zero : true
+2019-12-22 10:30:44,081 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 982] Application version is -1: true
+2019-12-22 10:30:44,082 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 1065] Getting all instance registry info from the eureka server
+2019-12-22 10:30:44,235 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 1074] The response status is 200
+2019-12-22 10:30:44,238 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 1288] Starting heartbeat executor: renew interval is: 30
+2019-12-22 10:30:44,240 [INFO] [main] com.netflix.discovery.InstanceInfoReplicator [InstanceInfoReplicator.java : 60] InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-12-22 10:30:44,260 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 465] Discovery Client initialized at timestamp 1576981844258 with initial instances count: 1
+2019-12-22 10:30:44,265 [INFO] [main] o.s.c.netflix.eureka.serviceregistry.EurekaServiceRegistry [EurekaServiceRegistry.java : 41] Registering application SEARCHSUMMONER-PRODUCER with eureka with status UP
+2019-12-22 10:30:44,267 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 1323] Saw local status change event StatusChangeEvent [timestamp=1576981844267, current=UP, previous=STARTING]
+2019-12-22 10:30:44,269 [INFO] [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 844] DiscoveryClient_SEARCHSUMMONER-PRODUCER/LAPTOP-9V9UUKHU:searchSummoner-producer:8002: registering service...
+2019-12-22 10:30:44,271 [INFO] [main] s.d.spring.web.plugins.DocumentationPluginsBootstrapper [DocumentationPluginsBootstrapper.java : 160] Context refreshed
+2019-12-22 10:30:44,317 [INFO] [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 853] DiscoveryClient_SEARCHSUMMONER-PRODUCER/LAPTOP-9V9UUKHU:searchSummoner-producer:8002 - registration status: 204
+2019-12-22 10:30:44,341 [INFO] [main] s.d.spring.web.plugins.DocumentationPluginsBootstrapper [DocumentationPluginsBootstrapper.java : 163] Found 1 custom documentation plugin(s)
+2019-12-22 10:30:44,405 [INFO] [main] s.d.spring.web.scanners.ApiListingReferenceScanner [ApiListingReferenceScanner.java : 41] Scanning for api listing references
+2019-12-22 10:30:44,605 [INFO] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [TomcatWebServer.java : 204] Tomcat started on port(s): 8002 (http) with context path ''
+2019-12-22 10:30:44,607 [INFO] [main] o.s.c.n.eureka.serviceregistry.EurekaAutoServiceRegistration [EurekaAutoServiceRegistration.java : 145] Updating port to 8002
+2019-12-22 10:30:45,097 [INFO] [main] c.e.searchSummonerservice.SearchSummonerServiceApplication [StartupInfoLogger.java : 61] Started SearchSummonerServiceApplication in 10.429 seconds (JVM running for 11.678)
+2019-12-22 10:31:58,001 [INFO] [http-nio-8002-exec-1] o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [DirectJDKLog.java : 173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-22 10:31:58,002 [INFO] [http-nio-8002-exec-1] org.springframework.web.servlet.DispatcherServlet [FrameworkServlet.java : 525] Initializing Servlet 'dispatcherServlet'
+2019-12-22 10:31:58,011 [INFO] [http-nio-8002-exec-1] org.springframework.web.servlet.DispatcherServlet [FrameworkServlet.java : 547] Completed initialization in 9 ms
+2019-12-22 10:32:08,076 [INFO] [http-nio-8002-exec-2] com.eruka.searchSummonerservice.controller.SearchController [SearchController.java : 112] start
+2019-12-22 10:32:09,057 [INFO] [http-nio-8002-exec-2] com.eruka.searchSummonerservice.controller.SearchController [SearchController.java : 133] 9c6LNojbnlWKnFb0V7aDWnuFJx0VmIGEspng2s00Th04hx8uGlaHjT5fFZHPhJsR0FNjSEy0195BDWcgm-Xc5jRUqD7owCJggzLpo6zi
+2019-12-22 10:32:09,576 [INFO] [http-nio-8002-exec-2] com.eruka.searchSummonerservice.controller.SearchController [SearchController.java : 159] 段位找到了
+2019-12-22 10:32:12,601 [INFO] [http-nio-8002-exec-2] com.eruka.searchSummonerservice.controller.SearchController [SearchController.java : 183] 英雄找到了
+2019-12-22 10:32:13,112 [INFO] [http-nio-8002-exec-2] com.eruka.searchSummonerservice.controller.SearchController [SearchController.java : 66] 开始找到第一个了
+2019-12-22 10:32:13,625 [INFO] [http-nio-8002-exec-2] com.eruka.searchSummonerservice.controller.SearchController [SearchController.java : 83] 开始找了
+2019-12-22 10:32:13,625 [INFO] [http-nio-8002-exec-2] com.eruka.searchSummonerservice.controller.SearchController [SearchController.java : 83] 开始找了
+2019-12-22 10:32:13,625 [INFO] [http-nio-8002-exec-2] com.eruka.searchSummonerservice.controller.SearchController [SearchController.java : 83] 开始找了
+2019-12-22 10:32:13,626 [INFO] [http-nio-8002-exec-2] com.eruka.searchSummonerservice.controller.SearchController [SearchController.java : 100] 找到第一个了
+2019-12-22 10:32:13,627 [INFO] [http-nio-8002-exec-2] com.eruka.searchSummonerservice.controller.SearchController [SearchController.java : 66] 开始找到第一个了
+2019-12-22 10:32:14,468 [INFO] [http-nio-8002-exec-2] com.eruka.searchSummonerservice.controller.SearchController [SearchController.java : 83] 开始找了
+2019-12-22 10:32:14,469 [INFO] [http-nio-8002-exec-2] com.eruka.searchSummonerservice.controller.SearchController [SearchController.java : 100] 找到第一个了
+2019-12-22 10:32:14,469 [INFO] [http-nio-8002-exec-2] com.eruka.searchSummonerservice.controller.SearchController [SearchController.java : 66] 开始找到第一个了
+2019-12-22 10:32:14,881 [INFO] [http-nio-8002-exec-2] com.eruka.searchSummonerservice.controller.SearchController [SearchController.java : 83] 开始找了
+2019-12-22 10:32:14,882 [INFO] [http-nio-8002-exec-2] com.eruka.searchSummonerservice.controller.SearchController [SearchController.java : 100] 找到第一个了
+2019-12-22 10:32:14,882 [INFO] [http-nio-8002-exec-2] com.eruka.searchSummonerservice.controller.SearchController [SearchController.java : 66] 开始找到第一个了
+2019-12-22 10:32:15,847 [INFO] [http-nio-8002-exec-2] com.eruka.searchSummonerservice.controller.SearchController [SearchController.java : 83] 开始找了
+2019-12-22 10:32:15,848 [INFO] [http-nio-8002-exec-2] com.eruka.searchSummonerservice.controller.SearchController [SearchController.java : 83] 开始找了
+2019-12-22 10:32:15,848 [INFO] [http-nio-8002-exec-2] com.eruka.searchSummonerservice.controller.SearchController [SearchController.java : 83] 开始找了
+2019-12-22 10:32:15,849 [INFO] [http-nio-8002-exec-2] com.eruka.searchSummonerservice.controller.SearchController [SearchController.java : 100] 找到第一个了
+2019-12-22 10:32:15,849 [INFO] [http-nio-8002-exec-2] com.eruka.searchSummonerservice.controller.SearchController [SearchController.java : 66] 开始找到第一个了
+2019-12-22 10:32:16,324 [INFO] [http-nio-8002-exec-2] com.eruka.searchSummonerservice.controller.SearchController [SearchController.java : 83] 开始找了
+2019-12-22 10:32:16,324 [INFO] [http-nio-8002-exec-2] com.eruka.searchSummonerservice.controller.SearchController [SearchController.java : 83] 开始找了
+2019-12-22 10:32:16,324 [INFO] [http-nio-8002-exec-2] com.eruka.searchSummonerservice.controller.SearchController [SearchController.java : 83] 开始找了
+2019-12-22 10:32:16,326 [INFO] [http-nio-8002-exec-2] com.eruka.searchSummonerservice.controller.SearchController [SearchController.java : 83] 开始找了
+2019-12-22 10:32:16,327 [INFO] [http-nio-8002-exec-2] com.eruka.searchSummonerservice.controller.SearchController [SearchController.java : 83] 开始找了
+2019-12-22 10:32:16,327 [INFO] [http-nio-8002-exec-2] com.eruka.searchSummonerservice.controller.SearchController [SearchController.java : 83] 开始找了
+2019-12-22 10:32:16,328 [INFO] [http-nio-8002-exec-2] com.eruka.searchSummonerservice.controller.SearchController [SearchController.java : 83] 开始找了
+2019-12-22 10:32:16,328 [INFO] [http-nio-8002-exec-2] com.eruka.searchSummonerservice.controller.SearchController [SearchController.java : 83] 开始找了
+2019-12-22 10:32:16,328 [INFO] [http-nio-8002-exec-2] com.eruka.searchSummonerservice.controller.SearchController [SearchController.java : 83] 开始找了
+2019-12-22 10:32:16,329 [INFO] [http-nio-8002-exec-2] com.eruka.searchSummonerservice.controller.SearchController [SearchController.java : 83] 开始找了
+2019-12-22 10:32:16,329 [INFO] [http-nio-8002-exec-2] com.eruka.searchSummonerservice.controller.SearchController [SearchController.java : 100] 找到第一个了
+2019-12-22 10:32:16,329 [INFO] [http-nio-8002-exec-2] com.eruka.searchSummonerservice.controller.SearchController [SearchController.java : 198] success
+2019-12-22 10:35:44,084 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-22 10:40:44,086 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-22 10:45:44,088 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-22 10:50:44,090 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-22 10:55:44,092 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-22 11:00:44,095 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-22 11:05:44,097 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-22 11:10:44,100 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-22 11:15:44,102 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-22 11:20:44,103 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-22 11:25:44,106 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-22 11:30:44,109 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-22 11:46:53,332 [INFO] [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-22 11:46:54,068 [INFO] [main] c.e.searchSummonerservice.SearchSummonerServiceApplication [SpringApplication.java : 651] No active profile set, falling back to default profiles: default
+2019-12-22 11:46:54,866 [WARN] [main] org.springframework.boot.actuate.endpoint.EndpointId [EndpointId.java : 155] Endpoint ID 'hystrix.stream' contains invalid characters, please migrate to a valid format.
+2019-12-22 11:46:55,460 [WARN] [main] org.springframework.boot.actuate.endpoint.EndpointId [EndpointId.java : 155] Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2019-12-22 11:46:55,549 [WARN] [main] org.mybatis.spring.mapper.ClassPathMapperScanner [Logger.java : 44] No MyBatis mapper was found in '[com.eruka.searchSummonerservice]' package. Please check your configuration.
+2019-12-22 11:46:55,651 [INFO] [main] org.springframework.cloud.context.scope.GenericScope [GenericScope.java : 295] BeanFactory id=cac7cda7-a140-3ce0-9466-694fd0419514
+2019-12-22 11:46:55,915 [INFO] [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-22 11:46:56,250 [INFO] [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-22 11:46:56,956 [INFO] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [TomcatWebServer.java : 92] Tomcat initialized with port(s): 8002 (http)
+2019-12-22 11:46:56,967 [INFO] [main] org.apache.catalina.core.StandardService [DirectJDKLog.java : 173] Starting service [Tomcat]
+2019-12-22 11:46:56,968 [INFO] [main] org.apache.catalina.core.StandardEngine [DirectJDKLog.java : 173] Starting Servlet engine: [Apache Tomcat/9.0.29]
+2019-12-22 11:46:57,197 [INFO] [main] o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [DirectJDKLog.java : 173] Initializing Spring embedded WebApplicationContext
+2019-12-22 11:46:57,199 [INFO] [main] org.springframework.web.context.ContextLoader [ServletWebServerApplicationContext.java : 284] Root WebApplicationContext: initialization completed in 3112 ms
+2019-12-22 11:46:57,339 [WARN] [main] com.netflix.config.sources.URLConfigurationSource [URLConfigurationSource.java : 121] No URLs will be polled as dynamic configuration sources.
+2019-12-22 11:46:57,340 [INFO] [main] com.netflix.config.sources.URLConfigurationSource [URLConfigurationSource.java : 122] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-12-22 11:46:57,355 [INFO] [main] com.netflix.config.DynamicPropertyFactory [DynamicPropertyFactory.java : 281] DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@344f9467
+2019-12-22 11:46:57,585 [INFO] [main] o.s.boot.actuate.endpoint.web.ServletEndpointRegistrar [ServletEndpointRegistrar.java : 75] Registered '/actuator/hystrix.stream' to hystrix.stream-actuator-endpoint
+2019-12-22 11:46:57,970 [INFO] [main] o.s.boot.actuate.endpoint.web.EndpointLinksResolver [EndpointLinksResolver.java : 58] Exposing 1 endpoint(s) beneath base path '/actuator'
+2019-12-22 11:46:58,208 [INFO] [main] s.d.spring.web.PropertySourcedRequestMappingHandlerMapping [PropertySourcedRequestMappingHandlerMapping.java : 69] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2019-12-22 11:46:58,232 [WARN] [main] com.netflix.config.sources.URLConfigurationSource [URLConfigurationSource.java : 121] No URLs will be polled as dynamic configuration sources.
+2019-12-22 11:46:58,232 [INFO] [main] com.netflix.config.sources.URLConfigurationSource [URLConfigurationSource.java : 122] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-12-22 11:47:01,121 [WARN] [main] o.s.c.l.c.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger [BlockingLoadBalancerClientAutoConfiguration.java : 106] You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2019-12-22 11:47:01,240 [INFO] [main] org.springframework.cloud.netflix.eureka.InstanceInfoFactory [InstanceInfoFactory.java : 72] Setting initial instance status as: STARTING
+2019-12-22 11:47:01,318 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 365] Initializing Eureka in region us-east-1
+2019-12-22 11:47:01,539 [INFO] [main] com.netflix.discovery.provider.DiscoveryJerseyProvider [DiscoveryJerseyProvider.java : 70] Using JSON encoding codec LegacyJacksonJson
+2019-12-22 11:47:01,540 [INFO] [main] com.netflix.discovery.provider.DiscoveryJerseyProvider [DiscoveryJerseyProvider.java : 71] Using JSON decoding codec LegacyJacksonJson
+2019-12-22 11:47:01,707 [INFO] [main] com.netflix.discovery.provider.DiscoveryJerseyProvider [DiscoveryJerseyProvider.java : 80] Using XML encoding codec XStreamXml
+2019-12-22 11:47:01,707 [INFO] [main] com.netflix.discovery.provider.DiscoveryJerseyProvider [DiscoveryJerseyProvider.java : 81] Using XML decoding codec XStreamXml
+2019-12-22 11:47:01,903 [INFO] [main] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-22 11:47:02,423 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 976] Disable delta property : false
+2019-12-22 11:47:02,423 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 977] Single vip registry refresh property : null
+2019-12-22 11:47:02,424 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 978] Force full registry fetch : false
+2019-12-22 11:47:02,424 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 979] Application is null : false
+2019-12-22 11:47:02,424 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 980] Registered Applications size is zero : true
+2019-12-22 11:47:02,425 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 982] Application version is -1: true
+2019-12-22 11:47:02,425 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 1065] Getting all instance registry info from the eureka server
+2019-12-22 11:47:02,701 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 1074] The response status is 200
+2019-12-22 11:47:02,705 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 1288] Starting heartbeat executor: renew interval is: 30
+2019-12-22 11:47:02,708 [INFO] [main] com.netflix.discovery.InstanceInfoReplicator [InstanceInfoReplicator.java : 60] InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-12-22 11:47:02,715 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 465] Discovery Client initialized at timestamp 1576986422714 with initial instances count: 2
+2019-12-22 11:47:02,722 [INFO] [main] o.s.c.netflix.eureka.serviceregistry.EurekaServiceRegistry [EurekaServiceRegistry.java : 41] Registering application SEARCHSUMMONER-PRODUCER with eureka with status UP
+2019-12-22 11:47:02,725 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 1323] Saw local status change event StatusChangeEvent [timestamp=1576986422724, current=UP, previous=STARTING]
+2019-12-22 11:47:02,730 [INFO] [main] s.d.spring.web.plugins.DocumentationPluginsBootstrapper [DocumentationPluginsBootstrapper.java : 160] Context refreshed
+2019-12-22 11:47:02,728 [INFO] [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 844] DiscoveryClient_SEARCHSUMMONER-PRODUCER/LAPTOP-9V9UUKHU:searchSummoner-producer:8002: registering service...
+2019-12-22 11:47:02,755 [INFO] [main] s.d.spring.web.plugins.DocumentationPluginsBootstrapper [DocumentationPluginsBootstrapper.java : 163] Found 1 custom documentation plugin(s)
+2019-12-22 11:47:02,782 [INFO] [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 853] DiscoveryClient_SEARCHSUMMONER-PRODUCER/LAPTOP-9V9UUKHU:searchSummoner-producer:8002 - registration status: 204
+2019-12-22 11:47:02,805 [INFO] [main] s.d.spring.web.scanners.ApiListingReferenceScanner [ApiListingReferenceScanner.java : 41] Scanning for api listing references
+2019-12-22 11:47:03,057 [INFO] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [TomcatWebServer.java : 204] Tomcat started on port(s): 8002 (http) with context path ''
+2019-12-22 11:47:03,060 [INFO] [main] o.s.c.n.eureka.serviceregistry.EurekaAutoServiceRegistration [EurekaAutoServiceRegistration.java : 145] Updating port to 8002
+2019-12-22 11:47:03,593 [INFO] [main] c.e.searchSummonerservice.SearchSummonerServiceApplication [StartupInfoLogger.java : 61] Started SearchSummonerServiceApplication in 11.777 seconds (JVM running for 12.659)
+2019-12-22 11:48:19,842 [INFO] [http-nio-8002-exec-1] o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [DirectJDKLog.java : 173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-22 11:48:19,842 [INFO] [http-nio-8002-exec-1] org.springframework.web.servlet.DispatcherServlet [FrameworkServlet.java : 525] Initializing Servlet 'dispatcherServlet'
+2019-12-22 11:48:19,854 [INFO] [http-nio-8002-exec-1] org.springframework.web.servlet.DispatcherServlet [FrameworkServlet.java : 547] Completed initialization in 11 ms
+2019-12-22 11:48:25,394 [INFO] [http-nio-8002-exec-2] com.eruka.searchSummonerservice.controller.SearchController [SearchController.java : 112] start
+2019-12-22 11:48:27,189 [INFO] [http-nio-8002-exec-2] com.eruka.searchSummonerservice.controller.SearchController [SearchController.java : 133] 9c6LNojbnlWKnFb0V7aDWnuFJx0VmIGEspng2s00Th04hx8uGlaHjT5fFZHPhJsR0FNjSEy0195BDWcgm-Xc5jRUqD7owCJggzLpo6zi
+2019-12-22 11:48:27,735 [INFO] [http-nio-8002-exec-2] com.eruka.searchSummonerservice.controller.SearchController [SearchController.java : 159] 段位找到了
+2019-12-22 11:48:49,238 [ERROR] [http-nio-8002-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/].[dispatcherServlet] [DirectJDKLog.java : 175] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+java.net.ConnectException: Connection timed out: connect
+	at java.base/java.net.PlainSocketImpl.connect0(Native Method)
+	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:101)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:399)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:242)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:224)
+	at java.base/java.net.Socket.connect(Socket.java:591)
+	at java.base/java.net.Socket.connect(Socket.java:540)
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:182)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:474)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:569)
+	at java.base/sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:341)
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:362)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1242)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1181)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1075)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:1009)
+	at com.eruka.searchSummonerservice.controller.SearchController.findChampion(SearchController.java:44)
+	at com.eruka.searchSummonerservice.controller.SearchController.getSummonerInfo(SearchController.java:177)
+	at com.eruka.searchSummonerservice.controller.SearchController$$FastClassBySpringCGLIB$$d0fbc26a.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:769)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.cache.interceptor.CacheInterceptor.lambda$invoke$0(CacheInterceptor.java:53)
+	at org.springframework.cache.interceptor.CacheAspectSupport.invokeOperation(CacheAspectSupport.java:365)
+	at org.springframework.cache.interceptor.CacheAspectSupport.execute(CacheAspectSupport.java:420)
+	at org.springframework.cache.interceptor.CacheAspectSupport.execute(CacheAspectSupport.java:345)
+	at org.springframework.cache.interceptor.CacheInterceptor.invoke(CacheInterceptor.java:61)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:689)
+	at com.eruka.searchSummonerservice.controller.SearchController$$EnhancerBySpringCGLIB$$52ecfeda.getSummonerInfo(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:888)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:108)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1591)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+2019-12-22 11:49:18,587 [INFO] [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-22 11:49:19,299 [INFO] [main] c.e.searchSummonerservice.SearchSummonerServiceApplication [SpringApplication.java : 651] No active profile set, falling back to default profiles: default
+2019-12-22 11:49:20,158 [WARN] [main] org.springframework.boot.actuate.endpoint.EndpointId [EndpointId.java : 155] Endpoint ID 'hystrix.stream' contains invalid characters, please migrate to a valid format.
+2019-12-22 11:49:20,722 [WARN] [main] org.springframework.boot.actuate.endpoint.EndpointId [EndpointId.java : 155] Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2019-12-22 11:49:20,815 [WARN] [main] org.mybatis.spring.mapper.ClassPathMapperScanner [Logger.java : 44] No MyBatis mapper was found in '[com.eruka.searchSummonerservice]' package. Please check your configuration.
+2019-12-22 11:49:20,911 [INFO] [main] org.springframework.cloud.context.scope.GenericScope [GenericScope.java : 295] BeanFactory id=cac7cda7-a140-3ce0-9466-694fd0419514
+2019-12-22 11:49:21,144 [INFO] [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-22 11:49:21,458 [INFO] [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-22 11:49:22,118 [INFO] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [TomcatWebServer.java : 92] Tomcat initialized with port(s): 8002 (http)
+2019-12-22 11:49:22,128 [INFO] [main] org.apache.catalina.core.StandardService [DirectJDKLog.java : 173] Starting service [Tomcat]
+2019-12-22 11:49:22,129 [INFO] [main] org.apache.catalina.core.StandardEngine [DirectJDKLog.java : 173] Starting Servlet engine: [Apache Tomcat/9.0.29]
+2019-12-22 11:49:22,358 [INFO] [main] o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [DirectJDKLog.java : 173] Initializing Spring embedded WebApplicationContext
+2019-12-22 11:49:22,359 [INFO] [main] org.springframework.web.context.ContextLoader [ServletWebServerApplicationContext.java : 284] Root WebApplicationContext: initialization completed in 3017 ms
+2019-12-22 11:49:22,485 [WARN] [main] com.netflix.config.sources.URLConfigurationSource [URLConfigurationSource.java : 121] No URLs will be polled as dynamic configuration sources.
+2019-12-22 11:49:22,485 [INFO] [main] com.netflix.config.sources.URLConfigurationSource [URLConfigurationSource.java : 122] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-12-22 11:49:22,500 [INFO] [main] com.netflix.config.DynamicPropertyFactory [DynamicPropertyFactory.java : 281] DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@11bdab37
+2019-12-22 11:49:22,710 [INFO] [main] o.s.boot.actuate.endpoint.web.ServletEndpointRegistrar [ServletEndpointRegistrar.java : 75] Registered '/actuator/hystrix.stream' to hystrix.stream-actuator-endpoint
+2019-12-22 11:49:23,106 [INFO] [main] o.s.boot.actuate.endpoint.web.EndpointLinksResolver [EndpointLinksResolver.java : 58] Exposing 1 endpoint(s) beneath base path '/actuator'
+2019-12-22 11:49:23,362 [INFO] [main] s.d.spring.web.PropertySourcedRequestMappingHandlerMapping [PropertySourcedRequestMappingHandlerMapping.java : 69] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2019-12-22 11:49:23,385 [WARN] [main] com.netflix.config.sources.URLConfigurationSource [URLConfigurationSource.java : 121] No URLs will be polled as dynamic configuration sources.
+2019-12-22 11:49:23,385 [INFO] [main] com.netflix.config.sources.URLConfigurationSource [URLConfigurationSource.java : 122] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-12-22 11:49:25,430 [WARN] [main] o.s.c.l.c.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger [BlockingLoadBalancerClientAutoConfiguration.java : 106] You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2019-12-22 11:49:25,555 [INFO] [main] org.springframework.cloud.netflix.eureka.InstanceInfoFactory [InstanceInfoFactory.java : 72] Setting initial instance status as: STARTING
+2019-12-22 11:49:25,627 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 365] Initializing Eureka in region us-east-1
+2019-12-22 11:49:25,912 [INFO] [main] com.netflix.discovery.provider.DiscoveryJerseyProvider [DiscoveryJerseyProvider.java : 70] Using JSON encoding codec LegacyJacksonJson
+2019-12-22 11:49:25,913 [INFO] [main] com.netflix.discovery.provider.DiscoveryJerseyProvider [DiscoveryJerseyProvider.java : 71] Using JSON decoding codec LegacyJacksonJson
+2019-12-22 11:49:26,061 [INFO] [main] com.netflix.discovery.provider.DiscoveryJerseyProvider [DiscoveryJerseyProvider.java : 80] Using XML encoding codec XStreamXml
+2019-12-22 11:49:26,061 [INFO] [main] com.netflix.discovery.provider.DiscoveryJerseyProvider [DiscoveryJerseyProvider.java : 81] Using XML decoding codec XStreamXml
+2019-12-22 11:49:26,230 [INFO] [main] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-22 11:49:26,591 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 976] Disable delta property : false
+2019-12-22 11:49:26,591 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 977] Single vip registry refresh property : null
+2019-12-22 11:49:26,592 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 978] Force full registry fetch : false
+2019-12-22 11:49:26,592 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 979] Application is null : false
+2019-12-22 11:49:26,592 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 980] Registered Applications size is zero : true
+2019-12-22 11:49:26,593 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 982] Application version is -1: true
+2019-12-22 11:49:26,593 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 1065] Getting all instance registry info from the eureka server
+2019-12-22 11:49:26,760 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 1074] The response status is 200
+2019-12-22 11:49:26,764 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 1288] Starting heartbeat executor: renew interval is: 30
+2019-12-22 11:49:26,768 [INFO] [main] com.netflix.discovery.InstanceInfoReplicator [InstanceInfoReplicator.java : 60] InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-12-22 11:49:26,771 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 465] Discovery Client initialized at timestamp 1576986566770 with initial instances count: 3
+2019-12-22 11:49:26,777 [INFO] [main] o.s.c.netflix.eureka.serviceregistry.EurekaServiceRegistry [EurekaServiceRegistry.java : 41] Registering application SEARCHSUMMONER-PRODUCER with eureka with status UP
+2019-12-22 11:49:26,777 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 1323] Saw local status change event StatusChangeEvent [timestamp=1576986566777, current=UP, previous=STARTING]
+2019-12-22 11:49:26,779 [INFO] [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 844] DiscoveryClient_SEARCHSUMMONER-PRODUCER/LAPTOP-9V9UUKHU:searchSummoner-producer:8002: registering service...
+2019-12-22 11:49:26,782 [INFO] [main] s.d.spring.web.plugins.DocumentationPluginsBootstrapper [DocumentationPluginsBootstrapper.java : 160] Context refreshed
+2019-12-22 11:49:26,813 [INFO] [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 853] DiscoveryClient_SEARCHSUMMONER-PRODUCER/LAPTOP-9V9UUKHU:searchSummoner-producer:8002 - registration status: 204
+2019-12-22 11:49:26,817 [INFO] [main] s.d.spring.web.plugins.DocumentationPluginsBootstrapper [DocumentationPluginsBootstrapper.java : 163] Found 1 custom documentation plugin(s)
+2019-12-22 11:49:26,875 [INFO] [main] s.d.spring.web.scanners.ApiListingReferenceScanner [ApiListingReferenceScanner.java : 41] Scanning for api listing references
+2019-12-22 11:49:27,054 [INFO] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [TomcatWebServer.java : 204] Tomcat started on port(s): 8002 (http) with context path ''
+2019-12-22 11:49:27,055 [INFO] [main] o.s.c.n.eureka.serviceregistry.EurekaAutoServiceRegistration [EurekaAutoServiceRegistration.java : 145] Updating port to 8002
+2019-12-22 11:49:27,536 [INFO] [main] c.e.searchSummonerservice.SearchSummonerServiceApplication [StartupInfoLogger.java : 61] Started SearchSummonerServiceApplication in 10.475 seconds (JVM running for 11.219)
+2019-12-22 11:49:30,715 [INFO] [http-nio-8002-exec-1] o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [DirectJDKLog.java : 173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-22 11:49:30,715 [INFO] [http-nio-8002-exec-1] org.springframework.web.servlet.DispatcherServlet [FrameworkServlet.java : 525] Initializing Servlet 'dispatcherServlet'
+2019-12-22 11:49:30,728 [INFO] [http-nio-8002-exec-1] org.springframework.web.servlet.DispatcherServlet [FrameworkServlet.java : 547] Completed initialization in 13 ms
+2019-12-22 11:49:34,690 [INFO] [http-nio-8002-exec-2] com.eruka.searchSummonerservice.controller.SearchController [SearchController.java : 112] start
+2019-12-22 11:49:35,693 [INFO] [http-nio-8002-exec-2] com.eruka.searchSummonerservice.controller.SearchController [SearchController.java : 133] 9c6LNojbnlWKnFb0V7aDWnuFJx0VmIGEspng2s00Th04hx8uGlaHjT5fFZHPhJsR0FNjSEy0195BDWcgm-Xc5jRUqD7owCJggzLpo6zi
+2019-12-22 11:49:36,200 [INFO] [http-nio-8002-exec-2] com.eruka.searchSummonerservice.controller.SearchController [SearchController.java : 159] 段位找到了
+2019-12-22 11:49:39,284 [INFO] [http-nio-8002-exec-2] com.eruka.searchSummonerservice.controller.SearchController [SearchController.java : 183] 英雄找到了
+2019-12-22 11:49:41,878 [INFO] [http-nio-8002-exec-2] com.eruka.searchSummonerservice.controller.SearchController [SearchController.java : 66] 开始找到第一个了
+2019-12-22 11:49:43,717 [INFO] [http-nio-8002-exec-2] com.eruka.searchSummonerservice.controller.SearchController [SearchController.java : 83] 开始找了
+2019-12-22 11:49:43,717 [INFO] [http-nio-8002-exec-2] com.eruka.searchSummonerservice.controller.SearchController [SearchController.java : 83] 开始找了
+2019-12-22 11:49:43,718 [INFO] [http-nio-8002-exec-2] com.eruka.searchSummonerservice.controller.SearchController [SearchController.java : 83] 开始找了
+2019-12-22 11:49:43,718 [INFO] [http-nio-8002-exec-2] com.eruka.searchSummonerservice.controller.SearchController [SearchController.java : 100] 找到第一个了
+2019-12-22 11:49:43,718 [INFO] [http-nio-8002-exec-2] com.eruka.searchSummonerservice.controller.SearchController [SearchController.java : 66] 开始找到第一个了
+2019-12-22 11:49:47,763 [INFO] [http-nio-8002-exec-2] com.eruka.searchSummonerservice.controller.SearchController [SearchController.java : 83] 开始找了
+2019-12-22 11:49:47,764 [INFO] [http-nio-8002-exec-2] com.eruka.searchSummonerservice.controller.SearchController [SearchController.java : 100] 找到第一个了
+2019-12-22 11:49:47,764 [INFO] [http-nio-8002-exec-2] com.eruka.searchSummonerservice.controller.SearchController [SearchController.java : 66] 开始找到第一个了
+2019-12-22 11:49:50,849 [INFO] [http-nio-8002-exec-2] com.eruka.searchSummonerservice.controller.SearchController [SearchController.java : 83] 开始找了
+2019-12-22 11:49:50,850 [INFO] [http-nio-8002-exec-2] com.eruka.searchSummonerservice.controller.SearchController [SearchController.java : 100] 找到第一个了
+2019-12-22 11:49:50,850 [INFO] [http-nio-8002-exec-2] com.eruka.searchSummonerservice.controller.SearchController [SearchController.java : 66] 开始找到第一个了
+2019-12-22 11:49:52,892 [INFO] [http-nio-8002-exec-2] com.eruka.searchSummonerservice.controller.SearchController [SearchController.java : 83] 开始找了
+2019-12-22 11:49:52,893 [INFO] [http-nio-8002-exec-2] com.eruka.searchSummonerservice.controller.SearchController [SearchController.java : 83] 开始找了
+2019-12-22 11:49:52,893 [INFO] [http-nio-8002-exec-2] com.eruka.searchSummonerservice.controller.SearchController [SearchController.java : 83] 开始找了
+2019-12-22 11:49:52,894 [INFO] [http-nio-8002-exec-2] com.eruka.searchSummonerservice.controller.SearchController [SearchController.java : 100] 找到第一个了
+2019-12-22 11:49:52,894 [INFO] [http-nio-8002-exec-2] com.eruka.searchSummonerservice.controller.SearchController [SearchController.java : 66] 开始找到第一个了
+2019-12-22 11:49:55,051 [INFO] [http-nio-8002-exec-2] com.eruka.searchSummonerservice.controller.SearchController [SearchController.java : 83] 开始找了
+2019-12-22 11:49:55,052 [INFO] [http-nio-8002-exec-2] com.eruka.searchSummonerservice.controller.SearchController [SearchController.java : 83] 开始找了
+2019-12-22 11:49:55,053 [INFO] [http-nio-8002-exec-2] com.eruka.searchSummonerservice.controller.SearchController [SearchController.java : 83] 开始找了
+2019-12-22 11:49:55,053 [INFO] [http-nio-8002-exec-2] com.eruka.searchSummonerservice.controller.SearchController [SearchController.java : 83] 开始找了
+2019-12-22 11:49:55,053 [INFO] [http-nio-8002-exec-2] com.eruka.searchSummonerservice.controller.SearchController [SearchController.java : 83] 开始找了
+2019-12-22 11:49:55,053 [INFO] [http-nio-8002-exec-2] com.eruka.searchSummonerservice.controller.SearchController [SearchController.java : 83] 开始找了
+2019-12-22 11:49:55,053 [INFO] [http-nio-8002-exec-2] com.eruka.searchSummonerservice.controller.SearchController [SearchController.java : 83] 开始找了
+2019-12-22 11:49:55,054 [INFO] [http-nio-8002-exec-2] com.eruka.searchSummonerservice.controller.SearchController [SearchController.java : 83] 开始找了
+2019-12-22 11:49:55,054 [INFO] [http-nio-8002-exec-2] com.eruka.searchSummonerservice.controller.SearchController [SearchController.java : 83] 开始找了
+2019-12-22 11:49:55,054 [INFO] [http-nio-8002-exec-2] com.eruka.searchSummonerservice.controller.SearchController [SearchController.java : 83] 开始找了
+2019-12-22 11:49:55,054 [INFO] [http-nio-8002-exec-2] com.eruka.searchSummonerservice.controller.SearchController [SearchController.java : 100] 找到第一个了
+2019-12-22 11:49:55,055 [INFO] [http-nio-8002-exec-2] com.eruka.searchSummonerservice.controller.SearchController [SearchController.java : 198] success
+2019-12-22 11:54:26,597 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-22 11:59:26,599 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-22 12:04:26,609 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-22 12:05:46,487 [INFO] [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-22 12:05:47,117 [INFO] [main] c.e.searchSummonerservice.SearchSummonerServiceApplication [SpringApplication.java : 651] No active profile set, falling back to default profiles: default
+2019-12-22 12:05:47,828 [WARN] [main] org.springframework.boot.actuate.endpoint.EndpointId [EndpointId.java : 155] Endpoint ID 'hystrix.stream' contains invalid characters, please migrate to a valid format.
+2019-12-22 12:05:48,473 [WARN] [main] org.springframework.boot.actuate.endpoint.EndpointId [EndpointId.java : 155] Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2019-12-22 12:05:48,572 [WARN] [main] org.mybatis.spring.mapper.ClassPathMapperScanner [Logger.java : 44] No MyBatis mapper was found in '[com.eruka.searchSummonerservice]' package. Please check your configuration.
+2019-12-22 12:05:48,814 [INFO] [main] org.springframework.cloud.context.scope.GenericScope [GenericScope.java : 295] BeanFactory id=cac7cda7-a140-3ce0-9466-694fd0419514
+2019-12-22 12:05:49,137 [INFO] [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-22 12:05:49,469 [INFO] [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-22 12:05:50,558 [INFO] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [TomcatWebServer.java : 92] Tomcat initialized with port(s): 8002 (http)
+2019-12-22 12:05:50,570 [INFO] [main] org.apache.catalina.core.StandardService [DirectJDKLog.java : 173] Starting service [Tomcat]
+2019-12-22 12:05:50,571 [INFO] [main] org.apache.catalina.core.StandardEngine [DirectJDKLog.java : 173] Starting Servlet engine: [Apache Tomcat/9.0.29]
+2019-12-22 12:05:50,798 [INFO] [main] o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [DirectJDKLog.java : 173] Initializing Spring embedded WebApplicationContext
+2019-12-22 12:05:50,798 [INFO] [main] org.springframework.web.context.ContextLoader [ServletWebServerApplicationContext.java : 284] Root WebApplicationContext: initialization completed in 3661 ms
+2019-12-22 12:05:50,932 [WARN] [main] com.netflix.config.sources.URLConfigurationSource [URLConfigurationSource.java : 121] No URLs will be polled as dynamic configuration sources.
+2019-12-22 12:05:50,933 [INFO] [main] com.netflix.config.sources.URLConfigurationSource [URLConfigurationSource.java : 122] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-12-22 12:05:50,956 [INFO] [main] com.netflix.config.DynamicPropertyFactory [DynamicPropertyFactory.java : 281] DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@5a51336a
+2019-12-22 12:05:51,170 [INFO] [main] o.s.boot.actuate.endpoint.web.ServletEndpointRegistrar [ServletEndpointRegistrar.java : 75] Registered '/actuator/hystrix.stream' to hystrix.stream-actuator-endpoint
+2019-12-22 12:05:51,549 [INFO] [main] o.s.boot.actuate.endpoint.web.EndpointLinksResolver [EndpointLinksResolver.java : 58] Exposing 1 endpoint(s) beneath base path '/actuator'
+2019-12-22 12:05:51,802 [INFO] [main] s.d.spring.web.PropertySourcedRequestMappingHandlerMapping [PropertySourcedRequestMappingHandlerMapping.java : 69] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2019-12-22 12:05:51,828 [WARN] [main] com.netflix.config.sources.URLConfigurationSource [URLConfigurationSource.java : 121] No URLs will be polled as dynamic configuration sources.
+2019-12-22 12:05:51,828 [INFO] [main] com.netflix.config.sources.URLConfigurationSource [URLConfigurationSource.java : 122] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-12-22 12:05:53,931 [WARN] [main] o.s.c.l.c.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger [BlockingLoadBalancerClientAutoConfiguration.java : 106] You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2019-12-22 12:05:54,044 [INFO] [main] org.springframework.cloud.netflix.eureka.InstanceInfoFactory [InstanceInfoFactory.java : 72] Setting initial instance status as: STARTING
+2019-12-22 12:05:54,124 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 365] Initializing Eureka in region us-east-1
+2019-12-22 12:05:54,349 [INFO] [main] com.netflix.discovery.provider.DiscoveryJerseyProvider [DiscoveryJerseyProvider.java : 70] Using JSON encoding codec LegacyJacksonJson
+2019-12-22 12:05:54,350 [INFO] [main] com.netflix.discovery.provider.DiscoveryJerseyProvider [DiscoveryJerseyProvider.java : 71] Using JSON decoding codec LegacyJacksonJson
+2019-12-22 12:05:54,501 [INFO] [main] com.netflix.discovery.provider.DiscoveryJerseyProvider [DiscoveryJerseyProvider.java : 80] Using XML encoding codec XStreamXml
+2019-12-22 12:05:54,501 [INFO] [main] com.netflix.discovery.provider.DiscoveryJerseyProvider [DiscoveryJerseyProvider.java : 81] Using XML decoding codec XStreamXml
+2019-12-22 12:05:54,669 [INFO] [main] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-22 12:05:55,030 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 976] Disable delta property : false
+2019-12-22 12:05:55,031 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 977] Single vip registry refresh property : null
+2019-12-22 12:05:55,031 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 978] Force full registry fetch : false
+2019-12-22 12:05:55,031 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 979] Application is null : false
+2019-12-22 12:05:55,032 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 980] Registered Applications size is zero : true
+2019-12-22 12:05:55,032 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 982] Application version is -1: true
+2019-12-22 12:05:55,032 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 1065] Getting all instance registry info from the eureka server
+2019-12-22 12:05:56,135 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 1074] The response status is 200
+2019-12-22 12:05:56,139 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 1288] Starting heartbeat executor: renew interval is: 30
+2019-12-22 12:05:56,142 [INFO] [main] com.netflix.discovery.InstanceInfoReplicator [InstanceInfoReplicator.java : 60] InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-12-22 12:05:56,146 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 465] Discovery Client initialized at timestamp 1576987556144 with initial instances count: 3
+2019-12-22 12:05:56,152 [INFO] [main] o.s.c.netflix.eureka.serviceregistry.EurekaServiceRegistry [EurekaServiceRegistry.java : 41] Registering application SEARCHSUMMONER-PRODUCER with eureka with status UP
+2019-12-22 12:05:56,152 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 1323] Saw local status change event StatusChangeEvent [timestamp=1576987556152, current=UP, previous=STARTING]
+2019-12-22 12:05:56,156 [INFO] [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 844] DiscoveryClient_SEARCHSUMMONER-PRODUCER/LAPTOP-9V9UUKHU:searchSummoner-producer:8002: registering service...
+2019-12-22 12:05:56,156 [INFO] [main] s.d.spring.web.plugins.DocumentationPluginsBootstrapper [DocumentationPluginsBootstrapper.java : 160] Context refreshed
+2019-12-22 12:05:56,182 [INFO] [main] s.d.spring.web.plugins.DocumentationPluginsBootstrapper [DocumentationPluginsBootstrapper.java : 163] Found 1 custom documentation plugin(s)
+2019-12-22 12:05:56,191 [INFO] [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 853] DiscoveryClient_SEARCHSUMMONER-PRODUCER/LAPTOP-9V9UUKHU:searchSummoner-producer:8002 - registration status: 204
+2019-12-22 12:05:56,224 [INFO] [main] s.d.spring.web.scanners.ApiListingReferenceScanner [ApiListingReferenceScanner.java : 41] Scanning for api listing references
+2019-12-22 12:05:56,431 [INFO] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [TomcatWebServer.java : 204] Tomcat started on port(s): 8002 (http) with context path ''
+2019-12-22 12:05:56,433 [INFO] [main] o.s.c.n.eureka.serviceregistry.EurekaAutoServiceRegistration [EurekaAutoServiceRegistration.java : 145] Updating port to 8002
+2019-12-22 12:05:56,926 [INFO] [main] c.e.searchSummonerservice.SearchSummonerServiceApplication [StartupInfoLogger.java : 61] Started SearchSummonerServiceApplication in 11.963 seconds (JVM running for 12.785)
+2019-12-22 12:06:03,667 [INFO] [http-nio-8002-exec-1] o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [DirectJDKLog.java : 173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-22 12:06:03,667 [INFO] [http-nio-8002-exec-1] org.springframework.web.servlet.DispatcherServlet [FrameworkServlet.java : 525] Initializing Servlet 'dispatcherServlet'
+2019-12-22 12:06:03,677 [INFO] [http-nio-8002-exec-1] org.springframework.web.servlet.DispatcherServlet [FrameworkServlet.java : 547] Completed initialization in 9 ms
+2019-12-22 12:06:03,728 [INFO] [http-nio-8002-exec-1] com.eruka.searchSummonerservice.controller.SearchController [SearchController.java : 112] start
+2019-12-22 12:06:04,763 [INFO] [http-nio-8002-exec-1] com.eruka.searchSummonerservice.controller.SearchController [SearchController.java : 133] 9c6LNojbnlWKnFb0V7aDWnuFJx0VmIGEspng2s00Th04hx8uGlaHjT5fFZHPhJsR0FNjSEy0195BDWcgm-Xc5jRUqD7owCJggzLpo6zi
+2019-12-22 12:06:05,330 [INFO] [http-nio-8002-exec-1] com.eruka.searchSummonerservice.controller.SearchController [SearchController.java : 159] 段位找到了
+2019-12-22 12:06:06,399 [INFO] [http-nio-8002-exec-1] com.eruka.searchSummonerservice.controller.SearchController [SearchController.java : 183] 英雄找到了
+2019-12-22 12:06:06,992 [INFO] [http-nio-8002-exec-1] com.eruka.searchSummonerservice.controller.SearchController [SearchController.java : 66] 开始找到第一个了
+2019-12-22 12:06:07,781 [INFO] [http-nio-8002-exec-1] com.eruka.searchSummonerservice.controller.SearchController [SearchController.java : 83] 开始找了
+2019-12-22 12:06:07,782 [INFO] [http-nio-8002-exec-1] com.eruka.searchSummonerservice.controller.SearchController [SearchController.java : 83] 开始找了
+2019-12-22 12:06:07,782 [INFO] [http-nio-8002-exec-1] com.eruka.searchSummonerservice.controller.SearchController [SearchController.java : 83] 开始找了
+2019-12-22 12:06:07,783 [INFO] [http-nio-8002-exec-1] com.eruka.searchSummonerservice.controller.SearchController [SearchController.java : 100] 找到第一个了
+2019-12-22 12:06:07,783 [INFO] [http-nio-8002-exec-1] com.eruka.searchSummonerservice.controller.SearchController [SearchController.java : 66] 开始找到第一个了
+2019-12-22 12:06:08,931 [INFO] [http-nio-8002-exec-1] com.eruka.searchSummonerservice.controller.SearchController [SearchController.java : 83] 开始找了
+2019-12-22 12:06:08,931 [INFO] [http-nio-8002-exec-1] com.eruka.searchSummonerservice.controller.SearchController [SearchController.java : 100] 找到第一个了
+2019-12-22 12:06:08,932 [INFO] [http-nio-8002-exec-1] com.eruka.searchSummonerservice.controller.SearchController [SearchController.java : 66] 开始找到第一个了
+2019-12-22 12:06:11,130 [INFO] [http-nio-8002-exec-1] com.eruka.searchSummonerservice.controller.SearchController [SearchController.java : 83] 开始找了
+2019-12-22 12:06:11,131 [INFO] [http-nio-8002-exec-1] com.eruka.searchSummonerservice.controller.SearchController [SearchController.java : 100] 找到第一个了
+2019-12-22 12:06:11,131 [INFO] [http-nio-8002-exec-1] com.eruka.searchSummonerservice.controller.SearchController [SearchController.java : 66] 开始找到第一个了
+2019-12-22 12:06:13,858 [INFO] [http-nio-8002-exec-1] com.eruka.searchSummonerservice.controller.SearchController [SearchController.java : 83] 开始找了
+2019-12-22 12:06:13,859 [INFO] [http-nio-8002-exec-1] com.eruka.searchSummonerservice.controller.SearchController [SearchController.java : 83] 开始找了
+2019-12-22 12:06:13,860 [INFO] [http-nio-8002-exec-1] com.eruka.searchSummonerservice.controller.SearchController [SearchController.java : 83] 开始找了
+2019-12-22 12:06:13,861 [INFO] [http-nio-8002-exec-1] com.eruka.searchSummonerservice.controller.SearchController [SearchController.java : 100] 找到第一个了
+2019-12-22 12:06:13,861 [INFO] [http-nio-8002-exec-1] com.eruka.searchSummonerservice.controller.SearchController [SearchController.java : 66] 开始找到第一个了
+2019-12-22 12:06:15,281 [INFO] [http-nio-8002-exec-1] com.eruka.searchSummonerservice.controller.SearchController [SearchController.java : 83] 开始找了
+2019-12-22 12:06:15,281 [INFO] [http-nio-8002-exec-1] com.eruka.searchSummonerservice.controller.SearchController [SearchController.java : 83] 开始找了
+2019-12-22 12:06:15,281 [INFO] [http-nio-8002-exec-1] com.eruka.searchSummonerservice.controller.SearchController [SearchController.java : 83] 开始找了
+2019-12-22 12:06:15,282 [INFO] [http-nio-8002-exec-1] com.eruka.searchSummonerservice.controller.SearchController [SearchController.java : 83] 开始找了
+2019-12-22 12:06:15,282 [INFO] [http-nio-8002-exec-1] com.eruka.searchSummonerservice.controller.SearchController [SearchController.java : 83] 开始找了
+2019-12-22 12:06:15,282 [INFO] [http-nio-8002-exec-1] com.eruka.searchSummonerservice.controller.SearchController [SearchController.java : 83] 开始找了
+2019-12-22 12:06:15,282 [INFO] [http-nio-8002-exec-1] com.eruka.searchSummonerservice.controller.SearchController [SearchController.java : 83] 开始找了
+2019-12-22 12:06:15,283 [INFO] [http-nio-8002-exec-1] com.eruka.searchSummonerservice.controller.SearchController [SearchController.java : 83] 开始找了
+2019-12-22 12:06:15,283 [INFO] [http-nio-8002-exec-1] com.eruka.searchSummonerservice.controller.SearchController [SearchController.java : 83] 开始找了
+2019-12-22 12:06:15,283 [INFO] [http-nio-8002-exec-1] com.eruka.searchSummonerservice.controller.SearchController [SearchController.java : 83] 开始找了
+2019-12-22 12:06:15,283 [INFO] [http-nio-8002-exec-1] com.eruka.searchSummonerservice.controller.SearchController [SearchController.java : 100] 找到第一个了
+2019-12-22 12:06:15,284 [INFO] [http-nio-8002-exec-1] com.eruka.searchSummonerservice.controller.SearchController [SearchController.java : 198] success
+2019-12-22 12:10:55,035 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-22 12:15:55,036 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-22 12:20:55,039 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-22 12:25:55,040 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-22 12:30:55,041 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-22 12:35:55,042 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-22 12:40:55,045 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-22 12:45:55,047 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-22 12:50:55,048 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-22 12:55:10,519 [INFO] [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-22 12:55:11,233 [INFO] [main] c.e.searchSummonerservice.SearchSummonerServiceApplication [SpringApplication.java : 651] No active profile set, falling back to default profiles: default
+2019-12-22 12:55:11,919 [WARN] [main] org.springframework.boot.actuate.endpoint.EndpointId [EndpointId.java : 155] Endpoint ID 'hystrix.stream' contains invalid characters, please migrate to a valid format.
+2019-12-22 12:55:12,572 [WARN] [main] org.springframework.boot.actuate.endpoint.EndpointId [EndpointId.java : 155] Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2019-12-22 12:55:12,670 [WARN] [main] org.mybatis.spring.mapper.ClassPathMapperScanner [Logger.java : 44] No MyBatis mapper was found in '[com.eruka.searchSummonerservice]' package. Please check your configuration.
+2019-12-22 12:55:12,764 [INFO] [main] org.springframework.cloud.context.scope.GenericScope [GenericScope.java : 295] BeanFactory id=cac7cda7-a140-3ce0-9466-694fd0419514
+2019-12-22 12:55:13,003 [INFO] [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-22 12:55:13,311 [INFO] [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-22 12:55:13,975 [INFO] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [TomcatWebServer.java : 92] Tomcat initialized with port(s): 8002 (http)
+2019-12-22 12:55:13,985 [INFO] [main] org.apache.catalina.core.StandardService [DirectJDKLog.java : 173] Starting service [Tomcat]
+2019-12-22 12:55:13,986 [INFO] [main] org.apache.catalina.core.StandardEngine [DirectJDKLog.java : 173] Starting Servlet engine: [Apache Tomcat/9.0.29]
+2019-12-22 12:55:14,207 [INFO] [main] o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [DirectJDKLog.java : 173] Initializing Spring embedded WebApplicationContext
+2019-12-22 12:55:14,208 [INFO] [main] org.springframework.web.context.ContextLoader [ServletWebServerApplicationContext.java : 284] Root WebApplicationContext: initialization completed in 2952 ms
+2019-12-22 12:55:14,325 [WARN] [main] com.netflix.config.sources.URLConfigurationSource [URLConfigurationSource.java : 121] No URLs will be polled as dynamic configuration sources.
+2019-12-22 12:55:14,326 [INFO] [main] com.netflix.config.sources.URLConfigurationSource [URLConfigurationSource.java : 122] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-12-22 12:55:14,339 [INFO] [main] com.netflix.config.DynamicPropertyFactory [DynamicPropertyFactory.java : 281] DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@f10d055
+2019-12-22 12:55:14,560 [INFO] [main] o.s.boot.actuate.endpoint.web.ServletEndpointRegistrar [ServletEndpointRegistrar.java : 75] Registered '/actuator/hystrix.stream' to hystrix.stream-actuator-endpoint
+2019-12-22 12:55:14,937 [INFO] [main] o.s.boot.actuate.endpoint.web.EndpointLinksResolver [EndpointLinksResolver.java : 58] Exposing 1 endpoint(s) beneath base path '/actuator'
+2019-12-22 12:55:15,162 [INFO] [main] s.d.spring.web.PropertySourcedRequestMappingHandlerMapping [PropertySourcedRequestMappingHandlerMapping.java : 69] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2019-12-22 12:55:15,187 [WARN] [main] com.netflix.config.sources.URLConfigurationSource [URLConfigurationSource.java : 121] No URLs will be polled as dynamic configuration sources.
+2019-12-22 12:55:15,188 [INFO] [main] com.netflix.config.sources.URLConfigurationSource [URLConfigurationSource.java : 122] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-12-22 12:55:17,232 [WARN] [main] o.s.c.l.c.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger [BlockingLoadBalancerClientAutoConfiguration.java : 106] You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2019-12-22 12:55:17,342 [INFO] [main] org.springframework.cloud.netflix.eureka.InstanceInfoFactory [InstanceInfoFactory.java : 72] Setting initial instance status as: STARTING
+2019-12-22 12:55:17,409 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 365] Initializing Eureka in region us-east-1
+2019-12-22 12:55:17,593 [INFO] [main] com.netflix.discovery.provider.DiscoveryJerseyProvider [DiscoveryJerseyProvider.java : 70] Using JSON encoding codec LegacyJacksonJson
+2019-12-22 12:55:17,593 [INFO] [main] com.netflix.discovery.provider.DiscoveryJerseyProvider [DiscoveryJerseyProvider.java : 71] Using JSON decoding codec LegacyJacksonJson
+2019-12-22 12:55:17,758 [INFO] [main] com.netflix.discovery.provider.DiscoveryJerseyProvider [DiscoveryJerseyProvider.java : 80] Using XML encoding codec XStreamXml
+2019-12-22 12:55:17,758 [INFO] [main] com.netflix.discovery.provider.DiscoveryJerseyProvider [DiscoveryJerseyProvider.java : 81] Using XML decoding codec XStreamXml
+2019-12-22 12:55:17,915 [INFO] [main] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-22 12:55:18,259 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 976] Disable delta property : false
+2019-12-22 12:55:18,259 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 977] Single vip registry refresh property : null
+2019-12-22 12:55:18,259 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 978] Force full registry fetch : false
+2019-12-22 12:55:18,260 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 979] Application is null : false
+2019-12-22 12:55:18,260 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 980] Registered Applications size is zero : true
+2019-12-22 12:55:18,260 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 982] Application version is -1: true
+2019-12-22 12:55:18,261 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 1065] Getting all instance registry info from the eureka server
+2019-12-22 12:55:18,422 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 1074] The response status is 200
+2019-12-22 12:55:18,426 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 1288] Starting heartbeat executor: renew interval is: 30
+2019-12-22 12:55:18,429 [INFO] [main] com.netflix.discovery.InstanceInfoReplicator [InstanceInfoReplicator.java : 60] InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-12-22 12:55:18,434 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 465] Discovery Client initialized at timestamp 1576990518432 with initial instances count: 2
+2019-12-22 12:55:18,440 [INFO] [main] o.s.c.netflix.eureka.serviceregistry.EurekaServiceRegistry [EurekaServiceRegistry.java : 41] Registering application SEARCHSUMMONER-PRODUCER with eureka with status UP
+2019-12-22 12:55:18,690 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 1323] Saw local status change event StatusChangeEvent [timestamp=1576990518690, current=UP, previous=STARTING]
+2019-12-22 12:55:18,692 [INFO] [main] s.d.spring.web.plugins.DocumentationPluginsBootstrapper [DocumentationPluginsBootstrapper.java : 160] Context refreshed
+2019-12-22 12:55:18,692 [INFO] [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 844] DiscoveryClient_SEARCHSUMMONER-PRODUCER/LAPTOP-9V9UUKHU:searchSummoner-producer:8002: registering service...
+2019-12-22 12:55:18,715 [INFO] [main] s.d.spring.web.plugins.DocumentationPluginsBootstrapper [DocumentationPluginsBootstrapper.java : 163] Found 1 custom documentation plugin(s)
+2019-12-22 12:55:18,730 [INFO] [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 853] DiscoveryClient_SEARCHSUMMONER-PRODUCER/LAPTOP-9V9UUKHU:searchSummoner-producer:8002 - registration status: 204
+2019-12-22 12:55:18,766 [INFO] [main] s.d.spring.web.scanners.ApiListingReferenceScanner [ApiListingReferenceScanner.java : 41] Scanning for api listing references
+2019-12-22 12:55:18,936 [INFO] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [TomcatWebServer.java : 204] Tomcat started on port(s): 8002 (http) with context path ''
+2019-12-22 12:55:18,937 [INFO] [main] o.s.c.n.eureka.serviceregistry.EurekaAutoServiceRegistration [EurekaAutoServiceRegistration.java : 145] Updating port to 8002
+2019-12-22 12:55:19,428 [INFO] [main] c.e.searchSummonerservice.SearchSummonerServiceApplication [StartupInfoLogger.java : 61] Started SearchSummonerServiceApplication in 10.479 seconds (JVM running for 11.262)
+2019-12-22 12:56:32,584 [INFO] [http-nio-8002-exec-1] o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [DirectJDKLog.java : 173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-22 12:56:32,585 [INFO] [http-nio-8002-exec-1] org.springframework.web.servlet.DispatcherServlet [FrameworkServlet.java : 525] Initializing Servlet 'dispatcherServlet'
+2019-12-22 12:56:32,601 [INFO] [http-nio-8002-exec-1] org.springframework.web.servlet.DispatcherServlet [FrameworkServlet.java : 547] Completed initialization in 16 ms
+2019-12-22 12:56:38,171 [INFO] [http-nio-8002-exec-2] com.eruka.searchSummonerservice.controller.SearchController [SearchController.java : 112] start
+2019-12-22 12:56:59,257 [ERROR] [http-nio-8002-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/].[dispatcherServlet] [DirectJDKLog.java : 175] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+java.net.ConnectException: Connection timed out: connect
+	at java.base/java.net.PlainSocketImpl.connect0(Native Method)
+	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:101)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:399)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:242)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:224)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:403)
+	at java.base/java.net.Socket.connect(Socket.java:591)
+	at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:285)
+	at java.base/sun.security.ssl.BaseSSLSocketImpl.connect(BaseSSLSocketImpl.java:173)
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:182)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:474)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:569)
+	at java.base/sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:265)
+	at java.base/sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:372)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:193)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1181)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1075)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:179)
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.connect(HttpsURLConnectionImpl.java:164)
+	at com.eruka.searchSummonerservice.controller.SearchController.getSummonerInfo(SearchController.java:120)
+	at com.eruka.searchSummonerservice.controller.SearchController$$FastClassBySpringCGLIB$$d0fbc26a.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:769)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.cache.interceptor.CacheInterceptor.lambda$invoke$0(CacheInterceptor.java:53)
+	at org.springframework.cache.interceptor.CacheAspectSupport.invokeOperation(CacheAspectSupport.java:365)
+	at org.springframework.cache.interceptor.CacheAspectSupport.execute(CacheAspectSupport.java:420)
+	at org.springframework.cache.interceptor.CacheAspectSupport.execute(CacheAspectSupport.java:345)
+	at org.springframework.cache.interceptor.CacheInterceptor.invoke(CacheInterceptor.java:61)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:689)
+	at com.eruka.searchSummonerservice.controller.SearchController$$EnhancerBySpringCGLIB$$586c610e.getSummonerInfo(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:888)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:108)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1591)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+2019-12-22 12:57:25,640 [INFO] [http-nio-8002-exec-3] com.eruka.searchSummonerservice.controller.SearchController [SearchController.java : 112] start
+2019-12-22 12:57:28,852 [INFO] [http-nio-8002-exec-3] com.eruka.searchSummonerservice.controller.SearchController [SearchController.java : 133] 9c6LNojbnlWKnFb0V7aDWnuFJx0VmIGEspng2s00Th04hx8uGlaHjT5fFZHPhJsR0FNjSEy0195BDWcgm-Xc5jRUqD7owCJggzLpo6zi
+2019-12-22 12:57:30,347 [INFO] [http-nio-8002-exec-3] com.eruka.searchSummonerservice.controller.SearchController [SearchController.java : 159] 段位找到了
+2019-12-22 12:57:31,530 [INFO] [http-nio-8002-exec-3] com.eruka.searchSummonerservice.controller.SearchController [SearchController.java : 183] 英雄找到了
+2019-12-22 12:57:32,623 [INFO] [http-nio-8002-exec-3] com.eruka.searchSummonerservice.controller.SearchController [SearchController.java : 66] 开始找到第一个了
+2019-12-22 12:57:33,754 [INFO] [http-nio-8002-exec-3] com.eruka.searchSummonerservice.controller.SearchController [SearchController.java : 83] 开始找了
+2019-12-22 12:57:33,755 [INFO] [http-nio-8002-exec-3] com.eruka.searchSummonerservice.controller.SearchController [SearchController.java : 83] 开始找了
+2019-12-22 12:57:33,755 [INFO] [http-nio-8002-exec-3] com.eruka.searchSummonerservice.controller.SearchController [SearchController.java : 83] 开始找了
+2019-12-22 12:57:33,755 [INFO] [http-nio-8002-exec-3] com.eruka.searchSummonerservice.controller.SearchController [SearchController.java : 100] 找到第一个了
+2019-12-22 12:57:33,755 [INFO] [http-nio-8002-exec-3] com.eruka.searchSummonerservice.controller.SearchController [SearchController.java : 66] 开始找到第一个了
+2019-12-22 12:57:36,331 [INFO] [http-nio-8002-exec-3] com.eruka.searchSummonerservice.controller.SearchController [SearchController.java : 83] 开始找了
+2019-12-22 12:57:36,332 [INFO] [http-nio-8002-exec-3] com.eruka.searchSummonerservice.controller.SearchController [SearchController.java : 100] 找到第一个了
+2019-12-22 12:57:36,333 [INFO] [http-nio-8002-exec-3] com.eruka.searchSummonerservice.controller.SearchController [SearchController.java : 66] 开始找到第一个了
+2019-12-22 12:57:37,907 [INFO] [http-nio-8002-exec-3] com.eruka.searchSummonerservice.controller.SearchController [SearchController.java : 83] 开始找了
+2019-12-22 12:57:37,907 [INFO] [http-nio-8002-exec-3] com.eruka.searchSummonerservice.controller.SearchController [SearchController.java : 100] 找到第一个了
+2019-12-22 12:57:37,908 [INFO] [http-nio-8002-exec-3] com.eruka.searchSummonerservice.controller.SearchController [SearchController.java : 66] 开始找到第一个了
+2019-12-22 12:57:39,797 [INFO] [http-nio-8002-exec-3] com.eruka.searchSummonerservice.controller.SearchController [SearchController.java : 83] 开始找了
+2019-12-22 12:57:39,797 [INFO] [http-nio-8002-exec-3] com.eruka.searchSummonerservice.controller.SearchController [SearchController.java : 83] 开始找了
+2019-12-22 12:57:39,798 [INFO] [http-nio-8002-exec-3] com.eruka.searchSummonerservice.controller.SearchController [SearchController.java : 83] 开始找了
+2019-12-22 12:57:39,798 [INFO] [http-nio-8002-exec-3] com.eruka.searchSummonerservice.controller.SearchController [SearchController.java : 100] 找到第一个了
+2019-12-22 12:57:39,798 [INFO] [http-nio-8002-exec-3] com.eruka.searchSummonerservice.controller.SearchController [SearchController.java : 66] 开始找到第一个了
+2019-12-22 12:57:44,753 [INFO] [http-nio-8002-exec-3] com.eruka.searchSummonerservice.controller.SearchController [SearchController.java : 83] 开始找了
+2019-12-22 12:57:44,754 [INFO] [http-nio-8002-exec-3] com.eruka.searchSummonerservice.controller.SearchController [SearchController.java : 83] 开始找了
+2019-12-22 12:57:44,755 [INFO] [http-nio-8002-exec-3] com.eruka.searchSummonerservice.controller.SearchController [SearchController.java : 83] 开始找了
+2019-12-22 12:57:44,755 [INFO] [http-nio-8002-exec-3] com.eruka.searchSummonerservice.controller.SearchController [SearchController.java : 83] 开始找了
+2019-12-22 12:57:44,755 [INFO] [http-nio-8002-exec-3] com.eruka.searchSummonerservice.controller.SearchController [SearchController.java : 83] 开始找了
+2019-12-22 12:57:44,756 [INFO] [http-nio-8002-exec-3] com.eruka.searchSummonerservice.controller.SearchController [SearchController.java : 83] 开始找了
+2019-12-22 12:57:44,756 [INFO] [http-nio-8002-exec-3] com.eruka.searchSummonerservice.controller.SearchController [SearchController.java : 83] 开始找了
+2019-12-22 12:57:44,756 [INFO] [http-nio-8002-exec-3] com.eruka.searchSummonerservice.controller.SearchController [SearchController.java : 83] 开始找了
+2019-12-22 12:57:44,756 [INFO] [http-nio-8002-exec-3] com.eruka.searchSummonerservice.controller.SearchController [SearchController.java : 83] 开始找了
+2019-12-22 12:57:44,757 [INFO] [http-nio-8002-exec-3] com.eruka.searchSummonerservice.controller.SearchController [SearchController.java : 83] 开始找了
+2019-12-22 12:57:44,757 [INFO] [http-nio-8002-exec-3] com.eruka.searchSummonerservice.controller.SearchController [SearchController.java : 100] 找到第一个了
+2019-12-22 12:57:44,757 [INFO] [http-nio-8002-exec-3] com.eruka.searchSummonerservice.controller.SearchController [SearchController.java : 198] success
+2019-12-22 13:00:18,264 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-22 13:05:18,265 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-22 13:10:18,266 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-22 13:15:18,269 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-22 13:20:18,271 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-22 13:25:18,273 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-22 13:30:18,276 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-22 13:35:18,279 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-22 13:40:18,415 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-22 13:45:18,416 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-22 13:50:18,418 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-22 13:59:33,072 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration

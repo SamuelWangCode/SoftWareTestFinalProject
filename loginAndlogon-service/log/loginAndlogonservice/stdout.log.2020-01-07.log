@@ -1,0 +1,330 @@
+2020-01-07 18:13:42,405 [INFO] [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-01-07 18:13:43,944 [INFO] [main] c.eruka.loginAndlogonservice.LoginAndlogonServiceApplication [SpringApplication.java : 651] No active profile set, falling back to default profiles: default
+2020-01-07 18:13:44,555 [WARN] [main] org.springframework.boot.actuate.endpoint.EndpointId [EndpointId.java : 155] Endpoint ID 'hystrix.stream' contains invalid characters, please migrate to a valid format.
+2020-01-07 18:13:45,338 [WARN] [main] org.springframework.boot.actuate.endpoint.EndpointId [EndpointId.java : 155] Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2020-01-07 18:13:45,601 [INFO] [main] org.springframework.cloud.context.scope.GenericScope [GenericScope.java : 295] BeanFactory id=968d95c9-a4aa-3a4a-ace0-b8f63f40030b
+2020-01-07 18:13:45,878 [INFO] [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-01-07 18:13:46,259 [INFO] [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-01-07 18:13:46,991 [INFO] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [TomcatWebServer.java : 92] Tomcat initialized with port(s): 8001 (http)
+2020-01-07 18:13:47,007 [INFO] [main] org.apache.catalina.core.StandardService [DirectJDKLog.java : 173] Starting service [Tomcat]
+2020-01-07 18:13:47,008 [INFO] [main] org.apache.catalina.core.StandardEngine [DirectJDKLog.java : 173] Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-01-07 18:13:47,280 [INFO] [main] o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [DirectJDKLog.java : 173] Initializing Spring embedded WebApplicationContext
+2020-01-07 18:13:47,280 [INFO] [main] org.springframework.web.context.ContextLoader [ServletWebServerApplicationContext.java : 284] Root WebApplicationContext: initialization completed in 3318 ms
+2020-01-07 18:13:47,400 [WARN] [main] com.netflix.config.sources.URLConfigurationSource [URLConfigurationSource.java : 121] No URLs will be polled as dynamic configuration sources.
+2020-01-07 18:13:47,401 [INFO] [main] com.netflix.config.sources.URLConfigurationSource [URLConfigurationSource.java : 122] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-01-07 18:13:47,420 [INFO] [main] com.netflix.config.DynamicPropertyFactory [DynamicPropertyFactory.java : 281] DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@a95cb11
+2020-01-07 18:13:47,708 [INFO] [main] o.s.boot.actuate.endpoint.web.ServletEndpointRegistrar [ServletEndpointRegistrar.java : 75] Registered '/actuator/hystrix.stream' to hystrix.stream-actuator-endpoint
+2020-01-07 18:13:48,553 [INFO] [main] o.s.boot.actuate.endpoint.web.EndpointLinksResolver [EndpointLinksResolver.java : 58] Exposing 1 endpoint(s) beneath base path '/actuator'
+2020-01-07 18:13:48,840 [INFO] [main] s.d.spring.web.PropertySourcedRequestMappingHandlerMapping [PropertySourcedRequestMappingHandlerMapping.java : 69] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-01-07 18:13:48,875 [WARN] [main] com.netflix.config.sources.URLConfigurationSource [URLConfigurationSource.java : 121] No URLs will be polled as dynamic configuration sources.
+2020-01-07 18:13:48,875 [INFO] [main] com.netflix.config.sources.URLConfigurationSource [URLConfigurationSource.java : 122] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-01-07 18:13:51,485 [INFO] [main] org.springframework.cloud.commons.util.InetUtils [InetUtils.java : 170] Cannot determine local hostname
+2020-01-07 18:13:52,939 [INFO] [main] org.springframework.cloud.commons.util.InetUtils [InetUtils.java : 170] Cannot determine local hostname
+2020-01-07 18:13:54,875 [INFO] [main] org.springframework.cloud.commons.util.InetUtils [InetUtils.java : 170] Cannot determine local hostname
+2020-01-07 18:13:54,965 [WARN] [main] o.s.c.l.c.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger [BlockingLoadBalancerClientAutoConfiguration.java : 106] You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2020-01-07 18:13:55,087 [WARN] [main] o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger [LoadBalancerCacheAutoConfiguration.java : 81] Spring Cloud LoadBalancer is currently working with default default cache. You can switch to using Caffeine cache, by adding it to the classpath.
+2020-01-07 18:13:55,207 [INFO] [main] org.springframework.cloud.netflix.eureka.InstanceInfoFactory [InstanceInfoFactory.java : 72] Setting initial instance status as: STARTING
+2020-01-07 18:13:55,321 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 365] Initializing Eureka in region us-east-1
+2020-01-07 18:13:55,684 [INFO] [main] com.netflix.discovery.provider.DiscoveryJerseyProvider [DiscoveryJerseyProvider.java : 70] Using JSON encoding codec LegacyJacksonJson
+2020-01-07 18:13:55,685 [INFO] [main] com.netflix.discovery.provider.DiscoveryJerseyProvider [DiscoveryJerseyProvider.java : 71] Using JSON decoding codec LegacyJacksonJson
+2020-01-07 18:13:55,993 [INFO] [main] com.netflix.discovery.provider.DiscoveryJerseyProvider [DiscoveryJerseyProvider.java : 80] Using XML encoding codec XStreamXml
+2020-01-07 18:13:55,994 [INFO] [main] com.netflix.discovery.provider.DiscoveryJerseyProvider [DiscoveryJerseyProvider.java : 81] Using XML decoding codec XStreamXml
+2020-01-07 18:13:56,291 [INFO] [main] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2020-01-07 18:13:56,863 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 976] Disable delta property : false
+2020-01-07 18:13:56,866 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 977] Single vip registry refresh property : null
+2020-01-07 18:13:56,871 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 978] Force full registry fetch : false
+2020-01-07 18:13:56,877 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 979] Application is null : false
+2020-01-07 18:13:56,889 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 980] Registered Applications size is zero : true
+2020-01-07 18:13:56,899 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 982] Application version is -1: true
+2020-01-07 18:13:56,906 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 1065] Getting all instance registry info from the eureka server
+2020-01-07 18:13:57,630 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 1074] The response status is 200
+2020-01-07 18:13:57,639 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 1288] Starting heartbeat executor: renew interval is: 30
+2020-01-07 18:13:57,654 [INFO] [main] com.netflix.discovery.InstanceInfoReplicator [InstanceInfoReplicator.java : 60] InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-01-07 18:13:57,746 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 465] Discovery Client initialized at timestamp 1578392037727 with initial instances count: 0
+2020-01-07 18:13:57,799 [INFO] [main] o.s.c.netflix.eureka.serviceregistry.EurekaServiceRegistry [EurekaServiceRegistry.java : 41] Registering application LOGINANDLOGON-PRODUCER with eureka with status UP
+2020-01-07 18:13:57,811 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 1323] Saw local status change event StatusChangeEvent [timestamp=1578392037810, current=UP, previous=STARTING]
+2020-01-07 18:13:57,866 [INFO] [main] s.d.spring.web.plugins.DocumentationPluginsBootstrapper [DocumentationPluginsBootstrapper.java : 160] Context refreshed
+2020-01-07 18:13:57,861 [INFO] [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 844] DiscoveryClient_LOGINANDLOGON-PRODUCER/localhost:loginAndlogon-producer:8001: registering service...
+2020-01-07 18:13:58,010 [INFO] [main] s.d.spring.web.plugins.DocumentationPluginsBootstrapper [DocumentationPluginsBootstrapper.java : 163] Found 1 custom documentation plugin(s)
+2020-01-07 18:13:58,141 [INFO] [main] s.d.spring.web.scanners.ApiListingReferenceScanner [ApiListingReferenceScanner.java : 41] Scanning for api listing references
+2020-01-07 18:13:58,143 [INFO] [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 853] DiscoveryClient_LOGINANDLOGON-PRODUCER/localhost:loginAndlogon-producer:8001 - registration status: 204
+2020-01-07 18:13:58,903 [INFO] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [TomcatWebServer.java : 204] Tomcat started on port(s): 8001 (http) with context path ''
+2020-01-07 18:13:58,906 [INFO] [main] o.s.c.n.eureka.serviceregistry.EurekaAutoServiceRegistration [EurekaAutoServiceRegistration.java : 145] Updating port to 8001
+2020-01-07 18:14:01,567 [INFO] [main] org.springframework.cloud.commons.util.InetUtils [InetUtils.java : 170] Cannot determine local hostname
+2020-01-07 18:14:01,572 [INFO] [main] c.eruka.loginAndlogonservice.LoginAndlogonServiceApplication [StartupInfoLogger.java : 61] Started LoginAndlogonServiceApplication in 21.33 seconds (JVM running for 21.989)
+2020-01-07 18:14:27,833 [INFO] [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 976] Disable delta property : false
+2020-01-07 18:14:27,841 [INFO] [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 977] Single vip registry refresh property : null
+2020-01-07 18:14:27,842 [INFO] [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 978] Force full registry fetch : false
+2020-01-07 18:14:27,842 [INFO] [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 979] Application is null : false
+2020-01-07 18:14:27,843 [INFO] [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 980] Registered Applications size is zero : true
+2020-01-07 18:14:27,843 [INFO] [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 982] Application version is -1: false
+2020-01-07 18:14:27,844 [INFO] [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 1065] Getting all instance registry info from the eureka server
+2020-01-07 18:14:27,989 [INFO] [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 1074] The response status is 200
+2020-01-07 18:16:30,700 [INFO] [http-nio-8001-exec-1] o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [DirectJDKLog.java : 173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-01-07 18:16:30,701 [INFO] [http-nio-8001-exec-1] org.springframework.web.servlet.DispatcherServlet [FrameworkServlet.java : 525] Initializing Servlet 'dispatcherServlet'
+2020-01-07 18:16:30,730 [INFO] [http-nio-8001-exec-1] org.springframework.web.servlet.DispatcherServlet [FrameworkServlet.java : 547] Completed initialization in 29 ms
+2020-01-07 18:18:56,920 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2020-01-07 18:23:56,923 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2020-01-07 18:31:24,611 [INFO] [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-01-07 18:31:26,249 [INFO] [main] c.eruka.loginAndlogonservice.LoginAndlogonServiceApplication [SpringApplication.java : 651] No active profile set, falling back to default profiles: default
+2020-01-07 18:31:27,089 [WARN] [main] org.springframework.boot.actuate.endpoint.EndpointId [EndpointId.java : 155] Endpoint ID 'hystrix.stream' contains invalid characters, please migrate to a valid format.
+2020-01-07 18:31:28,346 [WARN] [main] org.springframework.boot.actuate.endpoint.EndpointId [EndpointId.java : 155] Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2020-01-07 18:31:28,639 [INFO] [main] org.springframework.cloud.context.scope.GenericScope [GenericScope.java : 295] BeanFactory id=968d95c9-a4aa-3a4a-ace0-b8f63f40030b
+2020-01-07 18:31:28,932 [INFO] [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-01-07 18:31:29,232 [INFO] [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-01-07 18:31:29,915 [INFO] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [TomcatWebServer.java : 92] Tomcat initialized with port(s): 8001 (http)
+2020-01-07 18:31:29,928 [INFO] [main] org.apache.catalina.core.StandardService [DirectJDKLog.java : 173] Starting service [Tomcat]
+2020-01-07 18:31:29,929 [INFO] [main] org.apache.catalina.core.StandardEngine [DirectJDKLog.java : 173] Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-01-07 18:31:30,143 [INFO] [main] o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [DirectJDKLog.java : 173] Initializing Spring embedded WebApplicationContext
+2020-01-07 18:31:30,144 [INFO] [main] org.springframework.web.context.ContextLoader [ServletWebServerApplicationContext.java : 284] Root WebApplicationContext: initialization completed in 3867 ms
+2020-01-07 18:31:30,277 [WARN] [main] com.netflix.config.sources.URLConfigurationSource [URLConfigurationSource.java : 121] No URLs will be polled as dynamic configuration sources.
+2020-01-07 18:31:30,278 [INFO] [main] com.netflix.config.sources.URLConfigurationSource [URLConfigurationSource.java : 122] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-01-07 18:31:30,291 [INFO] [main] com.netflix.config.DynamicPropertyFactory [DynamicPropertyFactory.java : 281] DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@27438750
+2020-01-07 18:31:30,536 [INFO] [main] o.s.boot.actuate.endpoint.web.ServletEndpointRegistrar [ServletEndpointRegistrar.java : 75] Registered '/actuator/hystrix.stream' to hystrix.stream-actuator-endpoint
+2020-01-07 18:31:31,269 [INFO] [main] o.s.boot.actuate.endpoint.web.EndpointLinksResolver [EndpointLinksResolver.java : 58] Exposing 1 endpoint(s) beneath base path '/actuator'
+2020-01-07 18:31:31,505 [INFO] [main] s.d.spring.web.PropertySourcedRequestMappingHandlerMapping [PropertySourcedRequestMappingHandlerMapping.java : 69] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-01-07 18:31:31,529 [WARN] [main] com.netflix.config.sources.URLConfigurationSource [URLConfigurationSource.java : 121] No URLs will be polled as dynamic configuration sources.
+2020-01-07 18:31:31,529 [INFO] [main] com.netflix.config.sources.URLConfigurationSource [URLConfigurationSource.java : 122] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-01-07 18:31:33,523 [INFO] [main] org.springframework.cloud.commons.util.InetUtils [InetUtils.java : 170] Cannot determine local hostname
+2020-01-07 18:31:35,003 [INFO] [main] org.springframework.cloud.commons.util.InetUtils [InetUtils.java : 170] Cannot determine local hostname
+2020-01-07 18:31:36,646 [INFO] [main] org.springframework.cloud.commons.util.InetUtils [InetUtils.java : 170] Cannot determine local hostname
+2020-01-07 18:31:36,702 [WARN] [main] o.s.c.l.c.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger [BlockingLoadBalancerClientAutoConfiguration.java : 106] You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2020-01-07 18:31:36,769 [WARN] [main] o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger [LoadBalancerCacheAutoConfiguration.java : 81] Spring Cloud LoadBalancer is currently working with default default cache. You can switch to using Caffeine cache, by adding it to the classpath.
+2020-01-07 18:31:36,849 [INFO] [main] org.springframework.cloud.netflix.eureka.InstanceInfoFactory [InstanceInfoFactory.java : 72] Setting initial instance status as: STARTING
+2020-01-07 18:31:36,997 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 365] Initializing Eureka in region us-east-1
+2020-01-07 18:31:37,464 [INFO] [main] com.netflix.discovery.provider.DiscoveryJerseyProvider [DiscoveryJerseyProvider.java : 70] Using JSON encoding codec LegacyJacksonJson
+2020-01-07 18:31:37,467 [INFO] [main] com.netflix.discovery.provider.DiscoveryJerseyProvider [DiscoveryJerseyProvider.java : 71] Using JSON decoding codec LegacyJacksonJson
+2020-01-07 18:31:37,884 [INFO] [main] com.netflix.discovery.provider.DiscoveryJerseyProvider [DiscoveryJerseyProvider.java : 80] Using XML encoding codec XStreamXml
+2020-01-07 18:31:37,885 [INFO] [main] com.netflix.discovery.provider.DiscoveryJerseyProvider [DiscoveryJerseyProvider.java : 81] Using XML decoding codec XStreamXml
+2020-01-07 18:31:38,257 [INFO] [main] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2020-01-07 18:31:38,963 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 976] Disable delta property : false
+2020-01-07 18:31:38,964 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 977] Single vip registry refresh property : null
+2020-01-07 18:31:38,965 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 978] Force full registry fetch : false
+2020-01-07 18:31:38,966 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 979] Application is null : false
+2020-01-07 18:31:38,967 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 980] Registered Applications size is zero : true
+2020-01-07 18:31:38,968 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 982] Application version is -1: true
+2020-01-07 18:31:38,969 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 1065] Getting all instance registry info from the eureka server
+2020-01-07 18:31:39,655 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 1074] The response status is 200
+2020-01-07 18:31:39,660 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 1288] Starting heartbeat executor: renew interval is: 30
+2020-01-07 18:31:39,668 [INFO] [main] com.netflix.discovery.InstanceInfoReplicator [InstanceInfoReplicator.java : 60] InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-01-07 18:31:39,675 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 465] Discovery Client initialized at timestamp 1578393099673 with initial instances count: 1
+2020-01-07 18:31:39,704 [INFO] [main] o.s.c.netflix.eureka.serviceregistry.EurekaServiceRegistry [EurekaServiceRegistry.java : 41] Registering application LOGINANDLOGON-PRODUCER with eureka with status UP
+2020-01-07 18:31:39,706 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 1323] Saw local status change event StatusChangeEvent [timestamp=1578393099705, current=UP, previous=STARTING]
+2020-01-07 18:31:39,716 [INFO] [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 844] DiscoveryClient_LOGINANDLOGON-PRODUCER/localhost:loginAndlogon-producer:8001: registering service...
+2020-01-07 18:31:39,728 [INFO] [main] s.d.spring.web.plugins.DocumentationPluginsBootstrapper [DocumentationPluginsBootstrapper.java : 160] Context refreshed
+2020-01-07 18:31:39,801 [INFO] [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 853] DiscoveryClient_LOGINANDLOGON-PRODUCER/localhost:loginAndlogon-producer:8001 - registration status: 204
+2020-01-07 18:31:39,817 [INFO] [main] s.d.spring.web.plugins.DocumentationPluginsBootstrapper [DocumentationPluginsBootstrapper.java : 163] Found 1 custom documentation plugin(s)
+2020-01-07 18:31:39,954 [INFO] [main] s.d.spring.web.scanners.ApiListingReferenceScanner [ApiListingReferenceScanner.java : 41] Scanning for api listing references
+2020-01-07 18:31:40,692 [INFO] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [TomcatWebServer.java : 204] Tomcat started on port(s): 8001 (http) with context path ''
+2020-01-07 18:31:40,700 [INFO] [main] o.s.c.n.eureka.serviceregistry.EurekaAutoServiceRegistration [EurekaAutoServiceRegistration.java : 145] Updating port to 8001
+2020-01-07 18:31:42,683 [INFO] [main] org.springframework.cloud.commons.util.InetUtils [InetUtils.java : 170] Cannot determine local hostname
+2020-01-07 18:31:42,685 [INFO] [main] c.eruka.loginAndlogonservice.LoginAndlogonServiceApplication [StartupInfoLogger.java : 61] Started LoginAndlogonServiceApplication in 20.356 seconds (JVM running for 20.959)
+2020-01-07 18:44:36,747 [INFO] [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-01-07 18:44:39,260 [INFO] [main] c.eruka.loginAndlogonservice.LoginAndlogonServiceApplication [SpringApplication.java : 651] No active profile set, falling back to default profiles: default
+2020-01-07 18:44:40,055 [WARN] [main] org.springframework.boot.actuate.endpoint.EndpointId [EndpointId.java : 155] Endpoint ID 'hystrix.stream' contains invalid characters, please migrate to a valid format.
+2020-01-07 18:44:41,897 [WARN] [main] org.springframework.boot.actuate.endpoint.EndpointId [EndpointId.java : 155] Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2020-01-07 18:44:42,243 [INFO] [main] org.springframework.cloud.context.scope.GenericScope [GenericScope.java : 295] BeanFactory id=968d95c9-a4aa-3a4a-ace0-b8f63f40030b
+2020-01-07 18:44:42,733 [INFO] [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-01-07 18:44:43,400 [INFO] [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-01-07 18:44:44,834 [INFO] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [TomcatWebServer.java : 92] Tomcat initialized with port(s): 8001 (http)
+2020-01-07 18:44:44,863 [INFO] [main] org.apache.catalina.core.StandardService [DirectJDKLog.java : 173] Starting service [Tomcat]
+2020-01-07 18:44:44,864 [INFO] [main] org.apache.catalina.core.StandardEngine [DirectJDKLog.java : 173] Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-01-07 18:44:45,196 [INFO] [main] o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [DirectJDKLog.java : 173] Initializing Spring embedded WebApplicationContext
+2020-01-07 18:44:45,198 [INFO] [main] org.springframework.web.context.ContextLoader [ServletWebServerApplicationContext.java : 284] Root WebApplicationContext: initialization completed in 5911 ms
+2020-01-07 18:44:45,438 [WARN] [main] com.netflix.config.sources.URLConfigurationSource [URLConfigurationSource.java : 121] No URLs will be polled as dynamic configuration sources.
+2020-01-07 18:44:45,439 [INFO] [main] com.netflix.config.sources.URLConfigurationSource [URLConfigurationSource.java : 122] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-01-07 18:44:45,579 [INFO] [main] com.netflix.config.DynamicPropertyFactory [DynamicPropertyFactory.java : 281] DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@353b0719
+2020-01-07 18:44:46,486 [INFO] [main] o.s.boot.actuate.endpoint.web.ServletEndpointRegistrar [ServletEndpointRegistrar.java : 75] Registered '/actuator/hystrix.stream' to hystrix.stream-actuator-endpoint
+2020-01-07 18:44:50,219 [INFO] [main] o.s.boot.actuate.endpoint.web.EndpointLinksResolver [EndpointLinksResolver.java : 58] Exposing 1 endpoint(s) beneath base path '/actuator'
+2020-01-07 18:44:51,200 [INFO] [main] s.d.spring.web.PropertySourcedRequestMappingHandlerMapping [PropertySourcedRequestMappingHandlerMapping.java : 69] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-01-07 18:44:51,441 [WARN] [main] com.netflix.config.sources.URLConfigurationSource [URLConfigurationSource.java : 121] No URLs will be polled as dynamic configuration sources.
+2020-01-07 18:44:51,499 [INFO] [main] com.netflix.config.sources.URLConfigurationSource [URLConfigurationSource.java : 122] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-01-07 18:44:55,855 [INFO] [main] org.springframework.cloud.commons.util.InetUtils [InetUtils.java : 170] Cannot determine local hostname
+2020-01-07 18:44:57,312 [INFO] [main] org.springframework.cloud.commons.util.InetUtils [InetUtils.java : 170] Cannot determine local hostname
+2020-01-07 18:44:58,750 [INFO] [main] org.springframework.cloud.commons.util.InetUtils [InetUtils.java : 170] Cannot determine local hostname
+2020-01-07 18:44:58,804 [WARN] [main] o.s.c.l.c.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger [BlockingLoadBalancerClientAutoConfiguration.java : 106] You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2020-01-07 18:44:58,865 [WARN] [main] o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger [LoadBalancerCacheAutoConfiguration.java : 81] Spring Cloud LoadBalancer is currently working with default default cache. You can switch to using Caffeine cache, by adding it to the classpath.
+2020-01-07 18:44:58,933 [INFO] [main] org.springframework.cloud.netflix.eureka.InstanceInfoFactory [InstanceInfoFactory.java : 72] Setting initial instance status as: STARTING
+2020-01-07 18:44:59,061 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 365] Initializing Eureka in region us-east-1
+2020-01-07 18:44:59,434 [INFO] [main] com.netflix.discovery.provider.DiscoveryJerseyProvider [DiscoveryJerseyProvider.java : 70] Using JSON encoding codec LegacyJacksonJson
+2020-01-07 18:44:59,434 [INFO] [main] com.netflix.discovery.provider.DiscoveryJerseyProvider [DiscoveryJerseyProvider.java : 71] Using JSON decoding codec LegacyJacksonJson
+2020-01-07 18:44:59,610 [INFO] [main] com.netflix.discovery.provider.DiscoveryJerseyProvider [DiscoveryJerseyProvider.java : 80] Using XML encoding codec XStreamXml
+2020-01-07 18:44:59,611 [INFO] [main] com.netflix.discovery.provider.DiscoveryJerseyProvider [DiscoveryJerseyProvider.java : 81] Using XML decoding codec XStreamXml
+2020-01-07 18:44:59,823 [INFO] [main] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2020-01-07 18:45:00,220 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 976] Disable delta property : false
+2020-01-07 18:45:00,220 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 977] Single vip registry refresh property : null
+2020-01-07 18:45:00,221 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 978] Force full registry fetch : false
+2020-01-07 18:45:00,221 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 979] Application is null : false
+2020-01-07 18:45:00,222 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 980] Registered Applications size is zero : true
+2020-01-07 18:45:00,222 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 982] Application version is -1: true
+2020-01-07 18:45:00,223 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 1065] Getting all instance registry info from the eureka server
+2020-01-07 18:45:00,460 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 1074] The response status is 200
+2020-01-07 18:45:00,465 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 1288] Starting heartbeat executor: renew interval is: 30
+2020-01-07 18:45:00,470 [INFO] [main] com.netflix.discovery.InstanceInfoReplicator [InstanceInfoReplicator.java : 60] InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-01-07 18:45:00,476 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 465] Discovery Client initialized at timestamp 1578393900475 with initial instances count: 4
+2020-01-07 18:45:00,481 [INFO] [main] o.s.c.netflix.eureka.serviceregistry.EurekaServiceRegistry [EurekaServiceRegistry.java : 41] Registering application LOGINANDLOGON-PRODUCER with eureka with status UP
+2020-01-07 18:45:00,483 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 1323] Saw local status change event StatusChangeEvent [timestamp=1578393900483, current=UP, previous=STARTING]
+2020-01-07 18:45:00,486 [INFO] [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 844] DiscoveryClient_LOGINANDLOGON-PRODUCER/localhost:loginAndlogon-producer:8001: registering service...
+2020-01-07 18:45:00,488 [INFO] [main] s.d.spring.web.plugins.DocumentationPluginsBootstrapper [DocumentationPluginsBootstrapper.java : 160] Context refreshed
+2020-01-07 18:45:00,519 [INFO] [main] s.d.spring.web.plugins.DocumentationPluginsBootstrapper [DocumentationPluginsBootstrapper.java : 163] Found 1 custom documentation plugin(s)
+2020-01-07 18:45:00,524 [INFO] [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 853] DiscoveryClient_LOGINANDLOGON-PRODUCER/localhost:loginAndlogon-producer:8001 - registration status: 204
+2020-01-07 18:45:00,575 [INFO] [main] s.d.spring.web.scanners.ApiListingReferenceScanner [ApiListingReferenceScanner.java : 41] Scanning for api listing references
+2020-01-07 18:45:00,812 [INFO] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [TomcatWebServer.java : 204] Tomcat started on port(s): 8001 (http) with context path ''
+2020-01-07 18:45:00,813 [INFO] [main] o.s.c.n.eureka.serviceregistry.EurekaAutoServiceRegistration [EurekaAutoServiceRegistration.java : 145] Updating port to 8001
+2020-01-07 18:45:02,280 [INFO] [main] org.springframework.cloud.commons.util.InetUtils [InetUtils.java : 170] Cannot determine local hostname
+2020-01-07 18:45:02,283 [INFO] [main] c.eruka.loginAndlogonservice.LoginAndlogonServiceApplication [StartupInfoLogger.java : 61] Started LoginAndlogonServiceApplication in 39.348 seconds (JVM running for 44.404)
+2020-01-07 18:50:00,229 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2020-01-07 18:55:00,233 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2020-01-07 19:00:00,239 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2020-01-07 19:05:00,240 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2020-01-07 19:10:00,241 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2020-01-07 19:15:00,243 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2020-01-07 19:20:00,245 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2020-01-07 19:25:00,249 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2020-01-07 19:30:00,250 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2020-01-07 19:35:00,251 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2020-01-07 19:40:00,258 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2020-01-07 19:42:40,108 [INFO] [http-nio-8001-exec-1] o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [DirectJDKLog.java : 173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-01-07 19:42:40,125 [INFO] [http-nio-8001-exec-1] org.springframework.web.servlet.DispatcherServlet [FrameworkServlet.java : 525] Initializing Servlet 'dispatcherServlet'
+2020-01-07 19:42:40,472 [INFO] [http-nio-8001-exec-1] org.springframework.web.servlet.DispatcherServlet [FrameworkServlet.java : 547] Completed initialization in 347 ms
+2020-01-07 19:42:41,456 [INFO] [http-nio-8001-exec-3] com.zaxxer.hikari.HikariDataSource [HikariDataSource.java : 110] HikariPool-1 - Starting...
+2020-01-07 19:42:42,238 [INFO] [http-nio-8001-exec-3] com.zaxxer.hikari.HikariDataSource [HikariDataSource.java : 123] HikariPool-1 - Start completed.
+2020-01-07 19:42:42,266 [DEBUG] [http-nio-8001-exec-3] c.e.l.mapper.SelectionHelperMapper.selectByNickName [BaseJdbcLogger.java : 143] ==>  Preparing: select uID from Lol_UserInfo where nickName = ? 
+2020-01-07 19:42:42,320 [DEBUG] [http-nio-8001-exec-3] c.e.l.mapper.SelectionHelperMapper.selectByNickName [BaseJdbcLogger.java : 143] ==> Parameters: wyx(String)
+2020-01-07 19:42:42,598 [DEBUG] [http-nio-8001-exec-4] c.e.l.mapper.SelectionHelperMapper.selectByNickName [BaseJdbcLogger.java : 143] ==>  Preparing: select uID from Lol_UserInfo where nickName = ? 
+2020-01-07 19:42:42,600 [DEBUG] [http-nio-8001-exec-4] c.e.l.mapper.SelectionHelperMapper.selectByNickName [BaseJdbcLogger.java : 143] ==> Parameters: wyx(String)
+2020-01-07 19:42:42,632 [DEBUG] [http-nio-8001-exec-3] c.e.l.mapper.SelectionHelperMapper.selectByNickName [BaseJdbcLogger.java : 143] <==      Total: 0
+2020-01-07 19:42:42,649 [DEBUG] [http-nio-8001-exec-3] c.e.l.mapper.SelectionHelperMapper.selectByAccount [BaseJdbcLogger.java : 143] ==>  Preparing: select uID from Lol_User where account = ? 
+2020-01-07 19:42:42,650 [DEBUG] [http-nio-8001-exec-3] c.e.l.mapper.SelectionHelperMapper.selectByAccount [BaseJdbcLogger.java : 143] ==> Parameters: 123@qq.com(String)
+2020-01-07 19:42:42,685 [DEBUG] [http-nio-8001-exec-4] c.e.l.mapper.SelectionHelperMapper.selectByNickName [BaseJdbcLogger.java : 143] <==      Total: 0
+2020-01-07 19:42:42,686 [DEBUG] [http-nio-8001-exec-4] c.e.l.mapper.SelectionHelperMapper.selectByAccount [BaseJdbcLogger.java : 143] ==>  Preparing: select uID from Lol_User where account = ? 
+2020-01-07 19:42:42,687 [DEBUG] [http-nio-8001-exec-4] c.e.l.mapper.SelectionHelperMapper.selectByAccount [BaseJdbcLogger.java : 143] ==> Parameters: 123@qq.com(String)
+2020-01-07 19:42:42,702 [DEBUG] [http-nio-8001-exec-3] c.e.l.mapper.SelectionHelperMapper.selectByAccount [BaseJdbcLogger.java : 143] <==      Total: 0
+2020-01-07 19:42:42,711 [DEBUG] [http-nio-8001-exec-3] c.e.loginAndlogonservice.mapper.RegisterMapper.userRegister [BaseJdbcLogger.java : 143] ==>  Preparing: insert into Lol_User (account, password, salt) values (?, ?, ?) 
+2020-01-07 19:42:42,715 [DEBUG] [http-nio-8001-exec-3] c.e.loginAndlogonservice.mapper.RegisterMapper.userRegister [BaseJdbcLogger.java : 143] ==> Parameters: 123@qq.com(String), 26D9DD347F47185EAFA3C36EFC61C1E6(String), 792448CF148C427EAEC33632F4B279B3(String)
+2020-01-07 19:42:42,732 [DEBUG] [http-nio-8001-exec-4] c.e.l.mapper.SelectionHelperMapper.selectByAccount [BaseJdbcLogger.java : 143] <==      Total: 0
+2020-01-07 19:42:42,733 [DEBUG] [http-nio-8001-exec-4] c.e.loginAndlogonservice.mapper.RegisterMapper.userRegister [BaseJdbcLogger.java : 143] ==>  Preparing: insert into Lol_User (account, password, salt) values (?, ?, ?) 
+2020-01-07 19:42:42,735 [DEBUG] [http-nio-8001-exec-4] c.e.loginAndlogonservice.mapper.RegisterMapper.userRegister [BaseJdbcLogger.java : 143] ==> Parameters: 123@qq.com(String), 321D6361133E4DEE18C5CBBDD54D4074(String), FB060C553D624BB487AAD9297780A48B(String)
+2020-01-07 19:42:42,833 [DEBUG] [http-nio-8001-exec-3] c.e.loginAndlogonservice.mapper.RegisterMapper.userRegister [BaseJdbcLogger.java : 143] <==    Updates: 1
+2020-01-07 19:42:42,836 [DEBUG] [http-nio-8001-exec-3] com.eruka.loginAndlogonservice.mapper.RegisterMapper.addInfo [BaseJdbcLogger.java : 143] ==>  Preparing: insert into Lol_UserInfo (uID, nickName) values (?, ?) 
+2020-01-07 19:42:42,837 [DEBUG] [http-nio-8001-exec-3] com.eruka.loginAndlogonservice.mapper.RegisterMapper.addInfo [BaseJdbcLogger.java : 143] ==> Parameters: 8(Integer), wyx(String)
+2020-01-07 19:42:42,918 [DEBUG] [http-nio-8001-exec-4] c.e.loginAndlogonservice.mapper.RegisterMapper.userRegister [BaseJdbcLogger.java : 143] <==    Updates: 1
+2020-01-07 19:42:42,920 [DEBUG] [http-nio-8001-exec-4] com.eruka.loginAndlogonservice.mapper.RegisterMapper.addInfo [BaseJdbcLogger.java : 143] ==>  Preparing: insert into Lol_UserInfo (uID, nickName) values (?, ?) 
+2020-01-07 19:42:42,921 [DEBUG] [http-nio-8001-exec-4] com.eruka.loginAndlogonservice.mapper.RegisterMapper.addInfo [BaseJdbcLogger.java : 143] ==> Parameters: 9(Integer), wyx(String)
+2020-01-07 19:42:43,490 [DEBUG] [http-nio-8001-exec-4] com.eruka.loginAndlogonservice.mapper.RegisterMapper.addInfo [BaseJdbcLogger.java : 143] <==    Updates: 1
+2020-01-07 19:42:43,495 [DEBUG] [http-nio-8001-exec-3] com.eruka.loginAndlogonservice.mapper.RegisterMapper.addInfo [BaseJdbcLogger.java : 143] <==    Updates: 1
+2020-01-07 19:42:59,585 [WARN] [http-nio-8001-exec-6] org.apache.catalina.util.SessionIdGeneratorBase [DirectJDKLog.java : 173] Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [447] milliseconds.
+2020-01-07 19:42:59,587 [INFO] [http-nio-8001-exec-6] com.eruka.loginAndlogonservice.controller.LoginController [LoginController.java : 45] 123@qq.com
+2020-01-07 19:42:59,587 [INFO] [http-nio-8001-exec-6] com.eruka.loginAndlogonservice.controller.LoginController [LoginController.java : 47] com.eruka.loginAndlogonservice.service.impl.LoginServiceImpl@42c5eba
+2020-01-07 19:42:59,619 [DEBUG] [http-nio-8001-exec-6] c.e.loginAndlogonservice.mapper.LoginMapper.selectByAccount [BaseJdbcLogger.java : 143] ==>  Preparing: select * from Lol_User where account = ? 
+2020-01-07 19:42:59,619 [DEBUG] [http-nio-8001-exec-6] c.e.loginAndlogonservice.mapper.LoginMapper.selectByAccount [BaseJdbcLogger.java : 143] ==> Parameters: 123@qq.com(String)
+2020-01-07 19:42:59,651 [TRACE] [http-nio-8001-exec-6] c.e.loginAndlogonservice.mapper.LoginMapper.selectByAccount [BaseJdbcLogger.java : 149] <==    Columns: uID, account, password, salt
+2020-01-07 19:42:59,651 [TRACE] [http-nio-8001-exec-6] c.e.loginAndlogonservice.mapper.LoginMapper.selectByAccount [BaseJdbcLogger.java : 149] <==        Row: 8, 123@qq.com, 26D9DD347F47185EAFA3C36EFC61C1E6, 792448CF148C427EAEC33632F4B279B3
+2020-01-07 19:42:59,653 [TRACE] [http-nio-8001-exec-6] c.e.loginAndlogonservice.mapper.LoginMapper.selectByAccount [BaseJdbcLogger.java : 149] <==        Row: 9, 123@qq.com, 321D6361133E4DEE18C5CBBDD54D4074, FB060C553D624BB487AAD9297780A48B
+2020-01-07 19:42:59,653 [DEBUG] [http-nio-8001-exec-6] c.e.loginAndlogonservice.mapper.LoginMapper.selectByAccount [BaseJdbcLogger.java : 143] <==      Total: 2
+2020-01-07 19:43:49,451 [INFO] [http-nio-8001-exec-8] com.eruka.loginAndlogonservice.controller.LoginController [LoginController.java : 45] 123@qq.com
+2020-01-07 19:43:49,452 [INFO] [http-nio-8001-exec-8] com.eruka.loginAndlogonservice.controller.LoginController [LoginController.java : 47] com.eruka.loginAndlogonservice.service.impl.LoginServiceImpl@42c5eba
+2020-01-07 19:43:49,484 [DEBUG] [http-nio-8001-exec-8] c.e.loginAndlogonservice.mapper.LoginMapper.selectByAccount [BaseJdbcLogger.java : 143] ==>  Preparing: select * from Lol_User where account = ? 
+2020-01-07 19:43:49,484 [DEBUG] [http-nio-8001-exec-8] c.e.loginAndlogonservice.mapper.LoginMapper.selectByAccount [BaseJdbcLogger.java : 143] ==> Parameters: 123@qq.com(String)
+2020-01-07 19:43:49,516 [TRACE] [http-nio-8001-exec-8] c.e.loginAndlogonservice.mapper.LoginMapper.selectByAccount [BaseJdbcLogger.java : 149] <==    Columns: uID, account, password, salt
+2020-01-07 19:43:49,516 [TRACE] [http-nio-8001-exec-8] c.e.loginAndlogonservice.mapper.LoginMapper.selectByAccount [BaseJdbcLogger.java : 149] <==        Row: 8, 123@qq.com, 26D9DD347F47185EAFA3C36EFC61C1E6, 792448CF148C427EAEC33632F4B279B3
+2020-01-07 19:43:49,517 [TRACE] [http-nio-8001-exec-8] c.e.loginAndlogonservice.mapper.LoginMapper.selectByAccount [BaseJdbcLogger.java : 149] <==        Row: 9, 123@qq.com, 321D6361133E4DEE18C5CBBDD54D4074, FB060C553D624BB487AAD9297780A48B
+2020-01-07 19:43:49,517 [DEBUG] [http-nio-8001-exec-8] c.e.loginAndlogonservice.mapper.LoginMapper.selectByAccount [BaseJdbcLogger.java : 143] <==      Total: 2
+2020-01-07 19:45:00,259 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2020-01-07 19:46:10,463 [INFO] [http-nio-8001-exec-10] com.eruka.loginAndlogonservice.controller.LoginController [LoginController.java : 45] 123@qq.com
+2020-01-07 19:46:10,463 [INFO] [http-nio-8001-exec-10] com.eruka.loginAndlogonservice.controller.LoginController [LoginController.java : 47] com.eruka.loginAndlogonservice.service.impl.LoginServiceImpl@42c5eba
+2020-01-07 19:46:10,497 [DEBUG] [http-nio-8001-exec-10] c.e.loginAndlogonservice.mapper.LoginMapper.selectByAccount [BaseJdbcLogger.java : 143] ==>  Preparing: select * from Lol_User where account = ? 
+2020-01-07 19:46:10,498 [DEBUG] [http-nio-8001-exec-10] c.e.loginAndlogonservice.mapper.LoginMapper.selectByAccount [BaseJdbcLogger.java : 143] ==> Parameters: 123@qq.com(String)
+2020-01-07 19:46:10,530 [TRACE] [http-nio-8001-exec-10] c.e.loginAndlogonservice.mapper.LoginMapper.selectByAccount [BaseJdbcLogger.java : 149] <==    Columns: uID, account, password, salt
+2020-01-07 19:46:10,532 [TRACE] [http-nio-8001-exec-10] c.e.loginAndlogonservice.mapper.LoginMapper.selectByAccount [BaseJdbcLogger.java : 149] <==        Row: 8, 123@qq.com, 26D9DD347F47185EAFA3C36EFC61C1E6, 792448CF148C427EAEC33632F4B279B3
+2020-01-07 19:46:10,533 [TRACE] [http-nio-8001-exec-10] c.e.loginAndlogonservice.mapper.LoginMapper.selectByAccount [BaseJdbcLogger.java : 149] <==        Row: 9, 123@qq.com, 321D6361133E4DEE18C5CBBDD54D4074, FB060C553D624BB487AAD9297780A48B
+2020-01-07 19:46:10,534 [DEBUG] [http-nio-8001-exec-10] c.e.loginAndlogonservice.mapper.LoginMapper.selectByAccount [BaseJdbcLogger.java : 143] <==      Total: 2
+2020-01-07 19:46:47,148 [DEBUG] [http-nio-8001-exec-2] c.e.l.mapper.SelectionHelperMapper.selectByNickName [BaseJdbcLogger.java : 143] ==>  Preparing: select uID from Lol_UserInfo where nickName = ? 
+2020-01-07 19:46:47,149 [DEBUG] [http-nio-8001-exec-2] c.e.l.mapper.SelectionHelperMapper.selectByNickName [BaseJdbcLogger.java : 143] ==> Parameters: wyx(String)
+2020-01-07 19:46:47,180 [TRACE] [http-nio-8001-exec-2] c.e.l.mapper.SelectionHelperMapper.selectByNickName [BaseJdbcLogger.java : 149] <==    Columns: uID
+2020-01-07 19:46:47,181 [TRACE] [http-nio-8001-exec-2] c.e.l.mapper.SelectionHelperMapper.selectByNickName [BaseJdbcLogger.java : 149] <==        Row: 8
+2020-01-07 19:46:47,182 [TRACE] [http-nio-8001-exec-2] c.e.l.mapper.SelectionHelperMapper.selectByNickName [BaseJdbcLogger.java : 149] <==        Row: 9
+2020-01-07 19:46:47,183 [DEBUG] [http-nio-8001-exec-2] c.e.l.mapper.SelectionHelperMapper.selectByNickName [BaseJdbcLogger.java : 143] <==      Total: 2
+2020-01-07 19:46:47,213 [ERROR] [http-nio-8001-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/].[dispatcherServlet] [DirectJDKLog.java : 175] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.exceptions.TooManyResultsException: Expected one result (or null) to be returned by selectOne(), but found: 2] with root cause
+org.apache.ibatis.exceptions.TooManyResultsException: Expected one result (or null) to be returned by selectOne(), but found: 2
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectOne(DefaultSqlSession.java:80)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:426)
+	at com.sun.proxy.$Proxy129.selectOne(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectOne(SqlSessionTemplate.java:159)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:87)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:93)
+	at com.sun.proxy.$Proxy132.selectByNickName(Unknown Source)
+	at com.eruka.loginAndlogonservice.service.impl.SelectionHelperServiceImpl.selectByNickName(SelectionHelperServiceImpl.java:15)
+	at com.eruka.loginAndlogonservice.controller.RegisterController.register(RegisterController.java:44)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:888)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:108)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1591)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+2020-01-07 19:50:00,260 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2020-01-07 19:50:42,349 [DEBUG] [http-nio-8001-exec-1] c.e.l.mapper.SelectionHelperMapper.selectByNickName [BaseJdbcLogger.java : 143] ==>  Preparing: select uID from Lol_UserInfo where nickName = ? 
+2020-01-07 19:50:42,350 [DEBUG] [http-nio-8001-exec-1] c.e.l.mapper.SelectionHelperMapper.selectByNickName [BaseJdbcLogger.java : 143] ==> Parameters: aaa(String)
+2020-01-07 19:50:42,381 [DEBUG] [http-nio-8001-exec-1] c.e.l.mapper.SelectionHelperMapper.selectByNickName [BaseJdbcLogger.java : 143] <==      Total: 0
+2020-01-07 19:50:42,382 [DEBUG] [http-nio-8001-exec-1] c.e.l.mapper.SelectionHelperMapper.selectByAccount [BaseJdbcLogger.java : 143] ==>  Preparing: select uID from Lol_User where account = ? 
+2020-01-07 19:50:42,383 [DEBUG] [http-nio-8001-exec-1] c.e.l.mapper.SelectionHelperMapper.selectByAccount [BaseJdbcLogger.java : 143] ==> Parameters: aaa@aaa.com(String)
+2020-01-07 19:50:42,414 [DEBUG] [http-nio-8001-exec-1] c.e.l.mapper.SelectionHelperMapper.selectByAccount [BaseJdbcLogger.java : 143] <==      Total: 0
+2020-01-07 19:50:42,592 [DEBUG] [http-nio-8001-exec-1] c.e.loginAndlogonservice.mapper.RegisterMapper.userRegister [BaseJdbcLogger.java : 143] ==>  Preparing: insert into Lol_User (account, password, salt) values (?, ?, ?) 
+2020-01-07 19:50:42,594 [DEBUG] [http-nio-8001-exec-1] c.e.loginAndlogonservice.mapper.RegisterMapper.userRegister [BaseJdbcLogger.java : 143] ==> Parameters: aaa@aaa.com(String), FB783C1366A0A5B2FDE2465EE0BD4F89(String), 1766A2BD62134B3A837B9053CF32C9B1(String)
+2020-01-07 19:50:42,662 [DEBUG] [http-nio-8001-exec-1] c.e.loginAndlogonservice.mapper.RegisterMapper.userRegister [BaseJdbcLogger.java : 143] <==    Updates: 1
+2020-01-07 19:50:42,663 [DEBUG] [http-nio-8001-exec-1] com.eruka.loginAndlogonservice.mapper.RegisterMapper.addInfo [BaseJdbcLogger.java : 143] ==>  Preparing: insert into Lol_UserInfo (uID, nickName) values (?, ?) 
+2020-01-07 19:50:42,664 [DEBUG] [http-nio-8001-exec-1] com.eruka.loginAndlogonservice.mapper.RegisterMapper.addInfo [BaseJdbcLogger.java : 143] ==> Parameters: 10(Integer), aaa(String)
+2020-01-07 19:50:42,746 [DEBUG] [http-nio-8001-exec-1] com.eruka.loginAndlogonservice.mapper.RegisterMapper.addInfo [BaseJdbcLogger.java : 143] <==    Updates: 1
+2020-01-07 19:50:56,927 [INFO] [http-nio-8001-exec-4] com.eruka.loginAndlogonservice.controller.LoginController [LoginController.java : 45] aaa@aaa.com
+2020-01-07 19:50:56,928 [INFO] [http-nio-8001-exec-4] com.eruka.loginAndlogonservice.controller.LoginController [LoginController.java : 47] com.eruka.loginAndlogonservice.service.impl.LoginServiceImpl@42c5eba
+2020-01-07 19:50:56,965 [DEBUG] [http-nio-8001-exec-4] c.e.loginAndlogonservice.mapper.LoginMapper.selectByAccount [BaseJdbcLogger.java : 143] ==>  Preparing: select * from Lol_User where account = ? 
+2020-01-07 19:50:56,966 [DEBUG] [http-nio-8001-exec-4] c.e.loginAndlogonservice.mapper.LoginMapper.selectByAccount [BaseJdbcLogger.java : 143] ==> Parameters: aaa@aaa.com(String)
+2020-01-07 19:50:57,003 [TRACE] [http-nio-8001-exec-4] c.e.loginAndlogonservice.mapper.LoginMapper.selectByAccount [BaseJdbcLogger.java : 149] <==    Columns: uID, account, password, salt
+2020-01-07 19:50:57,004 [TRACE] [http-nio-8001-exec-4] c.e.loginAndlogonservice.mapper.LoginMapper.selectByAccount [BaseJdbcLogger.java : 149] <==        Row: 10, aaa@aaa.com, FB783C1366A0A5B2FDE2465EE0BD4F89, 1766A2BD62134B3A837B9053CF32C9B1
+2020-01-07 19:50:57,007 [DEBUG] [http-nio-8001-exec-4] c.e.loginAndlogonservice.mapper.LoginMapper.selectByAccount [BaseJdbcLogger.java : 143] <==      Total: 1
+2020-01-07 19:55:00,261 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2020-01-07 20:00:00,263 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration

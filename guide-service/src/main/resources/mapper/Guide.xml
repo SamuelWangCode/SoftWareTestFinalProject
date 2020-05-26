@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.eruka.guideservice.mapper.GuideMapper">
+
+
+    <resultMap id="guideMap" type="Guide">
+        <id property="gID" column="gID"/>
+        <result property="uID" column="uID"/>
+        <result property="title" column="title"/>
+        <result property="context" column="context"/>
+        <result property="championTag" column="championTag"/>
+        <result property="championName" column="championName"/>
+        <result property="likeNum" column="likeNum"/>
+        <result property="collectNum" column="collectNum"/>
+        <result property="item1" column="item1"/>
+        <result property="item2" column="item2"/>
+        <result property="item3" column="item3"/>
+        <result property="item4" column="item4"/>
+        <result property="item5" column="item5"/>
+        <result property="item6" column="item6"/>
+    </resultMap>
+
+    <select id="searchGuideByTitle" resultMap="guideMap">
+        select *
+        from Lol_Guide
+        where title like CONCAT(CONCAT('%', #{title}), '%')
+    </select>
+
+    <select id="searchGuideByUid" resultMap="guideMap">
+        select *
+        from Lol_Guide
+        where uID = #{uID}
+    </select>
+
+    <select id="searchGuideByLikeNum" resultMap="guideMap">
+        select *
+        from Lol_Guide
+        order by likeNum
+        limit 3
+    </select>
+
+    <select id="searchGuideByPrefer" resultMap="guideMap">
+        select *
+        from Lol_Guide
+        where championTag = #{prefer}
+        limit 3
+    </select>
+
+    <update id="addLikeNumBygID">
+        update Lol_Guide
+        set likeNum = likeNum + 1
+        where gID = #{gID}
+    </update>
+
+    <select id="searchGuideBygID" resultMap="guideMap">
+        select *
+        from Lol_Guide
+        where gID = #{gID}
+    </select>
+
+
+    <resultMap id="itemMap" type="Item">
+        <id property="iID" column="iID"/>
+        <result property="itemName" column="itemName"/>
+        <result property="itemImg" column="itemImg"/>
+    </resultMap>
+    <select id="getItem" resultMap="itemMap">
+        select *
+        from Lol_ItemInfo
+    </select>
+
+</mapper>

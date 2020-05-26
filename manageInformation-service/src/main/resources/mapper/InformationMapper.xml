@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.eruka.manageInformationservice.mapper.InformationMapper">
+    <resultMap id="userMap" type="LolUserInfo">
+        <id property="uID" column="uID"/>
+        <result property="nickName" column="nickName"/>
+        <result property="icon" column="icon"/>
+        <result property="gender" column="gender"/>
+        <result property="lolAccount" column="lolAccount"/>
+        <result property="prefer" column="prefer"/>
+    </resultMap>
+    <select id="getUserInfoByuID" resultMap="userMap">
+        select * from Lol_UserInfo
+        where uID = #{uID}
+    </select>
+
+    <select id="getUserByname" resultMap="userMap">
+        select * from Lol_UserInfo
+        where nickName like CONCAT(CONCAT('%', #{nickName}), '%')
+    </select>
+
+
+
+    <select id="getUserByaccount" resultMap="userMap">
+        select Lol_UserInfo.uID , nickName , icon , gender , lolAccount
+        from Lol_UserInfo join Lol_User
+        where account = #{account}
+    </select>
+
+    <update id="updateUsersIconByID">
+        update Lol_UserInfo
+        set icon = #{iconID}
+        where uID = #{uID}
+    </update>
+
+    <update id="updateUserInforByID">
+        update Lol_UserInfo
+        set nickName = #{nickName},
+        gender = #{gender} ,
+        prefer = #{prefer}
+        where uID = #{uID}
+    </update>
+
+    <!--    查找用户跟随的人-->
+    <select id="selectUsersFollowByUid" resultMap="userMap">
+        select u.*
+        from Lol_UserInfo u
+        inner join Lol_Follow f
+        on
+        f.fID = u.uID
+        where f.uID = #{uID}
+    </select>
+
+    <insert id="insertUsersFollowByID">
+        insert into Lol_Follow
+        values (#{uID} , #{followID})
+    </insert>
+</mapper>

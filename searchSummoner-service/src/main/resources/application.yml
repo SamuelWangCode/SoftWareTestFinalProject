@@ -1,0 +1,29 @@
+spring:
+  application:
+    name: searchSummoner-producer
+  datasource:
+    url: jdbc:mysql://cdb-ezjh4cma.bj.tencentcdb.com:10210/LolUserBase?useUnicode=true&characterEncoding=utf-8
+    username: root
+    password: abcd1234
+    driverClassName: com.mysql.cj.jdbc.Driver
+  cache:
+    caffeine:
+      spec: initialCapacity=50,maximumSize=5000,expireAfterAccess=600s,expireAfterWrite=900s,refreshAfterWrite=1800s
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:7000/eureka/
+server:
+  port: 8002
+mybatis:
+  mapper-locations: classpath*:mapper/*.xml
+  type-aliases-package: com.eruka.searchSummoner-service.model
+  config-location: classpath:mybatis-config.xml
+feign:
+  hystrix:
+    enabled: true
+management:
+  endpoints:
+    web:
+      exposure:
+        include: hystrix.stream

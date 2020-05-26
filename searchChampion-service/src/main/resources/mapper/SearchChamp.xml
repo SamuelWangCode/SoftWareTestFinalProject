@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.eruka.searchChampionservice.mapper.SearchChampMapper">
+    <resultMap id="userMap" type="LolChampionInfo">
+        <id property="cID" column="cID"/>
+        <result property="lore" column="lore"/>
+        <result property="fullImage" column="fullImage"/>
+        <result property="name" column="name"/>
+        <result property="alias" column="alias"/>
+        <result property="skillOneID" column="skillOneID"/>
+        <result property="skillOneName" column="skillOneName"/>
+        <result property="skillOneDes" column="skillOneDes"/>
+        <result property="skillOneImg" column="skillOneImg"/>
+        <result property="skillTwoID" column="skillTwoID"/>
+        <result property="skillTwoName" column="skillTwoName"/>
+        <result property="skillTwoDes" column="skillTwoDes"/>
+        <result property="skillTwoImg" column="skillTwoImg"/>
+        <result property="skillThrID" column="skillThrID"/>
+        <result property="skillThrName" column="skillThrName"/>
+        <result property="skillThrDes" column="skillThrDes"/>
+        <result property="skillThrImg" column="skillThrImg"/>
+        <result property="skillFouID" column="skillFouID"/>
+        <result property="skillFouName" column="skillFouName"/>
+        <result property="skillFouDes" column="skillFouDes"/>
+        <result property="skillFouImg" column="skillFouImg"/>
+        <result property="passiveName" column="passiveName"/>
+        <result property="passiveDes" column="passiveDes"/>
+        <result property="passiveImg" column="passiveImg"/>
+        <result property="tags" column="tags"/>
+    </resultMap>
+
+    <select id="checkBycID" resultMap="userMap">
+        select * from ChampionInfo
+        where cID = #{cID}
+    </select>
+
+    <resultMap id="championMap" type="LolChampion">
+        <id property="cID" column="cID"/>
+        <result property="fullImage" column="fullImage"/>
+        <result property="name" column="name"/>
+        <result property="alias" column="alias"/>
+        <result property="tags" column="tags"/>
+    </resultMap>
+    <select id="showAll" resultMap="championMap">
+        select cID , name , alias ,fullImage , tags
+        from ChampionInfo
+    </select>
+
+    <select id="searchChampByname" resultMap="championMap">
+        select cID , name , alias ,fullImage , tags
+        from ChampionInfo
+        where alias like CONCAT(CONCAT('%', #{alias}), '%')
+    </select>
+
+    <select id="searchChampBytag" resultMap="championMap">
+        select cID , name , alias ,fullImage , tags
+        from ChampionInfo
+        where tags = #{tags1} or tags = #{tags2}
+    </select>
+
+</mapper>

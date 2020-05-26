@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.eruka.guideservice.mapper.PostGuideMapper">
+
+
+    <resultMap id="itemMap" type="Item">
+        <id property="iID" column="iID"/>
+        <result property="itemName" column="itemName"/>
+        <result property="itemImg" column="itemImg"/>
+    </resultMap>
+
+    <select id="showItem" resultMap="itemMap">
+        select *
+        from Lol_ItemInfo
+    </select>
+
+    <insert id="postGuide" useGeneratedKeys="true" keyProperty="gID">
+        insert into Lol_Guide (uID, championName ,title, context, item1, item2, item3, item4, item5, item6 , championTag , championImg)
+        values (#{uID}, #{championName}, #{title}, #{context}, #{item1}, #{item2}, #{item3}, #{item4}, #{item5}, #{item6} , #{championTag} , #{championImg})
+    </insert>
+
+
+
+</mapper>

@@ -1,0 +1,430 @@
+2019-12-27 19:06:25,237 [INFO] [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-27 19:06:28,130 [INFO] [main] c.e.searchChampionservice.SearchChampionServiceApplication [SpringApplication.java : 651] No active profile set, falling back to default profiles: default
+2019-12-27 19:06:31,850 [WARN] [main] org.springframework.boot.actuate.endpoint.EndpointId [EndpointId.java : 155] Endpoint ID 'hystrix.stream' contains invalid characters, please migrate to a valid format.
+2019-12-27 19:06:35,363 [WARN] [main] org.springframework.boot.actuate.endpoint.EndpointId [EndpointId.java : 155] Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2019-12-27 19:06:35,897 [INFO] [main] org.springframework.cloud.context.scope.GenericScope [GenericScope.java : 295] BeanFactory id=710d0b9f-0195-3a34-909d-8cf21574abd4
+2019-12-27 19:06:36,488 [INFO] [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-27 19:06:37,689 [INFO] [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-27 19:06:42,227 [INFO] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [TomcatWebServer.java : 92] Tomcat initialized with port(s): 8003 (http)
+2019-12-27 19:06:42,261 [INFO] [main] org.apache.catalina.core.StandardService [DirectJDKLog.java : 173] Starting service [Tomcat]
+2019-12-27 19:06:42,264 [INFO] [main] org.apache.catalina.core.StandardEngine [DirectJDKLog.java : 173] Starting Servlet engine: [Apache Tomcat/9.0.29]
+2019-12-27 19:06:42,627 [INFO] [main] o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [DirectJDKLog.java : 173] Initializing Spring embedded WebApplicationContext
+2019-12-27 19:06:42,628 [INFO] [main] org.springframework.web.context.ContextLoader [ServletWebServerApplicationContext.java : 284] Root WebApplicationContext: initialization completed in 14447 ms
+2019-12-27 19:06:42,878 [WARN] [main] com.netflix.config.sources.URLConfigurationSource [URLConfigurationSource.java : 121] No URLs will be polled as dynamic configuration sources.
+2019-12-27 19:06:42,879 [INFO] [main] com.netflix.config.sources.URLConfigurationSource [URLConfigurationSource.java : 122] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-12-27 19:06:42,910 [INFO] [main] com.netflix.config.DynamicPropertyFactory [DynamicPropertyFactory.java : 281] DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@329b331f
+2019-12-27 19:06:43,729 [INFO] [main] o.s.boot.actuate.endpoint.web.ServletEndpointRegistrar [ServletEndpointRegistrar.java : 75] Registered '/actuator/hystrix.stream' to hystrix.stream-actuator-endpoint
+2019-12-27 19:06:45,829 [INFO] [main] o.s.boot.actuate.endpoint.web.EndpointLinksResolver [EndpointLinksResolver.java : 58] Exposing 1 endpoint(s) beneath base path '/actuator'
+2019-12-27 19:06:46,784 [INFO] [main] s.d.spring.web.PropertySourcedRequestMappingHandlerMapping [PropertySourcedRequestMappingHandlerMapping.java : 69] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2019-12-27 19:06:46,855 [WARN] [main] com.netflix.config.sources.URLConfigurationSource [URLConfigurationSource.java : 121] No URLs will be polled as dynamic configuration sources.
+2019-12-27 19:06:46,857 [INFO] [main] com.netflix.config.sources.URLConfigurationSource [URLConfigurationSource.java : 122] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-12-27 19:06:50,100 [INFO] [main] org.springframework.cloud.commons.util.InetUtils [InetUtils.java : 170] Cannot determine local hostname
+2019-12-27 19:06:52,797 [INFO] [main] org.springframework.cloud.commons.util.InetUtils [InetUtils.java : 170] Cannot determine local hostname
+2019-12-27 19:06:55,533 [INFO] [main] org.springframework.cloud.commons.util.InetUtils [InetUtils.java : 170] Cannot determine local hostname
+2019-12-27 19:06:56,079 [WARN] [main] o.s.c.l.c.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger [BlockingLoadBalancerClientAutoConfiguration.java : 106] You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2019-12-27 19:06:56,367 [WARN] [main] o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger [LoadBalancerCacheAutoConfiguration.java : 81] Spring Cloud LoadBalancer is currently working with default default cache. You can switch to using Caffeine cache, by adding it to the classpath.
+2019-12-27 19:06:56,521 [INFO] [main] org.springframework.cloud.netflix.eureka.InstanceInfoFactory [InstanceInfoFactory.java : 72] Setting initial instance status as: STARTING
+2019-12-27 19:06:56,976 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 365] Initializing Eureka in region us-east-1
+2019-12-27 19:06:57,455 [INFO] [main] com.netflix.discovery.provider.DiscoveryJerseyProvider [DiscoveryJerseyProvider.java : 70] Using JSON encoding codec LegacyJacksonJson
+2019-12-27 19:06:57,456 [INFO] [main] com.netflix.discovery.provider.DiscoveryJerseyProvider [DiscoveryJerseyProvider.java : 71] Using JSON decoding codec LegacyJacksonJson
+2019-12-27 19:06:57,992 [INFO] [main] com.netflix.discovery.provider.DiscoveryJerseyProvider [DiscoveryJerseyProvider.java : 80] Using XML encoding codec XStreamXml
+2019-12-27 19:06:57,993 [INFO] [main] com.netflix.discovery.provider.DiscoveryJerseyProvider [DiscoveryJerseyProvider.java : 81] Using XML decoding codec XStreamXml
+2019-12-27 19:06:58,365 [INFO] [main] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-27 19:06:59,240 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 976] Disable delta property : false
+2019-12-27 19:06:59,241 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 977] Single vip registry refresh property : null
+2019-12-27 19:06:59,247 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 978] Force full registry fetch : false
+2019-12-27 19:06:59,249 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 979] Application is null : false
+2019-12-27 19:06:59,251 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 980] Registered Applications size is zero : true
+2019-12-27 19:06:59,255 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 982] Application version is -1: true
+2019-12-27 19:06:59,255 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 1065] Getting all instance registry info from the eureka server
+2019-12-27 19:06:59,772 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 1074] The response status is 200
+2019-12-27 19:06:59,784 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 1288] Starting heartbeat executor: renew interval is: 30
+2019-12-27 19:06:59,790 [INFO] [main] com.netflix.discovery.InstanceInfoReplicator [InstanceInfoReplicator.java : 60] InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-12-27 19:06:59,800 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 465] Discovery Client initialized at timestamp 1577444819798 with initial instances count: 2
+2019-12-27 19:06:59,810 [INFO] [main] o.s.c.netflix.eureka.serviceregistry.EurekaServiceRegistry [EurekaServiceRegistry.java : 41] Registering application SEARCHCHAMPION-PRODUCER with eureka with status UP
+2019-12-27 19:06:59,811 [INFO] [main] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 1323] Saw local status change event StatusChangeEvent [timestamp=1577444819811, current=UP, previous=STARTING]
+2019-12-27 19:06:59,814 [INFO] [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 844] DiscoveryClient_SEARCHCHAMPION-PRODUCER/localhost:searchChampion-producer:8003: registering service...
+2019-12-27 19:06:59,818 [INFO] [main] s.d.spring.web.plugins.DocumentationPluginsBootstrapper [DocumentationPluginsBootstrapper.java : 160] Context refreshed
+2019-12-27 19:06:59,880 [INFO] [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient [DiscoveryClient.java : 853] DiscoveryClient_SEARCHCHAMPION-PRODUCER/localhost:searchChampion-producer:8003 - registration status: 204
+2019-12-27 19:06:59,884 [INFO] [main] s.d.spring.web.plugins.DocumentationPluginsBootstrapper [DocumentationPluginsBootstrapper.java : 163] Found 1 custom documentation plugin(s)
+2019-12-27 19:06:59,964 [INFO] [main] s.d.spring.web.scanners.ApiListingReferenceScanner [ApiListingReferenceScanner.java : 41] Scanning for api listing references
+2019-12-27 19:07:00,798 [INFO] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [TomcatWebServer.java : 204] Tomcat started on port(s): 8003 (http) with context path ''
+2019-12-27 19:07:00,800 [INFO] [main] o.s.c.n.eureka.serviceregistry.EurekaAutoServiceRegistration [EurekaAutoServiceRegistration.java : 145] Updating port to 8003
+2019-12-27 19:07:03,076 [INFO] [main] org.springframework.cloud.commons.util.InetUtils [InetUtils.java : 170] Cannot determine local hostname
+2019-12-27 19:07:03,084 [INFO] [main] c.e.searchChampionservice.SearchChampionServiceApplication [StartupInfoLogger.java : 61] Started SearchChampionServiceApplication in 42.444 seconds (JVM running for 43.72)
+2019-12-27 19:11:59,263 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-27 19:16:59,265 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-27 19:21:59,267 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-27 19:26:59,268 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-27 19:31:59,271 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-27 19:36:59,273 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-27 19:41:59,275 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-27 19:46:59,277 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-27 19:51:59,277 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-27 19:56:59,279 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-27 20:00:45,657 [INFO] [http-nio-8003-exec-1] o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [DirectJDKLog.java : 173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-27 20:00:45,657 [INFO] [http-nio-8003-exec-1] org.springframework.web.servlet.DispatcherServlet [FrameworkServlet.java : 525] Initializing Servlet 'dispatcherServlet'
+2019-12-27 20:00:45,674 [INFO] [http-nio-8003-exec-1] org.springframework.web.servlet.DispatcherServlet [FrameworkServlet.java : 547] Completed initialization in 16 ms
+2019-12-27 20:01:59,280 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-27 20:06:59,283 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-27 20:11:59,286 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-27 20:16:59,288 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-27 20:21:59,290 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-27 20:26:59,292 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-27 20:31:59,297 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-27 20:36:59,299 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-27 20:41:59,300 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-27 20:46:59,303 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-27 20:51:59,305 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-27 20:56:59,307 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-27 21:01:59,310 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-27 21:06:59,313 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-27 21:10:09,113 [INFO] [http-nio-8003-exec-6] com.zaxxer.hikari.HikariDataSource [HikariDataSource.java : 110] HikariPool-1 - Starting...
+2019-12-27 21:10:09,751 [INFO] [http-nio-8003-exec-6] com.zaxxer.hikari.HikariDataSource [HikariDataSource.java : 123] HikariPool-1 - Start completed.
+2019-12-27 21:10:09,766 [DEBUG] [http-nio-8003-exec-6] c.e.s.mapper.SearchChampMapper.searchChampByname [BaseJdbcLogger.java : 143] ==>  Preparing: select cID , name , alias ,fullImage , tags from ChampionInfo where alias like CONCAT(CONCAT('%', ?), '%') 
+2019-12-27 21:10:09,803 [DEBUG] [http-nio-8003-exec-6] c.e.s.mapper.SearchChampMapper.searchChampByname [BaseJdbcLogger.java : 143] ==> Parameters: 影流之主(String)
+2019-12-27 21:10:09,882 [TRACE] [http-nio-8003-exec-6] c.e.s.mapper.SearchChampMapper.searchChampByname [BaseJdbcLogger.java : 149] <==    Columns: cID, name, alias, fullImage, tags
+2019-12-27 21:10:09,883 [TRACE] [http-nio-8003-exec-6] c.e.s.mapper.SearchChampMapper.searchChampByname [BaseJdbcLogger.java : 149] <==        Row: 140, Zed, 影流之主, Zed.png, Assassin
+2019-12-27 21:10:09,886 [DEBUG] [http-nio-8003-exec-6] c.e.s.mapper.SearchChampMapper.searchChampByname [BaseJdbcLogger.java : 143] <==      Total: 1
+2019-12-27 21:11:59,316 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-27 21:16:59,317 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-27 21:18:38,652 [DEBUG] [http-nio-8003-exec-7] c.e.s.mapper.SearchChampMapper.checkBycID [BaseJdbcLogger.java : 143] ==>  Preparing: select * from ChampionInfo where cID = ? 
+2019-12-27 21:18:38,948 [DEBUG] [http-nio-8003-exec-7] c.e.s.mapper.SearchChampMapper.checkBycID [BaseJdbcLogger.java : 143] ==> Parameters: 1(Integer)
+2019-12-27 21:18:38,991 [TRACE] [http-nio-8003-exec-7] c.e.s.mapper.SearchChampMapper.checkBycID [BaseJdbcLogger.java : 149] <==    Columns: cID, name, alias, fullImage, lore, skillOneID, skillOneName, skillOneDes, skillOneImg, skillTwoID, skillTwoName, skillTwoDes, skillTwoImg, skillThrID, skillThrName, skillThrDes, skillThrImg, skillFouID, skillFouName, skillFouDes, skillFouImg, passiveName, passiveDes, passiveImg, tags
+2019-12-27 21:18:38,992 [TRACE] [http-nio-8003-exec-7] c.e.s.mapper.SearchChampMapper.checkBycID [BaseJdbcLogger.java : 149] <==        Row: 1, Ahri, 九尾妖狐, Ahri.png, 符文之地的潜在力量和她有着与生俱来的共鸣。原始的魔法在她手中凝为魔法宝珠。瓦斯塔亚人阿狸醉心于玩弄猎物的情感，然后吞噬他们的生命精魄。虽然阿狸是天生的掠食者，但她却对猎物始终保存着一份同情，因为每一个被吞噬的灵魂，都伴随着他们生前的记忆。, AhriOrbofDeception, 欺诈宝珠, 阿狸放出并收回她的宝珠，在放出时会沿途对敌人造成魔法伤害，在收回时则会沿途对敌人造成真实伤害。在宝珠造成若干次命中后，阿狸的下一个宝珠在命中时将回复她的生命值。, AhriOrbofDeception.png, AhriFoxFire, 妖异狐火, 阿狸放出三团狐火。短暂的延迟后，它们会锁定附近的三名敌人进行攻击。, AhriFoxFire.png, AhriSeduce, 魅惑妖术, 阿狸献出红唇热吻，对命中的第一个敌人造成伤害并将目标魅惑，并且立刻终止目标的移动技能并使目标无恶意地走向她。目标所受的来自阿狸的伤害会暂时提升。, AhriSeduce.png, AhriTumble, 灵魄突袭, 阿狸向前猛冲，并放出元气弹，对周围的数个敌人造成伤害。灵魄突袭在进入冷却阶段以前最多可被施放三次。, AhriTumble.png, 瓦斯塔亚的优雅, 每当阿狸在短时间内对一个英雄造成了2次技能命中，她就会暂时获得移动速度加成。, Ahri_SoulEater2.png, Mage
+2019-12-27 21:18:38,994 [DEBUG] [http-nio-8003-exec-7] c.e.s.mapper.SearchChampMapper.checkBycID [BaseJdbcLogger.java : 143] <==      Total: 1
+2019-12-27 21:21:08,298 [DEBUG] [http-nio-8003-exec-1] c.e.s.mapper.SearchChampMapper.searchChampByname [BaseJdbcLogger.java : 143] ==>  Preparing: select cID , name , alias ,fullImage , tags from ChampionInfo where alias like CONCAT(CONCAT('%', ?), '%') 
+2019-12-27 21:21:08,300 [DEBUG] [http-nio-8003-exec-1] c.e.s.mapper.SearchChampMapper.searchChampByname [BaseJdbcLogger.java : 143] ==> Parameters: 影流之主(String)
+2019-12-27 21:21:08,339 [TRACE] [http-nio-8003-exec-1] c.e.s.mapper.SearchChampMapper.searchChampByname [BaseJdbcLogger.java : 149] <==    Columns: cID, name, alias, fullImage, tags
+2019-12-27 21:21:08,340 [TRACE] [http-nio-8003-exec-1] c.e.s.mapper.SearchChampMapper.searchChampByname [BaseJdbcLogger.java : 149] <==        Row: 140, Zed, 影流之主, Zed.png, Assassin
+2019-12-27 21:21:08,340 [DEBUG] [http-nio-8003-exec-1] c.e.s.mapper.SearchChampMapper.searchChampByname [BaseJdbcLogger.java : 143] <==      Total: 1
+2019-12-27 21:21:59,319 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-27 21:26:59,320 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-27 21:31:59,321 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-27 21:36:59,323 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-27 21:41:59,324 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-27 21:44:19,760 [DEBUG] [http-nio-8003-exec-4] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 143] ==>  Preparing: select cID , name , alias ,fullImage , tags from ChampionInfo 
+2019-12-27 21:44:19,761 [DEBUG] [http-nio-8003-exec-4] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 143] ==> Parameters: 
+2019-12-27 21:44:19,817 [TRACE] [http-nio-8003-exec-4] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==    Columns: cID, name, alias, fullImage, tags
+2019-12-27 21:44:19,817 [TRACE] [http-nio-8003-exec-4] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 0, Aatrox, 暗裔剑魔, Aatrox.png, Fighter
+2019-12-27 21:44:19,818 [TRACE] [http-nio-8003-exec-4] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 1, Ahri, 九尾妖狐, Ahri.png, Mage
+2019-12-27 21:44:19,819 [TRACE] [http-nio-8003-exec-4] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 2, Akali, 离群之刺, Akali.png, Assassin
+2019-12-27 21:44:19,819 [TRACE] [http-nio-8003-exec-4] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 3, Alistar, 牛头酋长, Alistar.png, Tank
+2019-12-27 21:44:19,820 [TRACE] [http-nio-8003-exec-4] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 4, Amumu, 殇之木乃伊, Amumu.png, Tank
+2019-12-27 21:44:19,820 [TRACE] [http-nio-8003-exec-4] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 5, Anivia, 冰晶凤凰, Anivia.png, Mage
+2019-12-27 21:44:19,821 [TRACE] [http-nio-8003-exec-4] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 6, Annie, 黑暗之女, Annie.png, Mage
+2019-12-27 21:44:19,821 [TRACE] [http-nio-8003-exec-4] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 7, Ashe, 寒冰射手, Ashe.png, Marksman
+2019-12-27 21:44:19,822 [TRACE] [http-nio-8003-exec-4] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 8, AurelionSol, 铸星龙王, AurelionSol.png, Mage
+2019-12-27 21:44:19,823 [TRACE] [http-nio-8003-exec-4] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 9, Azir, 沙漠皇帝, Azir.png, Mage
+2019-12-27 21:44:19,824 [TRACE] [http-nio-8003-exec-4] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 10, Bard, 星界游神, Bard.png, Support
+2019-12-27 21:44:19,824 [TRACE] [http-nio-8003-exec-4] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 11, Blitzcrank, 蒸汽机器人, Blitzcrank.png, Tank
+2019-12-27 21:44:19,825 [TRACE] [http-nio-8003-exec-4] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 12, Brand, 复仇焰魂, Brand.png, Mage
+2019-12-27 21:44:19,855 [TRACE] [http-nio-8003-exec-4] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 13, Braum, 弗雷尔卓德之心, Braum.png, Support
+2019-12-27 21:44:19,856 [TRACE] [http-nio-8003-exec-4] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 14, Caitlyn, 皮城女警, Caitlyn.png, Marksman
+2019-12-27 21:44:19,857 [TRACE] [http-nio-8003-exec-4] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 15, Camille, 青钢影, Camille.png, Fighter
+2019-12-27 21:44:19,858 [TRACE] [http-nio-8003-exec-4] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 16, Cassiopeia, 魔蛇之拥, Cassiopeia.png, Mage
+2019-12-27 21:44:19,858 [TRACE] [http-nio-8003-exec-4] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 17, Chogath, 虚空恐惧, Chogath.png, Tank
+2019-12-27 21:44:19,859 [TRACE] [http-nio-8003-exec-4] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 18, Corki, 英勇投弹手, Corki.png, Marksman
+2019-12-27 21:44:19,859 [TRACE] [http-nio-8003-exec-4] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 19, Darius, 诺克萨斯之手, Darius.png, Fighter
+2019-12-27 21:44:19,860 [TRACE] [http-nio-8003-exec-4] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 20, Diana, 皎月女神, Diana.png, Fighter
+2019-12-27 21:44:19,860 [TRACE] [http-nio-8003-exec-4] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 21, Draven, 荣耀行刑官, Draven.png, Marksman
+2019-12-27 21:44:19,860 [TRACE] [http-nio-8003-exec-4] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 22, DrMundo, 祖安狂人, DrMundo.png, Fighter
+2019-12-27 21:44:19,861 [TRACE] [http-nio-8003-exec-4] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 23, Ekko, 时间刺客, Ekko.png, Assassin
+2019-12-27 21:44:19,861 [TRACE] [http-nio-8003-exec-4] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 24, Elise, 蜘蛛女皇, Elise.png, Mage
+2019-12-27 21:44:19,862 [TRACE] [http-nio-8003-exec-4] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 25, Evelynn, 痛苦之拥, Evelynn.png, Assassin
+2019-12-27 21:44:19,862 [TRACE] [http-nio-8003-exec-4] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 26, Ezreal, 探险家, Ezreal.png, Marksman
+2019-12-27 21:44:19,862 [TRACE] [http-nio-8003-exec-4] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 27, Fiddlesticks, 末日使者, Fiddlesticks.png, Mage
+2019-12-27 21:44:19,863 [TRACE] [http-nio-8003-exec-4] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 28, Fiora, 无双剑姬, Fiora.png, Fighter
+2019-12-27 21:44:19,866 [TRACE] [http-nio-8003-exec-4] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 29, Fizz, 潮汐海灵, Fizz.png, Assassin
+2019-12-27 21:44:19,869 [TRACE] [http-nio-8003-exec-4] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 30, Galio, 正义巨像, Galio.png, Tank
+2019-12-27 21:44:19,871 [TRACE] [http-nio-8003-exec-4] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 31, Gangplank, 海洋之灾, Gangplank.png, Fighter
+2019-12-27 21:44:19,872 [TRACE] [http-nio-8003-exec-4] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 32, Garen, 德玛西亚之力, Garen.png, Fighter
+2019-12-27 21:44:19,873 [TRACE] [http-nio-8003-exec-4] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 33, Gnar, 迷失之牙, Gnar.png, Fighter
+2019-12-27 21:44:19,873 [TRACE] [http-nio-8003-exec-4] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 34, Gragas, 酒桶, Gragas.png, Fighter
+2019-12-27 21:44:19,874 [TRACE] [http-nio-8003-exec-4] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 35, Graves, 法外狂徒, Graves.png, Marksman
+2019-12-27 21:44:19,875 [TRACE] [http-nio-8003-exec-4] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 36, Hecarim, 战争之影, Hecarim.png, Fighter
+2019-12-27 21:44:19,875 [TRACE] [http-nio-8003-exec-4] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 37, Heimerdinger, 大发明家, Heimerdinger.png, Mage
+2019-12-27 21:44:19,876 [TRACE] [http-nio-8003-exec-4] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 38, Illaoi, 海兽祭司, Illaoi.png, Fighter
+2019-12-27 21:44:19,876 [TRACE] [http-nio-8003-exec-4] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 39, Irelia, 刀锋舞者, Irelia.png, Fighter
+2019-12-27 21:44:19,877 [TRACE] [http-nio-8003-exec-4] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 40, Ivern, 翠神, Ivern.png, Support
+2019-12-27 21:44:19,877 [TRACE] [http-nio-8003-exec-4] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 41, Janna, 风暴之怒, Janna.png, Support
+2019-12-27 21:44:19,878 [TRACE] [http-nio-8003-exec-4] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 42, JarvanIV, 德玛西亚皇子, JarvanIV.png, Tank
+2019-12-27 21:44:19,879 [TRACE] [http-nio-8003-exec-4] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 43, Jax, 武器大师, Jax.png, Fighter
+2019-12-27 21:44:19,879 [TRACE] [http-nio-8003-exec-4] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 44, Jayce, 未来守护者, Jayce.png, Fighter
+2019-12-27 21:44:19,880 [TRACE] [http-nio-8003-exec-4] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 45, Jhin, 戏命师, Jhin.png, Marksman
+2019-12-27 21:44:19,882 [TRACE] [http-nio-8003-exec-4] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 46, Jinx, 暴走萝莉, Jinx.png, Marksman
+2019-12-27 21:44:19,887 [TRACE] [http-nio-8003-exec-4] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 47, Kaisa, 虚空之女, Kaisa.png, Marksman
+2019-12-27 21:44:19,888 [TRACE] [http-nio-8003-exec-4] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 48, Kalista, 复仇之矛, Kalista.png, Marksman
+2019-12-27 21:44:19,890 [TRACE] [http-nio-8003-exec-4] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 49, Karma, 天启者, Karma.png, Mage
+2019-12-27 21:44:19,892 [TRACE] [http-nio-8003-exec-4] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 50, Karthus, 死亡颂唱者, Karthus.png, Mage
+2019-12-27 21:44:19,892 [TRACE] [http-nio-8003-exec-4] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 51, Kassadin, 虚空行者, Kassadin.png, Assassin
+2019-12-27 21:44:19,893 [TRACE] [http-nio-8003-exec-4] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 52, Katarina, 不祥之刃, Katarina.png, Assassin
+2019-12-27 21:44:19,894 [TRACE] [http-nio-8003-exec-4] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 53, Kayle, 正义天使, Kayle.png, Fighter
+2019-12-27 21:44:19,895 [TRACE] [http-nio-8003-exec-4] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 54, Kayn, 影流之镰, Kayn.png, Fighter
+2019-12-27 21:44:19,896 [TRACE] [http-nio-8003-exec-4] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 55, Kennen, 狂暴之心, Kennen.png, Mage
+2019-12-27 21:44:19,897 [TRACE] [http-nio-8003-exec-4] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 56, Khazix, 虚空掠夺者, Khazix.png, Assassin
+2019-12-27 21:44:19,902 [TRACE] [http-nio-8003-exec-4] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 57, Kindred, 永猎双子, Kindred.png, Marksman
+2019-12-27 21:44:19,903 [TRACE] [http-nio-8003-exec-4] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 58, Kled, 暴怒骑士, Kled.png, Fighter
+2019-12-27 21:44:19,905 [TRACE] [http-nio-8003-exec-4] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 59, KogMaw, 深渊巨口, KogMaw.png, Marksman
+2019-12-27 21:44:19,906 [TRACE] [http-nio-8003-exec-4] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 60, Leblanc, 诡术妖姬, Leblanc.png, Assassin
+2019-12-27 21:44:19,907 [TRACE] [http-nio-8003-exec-4] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 61, LeeSin, 盲僧, LeeSin.png, Fighter
+2019-12-27 21:44:19,908 [TRACE] [http-nio-8003-exec-4] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 62, Leona, 曙光女神, Leona.png, Tank
+2019-12-27 21:44:19,909 [TRACE] [http-nio-8003-exec-4] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 63, Lissandra, 冰霜女巫, Lissandra.png, Mage
+2019-12-27 21:44:19,909 [TRACE] [http-nio-8003-exec-4] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 64, Lucian, 圣枪游侠, Lucian.png, Marksman
+2019-12-27 21:44:19,911 [TRACE] [http-nio-8003-exec-4] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 65, Lulu, 仙灵女巫, Lulu.png, Support
+2019-12-27 21:44:19,912 [TRACE] [http-nio-8003-exec-4] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 66, Lux, 光辉女郎, Lux.png, Mage
+2019-12-27 21:44:19,913 [TRACE] [http-nio-8003-exec-4] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 67, Malphite, 熔岩巨兽, Malphite.png, Tank
+2019-12-27 21:44:19,920 [TRACE] [http-nio-8003-exec-4] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 68, Malzahar, 虚空先知, Malzahar.png, Mage
+2019-12-27 21:44:19,922 [TRACE] [http-nio-8003-exec-4] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 69, Maokai, 扭曲树精, Maokai.png, Tank
+2019-12-27 21:44:19,923 [TRACE] [http-nio-8003-exec-4] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 70, MasterYi, 无极剑圣, MasterYi.png, Assassin
+2019-12-27 21:44:19,924 [TRACE] [http-nio-8003-exec-4] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 71, MissFortune, 赏金猎人, MissFortune.png, Marksman
+2019-12-27 21:44:19,925 [TRACE] [http-nio-8003-exec-4] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 72, MonkeyKing, 齐天大圣, MonkeyKing.png, Fighter
+2019-12-27 21:44:19,926 [TRACE] [http-nio-8003-exec-4] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 73, Mordekaiser, 铁铠冥魂, Mordekaiser.png, Fighter
+2019-12-27 21:44:19,927 [TRACE] [http-nio-8003-exec-4] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 74, Morgana, 堕落天使, Morgana.png, Mage
+2019-12-27 21:44:19,929 [TRACE] [http-nio-8003-exec-4] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 75, Nami, 唤潮鲛姬, Nami.png, Support
+2019-12-27 21:44:19,929 [TRACE] [http-nio-8003-exec-4] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 76, Nasus, 沙漠死神, Nasus.png, Fighter
+2019-12-27 21:44:19,939 [TRACE] [http-nio-8003-exec-4] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 77, Nautilus, 深海泰坦, Nautilus.png, Tank
+2019-12-27 21:44:19,939 [TRACE] [http-nio-8003-exec-4] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 78, Neeko, 万花通灵, Neeko.png, Mage
+2019-12-27 21:44:19,940 [TRACE] [http-nio-8003-exec-4] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 79, Nidalee, 狂野女猎手, Nidalee.png, Assassin
+2019-12-27 21:44:19,941 [TRACE] [http-nio-8003-exec-4] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 80, Nocturne, 永恒梦魇, Nocturne.png, Assassin
+2019-12-27 21:44:19,942 [TRACE] [http-nio-8003-exec-4] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 81, Nunu, 雪原双子, Nunu.png, Tank
+2019-12-27 21:44:19,946 [TRACE] [http-nio-8003-exec-4] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 82, Olaf, 狂战士, Olaf.png, Fighter
+2019-12-27 21:44:19,953 [TRACE] [http-nio-8003-exec-4] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 83, Orianna, 发条魔灵, Orianna.png, Mage
+2019-12-27 21:44:19,956 [TRACE] [http-nio-8003-exec-4] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 84, Ornn, 山隐之焰, Ornn.png, Tank
+2019-12-27 21:44:19,962 [TRACE] [http-nio-8003-exec-4] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 85, Pantheon, 不屈之枪, Pantheon.png, Fighter
+2019-12-27 21:44:19,971 [TRACE] [http-nio-8003-exec-4] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 86, Poppy, 圣锤之毅, Poppy.png, Tank
+2019-12-27 21:44:19,972 [TRACE] [http-nio-8003-exec-4] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 87, Pyke, 血港鬼影, Pyke.png, Support
+2019-12-27 21:44:19,974 [TRACE] [http-nio-8003-exec-4] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 88, Qiyana, 元素女皇, Qiyana.png, Assassin
+2019-12-27 21:44:19,976 [TRACE] [http-nio-8003-exec-4] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 89, Quinn, 德玛西亚之翼, Quinn.png, Marksman
+2019-12-27 21:44:19,977 [TRACE] [http-nio-8003-exec-4] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 90, Rakan, 幻翎, Rakan.png, Support
+2019-12-27 21:44:19,978 [TRACE] [http-nio-8003-exec-4] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 91, Rammus, 披甲龙龟, Rammus.png, Tank
+2019-12-27 21:44:19,978 [TRACE] [http-nio-8003-exec-4] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 92, RekSai, 虚空遁地兽, RekSai.png, Fighter
+2019-12-27 21:44:19,979 [TRACE] [http-nio-8003-exec-4] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 93, Renekton, 荒漠屠夫, Renekton.png, Fighter
+2019-12-27 21:44:19,979 [TRACE] [http-nio-8003-exec-4] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 94, Rengar, 傲之追猎者, Rengar.png, Assassin
+2019-12-27 21:44:19,980 [TRACE] [http-nio-8003-exec-4] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 95, Riven, 放逐之刃, Riven.png, Fighter
+2019-12-27 21:44:19,982 [TRACE] [http-nio-8003-exec-4] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 96, Rumble, 机械公敌, Rumble.png, Fighter
+2019-12-27 21:44:19,985 [TRACE] [http-nio-8003-exec-4] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 97, Ryze, 符文法师, Ryze.png, Mage
+2019-12-27 21:44:19,987 [TRACE] [http-nio-8003-exec-4] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 98, Sejuani, 北地之怒, Sejuani.png, Tank
+2019-12-27 21:44:19,987 [TRACE] [http-nio-8003-exec-4] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 99, Shaco, 恶魔小丑, Shaco.png, Assassin
+2019-12-27 21:44:19,988 [TRACE] [http-nio-8003-exec-4] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 100, Shen, 暮光之眼, Shen.png, Tank
+2019-12-27 21:44:19,988 [TRACE] [http-nio-8003-exec-4] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 101, Shyvana, 龙血武姬, Shyvana.png, Fighter
+2019-12-27 21:44:19,989 [TRACE] [http-nio-8003-exec-4] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 102, Singed, 炼金术士, Singed.png, Tank
+2019-12-27 21:44:19,990 [TRACE] [http-nio-8003-exec-4] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 103, Sion, 亡灵战神, Sion.png, Tank
+2019-12-27 21:44:19,991 [TRACE] [http-nio-8003-exec-4] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 104, Sivir, 战争女神, Sivir.png, Marksman
+2019-12-27 21:44:19,991 [TRACE] [http-nio-8003-exec-4] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 105, Skarner, 水晶先锋, Skarner.png, Fighter
+2019-12-27 21:44:19,992 [TRACE] [http-nio-8003-exec-4] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 106, Sona, 琴瑟仙女, Sona.png, Support
+2019-12-27 21:44:19,992 [TRACE] [http-nio-8003-exec-4] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 107, Soraka, 众星之子, Soraka.png, Support
+2019-12-27 21:44:19,992 [TRACE] [http-nio-8003-exec-4] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 108, Swain, 诺克萨斯统领, Swain.png, Mage
+2019-12-27 21:44:19,993 [TRACE] [http-nio-8003-exec-4] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 109, Sylas, 解脱者, Sylas.png, Mage
+2019-12-27 21:44:19,993 [TRACE] [http-nio-8003-exec-4] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 110, Syndra, 暗黑元首, Syndra.png, Mage
+2019-12-27 21:44:19,994 [TRACE] [http-nio-8003-exec-4] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 111, TahmKench, 河流之王, TahmKench.png, Support
+2019-12-27 21:44:19,994 [TRACE] [http-nio-8003-exec-4] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 112, Taliyah, 岩雀, Taliyah.png, Mage
+2019-12-27 21:44:19,994 [TRACE] [http-nio-8003-exec-4] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 113, Talon, 刀锋之影, Talon.png, Assassin
+2019-12-27 21:44:19,995 [TRACE] [http-nio-8003-exec-4] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 114, Taric, 瓦洛兰之盾, Taric.png, Support
+2019-12-27 21:44:19,995 [TRACE] [http-nio-8003-exec-4] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 115, Teemo, 迅捷斥候, Teemo.png, Marksman
+2019-12-27 21:44:19,995 [TRACE] [http-nio-8003-exec-4] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 116, Thresh, 魂锁典狱长, Thresh.png, Support
+2019-12-27 21:44:19,996 [TRACE] [http-nio-8003-exec-4] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 117, Tristana, 麦林炮手, Tristana.png, Marksman
+2019-12-27 21:44:19,996 [TRACE] [http-nio-8003-exec-4] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 118, Trundle, 巨魔之王, Trundle.png, Fighter
+2019-12-27 21:44:19,996 [TRACE] [http-nio-8003-exec-4] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 119, Tryndamere, 蛮族之王, Tryndamere.png, Fighter
+2019-12-27 21:44:19,997 [TRACE] [http-nio-8003-exec-4] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 120, TwistedFate, 卡牌大师, TwistedFate.png, Mage
+2019-12-27 21:44:19,999 [TRACE] [http-nio-8003-exec-4] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 121, Twitch, 瘟疫之源, Twitch.png, Marksman
+2019-12-27 21:44:20,002 [TRACE] [http-nio-8003-exec-4] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 122, Udyr, 兽灵行者, Udyr.png, Fighter
+2019-12-27 21:44:20,004 [TRACE] [http-nio-8003-exec-4] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 123, Urgot, 无畏战车, Urgot.png, Fighter
+2019-12-27 21:44:20,004 [TRACE] [http-nio-8003-exec-4] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 124, Varus, 惩戒之箭, Varus.png, Marksman
+2019-12-27 21:44:20,005 [TRACE] [http-nio-8003-exec-4] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 125, Vayne, 暗夜猎手, Vayne.png, Marksman
+2019-12-27 21:44:20,005 [TRACE] [http-nio-8003-exec-4] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 126, Veigar, 邪恶小法师, Veigar.png, Mage
+2019-12-27 21:44:20,006 [TRACE] [http-nio-8003-exec-4] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 127, Velkoz, 虚空之眼, Velkoz.png, Mage
+2019-12-27 21:44:20,006 [TRACE] [http-nio-8003-exec-4] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 128, Vi, 皮城执法官, Vi.png, Fighter
+2019-12-27 21:44:20,007 [TRACE] [http-nio-8003-exec-4] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 129, Viktor, 机械先驱, Viktor.png, Mage
+2019-12-27 21:44:20,007 [TRACE] [http-nio-8003-exec-4] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 130, Vladimir, 猩红收割者, Vladimir.png, Mage
+2019-12-27 21:44:20,008 [TRACE] [http-nio-8003-exec-4] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 131, Volibear, 雷霆咆哮, Volibear.png, Fighter
+2019-12-27 21:44:20,008 [TRACE] [http-nio-8003-exec-4] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 132, Warwick, 祖安怒兽, Warwick.png, Fighter
+2019-12-27 21:44:20,008 [TRACE] [http-nio-8003-exec-4] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 133, Xayah, 逆羽, Xayah.png, Marksman
+2019-12-27 21:44:20,009 [TRACE] [http-nio-8003-exec-4] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 134, Xerath, 远古巫灵, Xerath.png, Mage
+2019-12-27 21:44:20,009 [TRACE] [http-nio-8003-exec-4] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 135, XinZhao, 德邦总管, XinZhao.png, Fighter
+2019-12-27 21:44:20,009 [TRACE] [http-nio-8003-exec-4] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 136, Yasuo, 疾风剑豪, Yasuo.png, Fighter
+2019-12-27 21:44:20,009 [TRACE] [http-nio-8003-exec-4] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 137, Yorick, 牧魂人, Yorick.png, Fighter
+2019-12-27 21:44:20,010 [TRACE] [http-nio-8003-exec-4] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 138, Yuumi, 魔法猫咪, Yuumi.png, Support
+2019-12-27 21:44:20,010 [TRACE] [http-nio-8003-exec-4] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 139, Zac, 生化魔人, Zac.png, Tank
+2019-12-27 21:44:20,010 [TRACE] [http-nio-8003-exec-4] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 140, Zed, 影流之主, Zed.png, Assassin
+2019-12-27 21:44:20,010 [TRACE] [http-nio-8003-exec-4] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 141, Ziggs, 爆破鬼才, Ziggs.png, Mage
+2019-12-27 21:44:20,011 [TRACE] [http-nio-8003-exec-4] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 142, Zilean, 时光守护者, Zilean.png, Support
+2019-12-27 21:44:20,011 [TRACE] [http-nio-8003-exec-4] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 143, Zoe, 暮光星灵, Zoe.png, Mage
+2019-12-27 21:44:20,011 [TRACE] [http-nio-8003-exec-4] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 144, Zyra, 荆棘之兴, Zyra.png, Mage
+2019-12-27 21:44:20,011 [DEBUG] [http-nio-8003-exec-4] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 143] <==      Total: 145
+2019-12-27 21:46:08,249 [DEBUG] [http-nio-8003-exec-6] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 143] ==>  Preparing: select cID , name , alias ,fullImage , tags from ChampionInfo 
+2019-12-27 21:46:08,250 [DEBUG] [http-nio-8003-exec-6] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 143] ==> Parameters: 
+2019-12-27 21:46:08,305 [TRACE] [http-nio-8003-exec-6] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==    Columns: cID, name, alias, fullImage, tags
+2019-12-27 21:46:08,306 [TRACE] [http-nio-8003-exec-6] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 0, Aatrox, 暗裔剑魔, Aatrox.png, Fighter
+2019-12-27 21:46:08,307 [TRACE] [http-nio-8003-exec-6] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 1, Ahri, 九尾妖狐, Ahri.png, Mage
+2019-12-27 21:46:08,308 [TRACE] [http-nio-8003-exec-6] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 2, Akali, 离群之刺, Akali.png, Assassin
+2019-12-27 21:46:08,309 [TRACE] [http-nio-8003-exec-6] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 3, Alistar, 牛头酋长, Alistar.png, Tank
+2019-12-27 21:46:08,310 [TRACE] [http-nio-8003-exec-6] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 4, Amumu, 殇之木乃伊, Amumu.png, Tank
+2019-12-27 21:46:08,310 [TRACE] [http-nio-8003-exec-6] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 5, Anivia, 冰晶凤凰, Anivia.png, Mage
+2019-12-27 21:46:08,312 [TRACE] [http-nio-8003-exec-6] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 6, Annie, 黑暗之女, Annie.png, Mage
+2019-12-27 21:46:08,313 [TRACE] [http-nio-8003-exec-6] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 7, Ashe, 寒冰射手, Ashe.png, Marksman
+2019-12-27 21:46:08,315 [TRACE] [http-nio-8003-exec-6] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 8, AurelionSol, 铸星龙王, AurelionSol.png, Mage
+2019-12-27 21:46:08,317 [TRACE] [http-nio-8003-exec-6] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 9, Azir, 沙漠皇帝, Azir.png, Mage
+2019-12-27 21:46:08,334 [TRACE] [http-nio-8003-exec-6] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 10, Bard, 星界游神, Bard.png, Support
+2019-12-27 21:46:08,336 [TRACE] [http-nio-8003-exec-6] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 11, Blitzcrank, 蒸汽机器人, Blitzcrank.png, Tank
+2019-12-27 21:46:08,338 [TRACE] [http-nio-8003-exec-6] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 12, Brand, 复仇焰魂, Brand.png, Mage
+2019-12-27 21:46:08,338 [TRACE] [http-nio-8003-exec-6] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 13, Braum, 弗雷尔卓德之心, Braum.png, Support
+2019-12-27 21:46:08,339 [TRACE] [http-nio-8003-exec-6] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 14, Caitlyn, 皮城女警, Caitlyn.png, Marksman
+2019-12-27 21:46:08,339 [TRACE] [http-nio-8003-exec-6] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 15, Camille, 青钢影, Camille.png, Fighter
+2019-12-27 21:46:08,340 [TRACE] [http-nio-8003-exec-6] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 16, Cassiopeia, 魔蛇之拥, Cassiopeia.png, Mage
+2019-12-27 21:46:08,340 [TRACE] [http-nio-8003-exec-6] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 17, Chogath, 虚空恐惧, Chogath.png, Tank
+2019-12-27 21:46:08,341 [TRACE] [http-nio-8003-exec-6] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 18, Corki, 英勇投弹手, Corki.png, Marksman
+2019-12-27 21:46:08,341 [TRACE] [http-nio-8003-exec-6] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 19, Darius, 诺克萨斯之手, Darius.png, Fighter
+2019-12-27 21:46:08,342 [TRACE] [http-nio-8003-exec-6] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 20, Diana, 皎月女神, Diana.png, Fighter
+2019-12-27 21:46:08,342 [TRACE] [http-nio-8003-exec-6] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 21, Draven, 荣耀行刑官, Draven.png, Marksman
+2019-12-27 21:46:08,343 [TRACE] [http-nio-8003-exec-6] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 22, DrMundo, 祖安狂人, DrMundo.png, Fighter
+2019-12-27 21:46:08,343 [TRACE] [http-nio-8003-exec-6] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 23, Ekko, 时间刺客, Ekko.png, Assassin
+2019-12-27 21:46:08,344 [TRACE] [http-nio-8003-exec-6] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 24, Elise, 蜘蛛女皇, Elise.png, Mage
+2019-12-27 21:46:08,344 [TRACE] [http-nio-8003-exec-6] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 25, Evelynn, 痛苦之拥, Evelynn.png, Assassin
+2019-12-27 21:46:08,345 [TRACE] [http-nio-8003-exec-6] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 26, Ezreal, 探险家, Ezreal.png, Marksman
+2019-12-27 21:46:08,345 [TRACE] [http-nio-8003-exec-6] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 27, Fiddlesticks, 末日使者, Fiddlesticks.png, Mage
+2019-12-27 21:46:08,346 [TRACE] [http-nio-8003-exec-6] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 28, Fiora, 无双剑姬, Fiora.png, Fighter
+2019-12-27 21:46:08,347 [TRACE] [http-nio-8003-exec-6] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 29, Fizz, 潮汐海灵, Fizz.png, Assassin
+2019-12-27 21:46:08,350 [TRACE] [http-nio-8003-exec-6] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 30, Galio, 正义巨像, Galio.png, Tank
+2019-12-27 21:46:08,351 [TRACE] [http-nio-8003-exec-6] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 31, Gangplank, 海洋之灾, Gangplank.png, Fighter
+2019-12-27 21:46:08,352 [TRACE] [http-nio-8003-exec-6] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 32, Garen, 德玛西亚之力, Garen.png, Fighter
+2019-12-27 21:46:08,352 [TRACE] [http-nio-8003-exec-6] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 33, Gnar, 迷失之牙, Gnar.png, Fighter
+2019-12-27 21:46:08,353 [TRACE] [http-nio-8003-exec-6] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 34, Gragas, 酒桶, Gragas.png, Fighter
+2019-12-27 21:46:08,354 [TRACE] [http-nio-8003-exec-6] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 35, Graves, 法外狂徒, Graves.png, Marksman
+2019-12-27 21:46:08,354 [TRACE] [http-nio-8003-exec-6] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 36, Hecarim, 战争之影, Hecarim.png, Fighter
+2019-12-27 21:46:08,355 [TRACE] [http-nio-8003-exec-6] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 37, Heimerdinger, 大发明家, Heimerdinger.png, Mage
+2019-12-27 21:46:08,355 [TRACE] [http-nio-8003-exec-6] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 38, Illaoi, 海兽祭司, Illaoi.png, Fighter
+2019-12-27 21:46:08,356 [TRACE] [http-nio-8003-exec-6] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 39, Irelia, 刀锋舞者, Irelia.png, Fighter
+2019-12-27 21:46:08,357 [TRACE] [http-nio-8003-exec-6] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 40, Ivern, 翠神, Ivern.png, Support
+2019-12-27 21:46:08,358 [TRACE] [http-nio-8003-exec-6] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 41, Janna, 风暴之怒, Janna.png, Support
+2019-12-27 21:46:08,360 [TRACE] [http-nio-8003-exec-6] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 42, JarvanIV, 德玛西亚皇子, JarvanIV.png, Tank
+2019-12-27 21:46:08,362 [TRACE] [http-nio-8003-exec-6] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 43, Jax, 武器大师, Jax.png, Fighter
+2019-12-27 21:46:08,363 [TRACE] [http-nio-8003-exec-6] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 44, Jayce, 未来守护者, Jayce.png, Fighter
+2019-12-27 21:46:08,364 [TRACE] [http-nio-8003-exec-6] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 45, Jhin, 戏命师, Jhin.png, Marksman
+2019-12-27 21:46:08,366 [TRACE] [http-nio-8003-exec-6] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 46, Jinx, 暴走萝莉, Jinx.png, Marksman
+2019-12-27 21:46:08,369 [TRACE] [http-nio-8003-exec-6] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 47, Kaisa, 虚空之女, Kaisa.png, Marksman
+2019-12-27 21:46:08,371 [TRACE] [http-nio-8003-exec-6] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 48, Kalista, 复仇之矛, Kalista.png, Marksman
+2019-12-27 21:46:08,373 [TRACE] [http-nio-8003-exec-6] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 49, Karma, 天启者, Karma.png, Mage
+2019-12-27 21:46:08,374 [TRACE] [http-nio-8003-exec-6] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 50, Karthus, 死亡颂唱者, Karthus.png, Mage
+2019-12-27 21:46:08,375 [TRACE] [http-nio-8003-exec-6] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 51, Kassadin, 虚空行者, Kassadin.png, Assassin
+2019-12-27 21:46:08,376 [TRACE] [http-nio-8003-exec-6] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 52, Katarina, 不祥之刃, Katarina.png, Assassin
+2019-12-27 21:46:08,378 [TRACE] [http-nio-8003-exec-6] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 53, Kayle, 正义天使, Kayle.png, Fighter
+2019-12-27 21:46:08,379 [TRACE] [http-nio-8003-exec-6] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 54, Kayn, 影流之镰, Kayn.png, Fighter
+2019-12-27 21:46:08,380 [TRACE] [http-nio-8003-exec-6] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 55, Kennen, 狂暴之心, Kennen.png, Mage
+2019-12-27 21:46:08,381 [TRACE] [http-nio-8003-exec-6] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 56, Khazix, 虚空掠夺者, Khazix.png, Assassin
+2019-12-27 21:46:08,384 [TRACE] [http-nio-8003-exec-6] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 57, Kindred, 永猎双子, Kindred.png, Marksman
+2019-12-27 21:46:08,387 [TRACE] [http-nio-8003-exec-6] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 58, Kled, 暴怒骑士, Kled.png, Fighter
+2019-12-27 21:46:08,389 [TRACE] [http-nio-8003-exec-6] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 59, KogMaw, 深渊巨口, KogMaw.png, Marksman
+2019-12-27 21:46:08,391 [TRACE] [http-nio-8003-exec-6] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 60, Leblanc, 诡术妖姬, Leblanc.png, Assassin
+2019-12-27 21:46:08,393 [TRACE] [http-nio-8003-exec-6] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 61, LeeSin, 盲僧, LeeSin.png, Fighter
+2019-12-27 21:46:08,395 [TRACE] [http-nio-8003-exec-6] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 62, Leona, 曙光女神, Leona.png, Tank
+2019-12-27 21:46:08,400 [TRACE] [http-nio-8003-exec-6] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 63, Lissandra, 冰霜女巫, Lissandra.png, Mage
+2019-12-27 21:46:08,402 [TRACE] [http-nio-8003-exec-6] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 64, Lucian, 圣枪游侠, Lucian.png, Marksman
+2019-12-27 21:46:08,407 [TRACE] [http-nio-8003-exec-6] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 65, Lulu, 仙灵女巫, Lulu.png, Support
+2019-12-27 21:46:08,409 [TRACE] [http-nio-8003-exec-6] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 66, Lux, 光辉女郎, Lux.png, Mage
+2019-12-27 21:46:08,412 [TRACE] [http-nio-8003-exec-6] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 67, Malphite, 熔岩巨兽, Malphite.png, Tank
+2019-12-27 21:46:08,413 [TRACE] [http-nio-8003-exec-6] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 68, Malzahar, 虚空先知, Malzahar.png, Mage
+2019-12-27 21:46:08,414 [TRACE] [http-nio-8003-exec-6] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 69, Maokai, 扭曲树精, Maokai.png, Tank
+2019-12-27 21:46:08,415 [TRACE] [http-nio-8003-exec-6] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 70, MasterYi, 无极剑圣, MasterYi.png, Assassin
+2019-12-27 21:46:08,417 [TRACE] [http-nio-8003-exec-6] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 71, MissFortune, 赏金猎人, MissFortune.png, Marksman
+2019-12-27 21:46:08,419 [TRACE] [http-nio-8003-exec-6] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 72, MonkeyKing, 齐天大圣, MonkeyKing.png, Fighter
+2019-12-27 21:46:08,421 [TRACE] [http-nio-8003-exec-6] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 73, Mordekaiser, 铁铠冥魂, Mordekaiser.png, Fighter
+2019-12-27 21:46:08,422 [TRACE] [http-nio-8003-exec-6] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 74, Morgana, 堕落天使, Morgana.png, Mage
+2019-12-27 21:46:08,424 [TRACE] [http-nio-8003-exec-6] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 75, Nami, 唤潮鲛姬, Nami.png, Support
+2019-12-27 21:46:08,425 [TRACE] [http-nio-8003-exec-6] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 76, Nasus, 沙漠死神, Nasus.png, Fighter
+2019-12-27 21:46:08,426 [TRACE] [http-nio-8003-exec-6] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 77, Nautilus, 深海泰坦, Nautilus.png, Tank
+2019-12-27 21:46:08,427 [TRACE] [http-nio-8003-exec-6] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 78, Neeko, 万花通灵, Neeko.png, Mage
+2019-12-27 21:46:08,427 [TRACE] [http-nio-8003-exec-6] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 79, Nidalee, 狂野女猎手, Nidalee.png, Assassin
+2019-12-27 21:46:08,428 [TRACE] [http-nio-8003-exec-6] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 80, Nocturne, 永恒梦魇, Nocturne.png, Assassin
+2019-12-27 21:46:08,429 [TRACE] [http-nio-8003-exec-6] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 81, Nunu, 雪原双子, Nunu.png, Tank
+2019-12-27 21:46:08,430 [TRACE] [http-nio-8003-exec-6] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 82, Olaf, 狂战士, Olaf.png, Fighter
+2019-12-27 21:46:08,431 [TRACE] [http-nio-8003-exec-6] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 83, Orianna, 发条魔灵, Orianna.png, Mage
+2019-12-27 21:46:08,432 [TRACE] [http-nio-8003-exec-6] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 84, Ornn, 山隐之焰, Ornn.png, Tank
+2019-12-27 21:46:08,432 [TRACE] [http-nio-8003-exec-6] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 85, Pantheon, 不屈之枪, Pantheon.png, Fighter
+2019-12-27 21:46:08,434 [TRACE] [http-nio-8003-exec-6] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 86, Poppy, 圣锤之毅, Poppy.png, Tank
+2019-12-27 21:46:08,437 [TRACE] [http-nio-8003-exec-6] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 87, Pyke, 血港鬼影, Pyke.png, Support
+2019-12-27 21:46:08,440 [TRACE] [http-nio-8003-exec-6] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 88, Qiyana, 元素女皇, Qiyana.png, Assassin
+2019-12-27 21:46:08,441 [TRACE] [http-nio-8003-exec-6] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 89, Quinn, 德玛西亚之翼, Quinn.png, Marksman
+2019-12-27 21:46:08,442 [TRACE] [http-nio-8003-exec-6] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 90, Rakan, 幻翎, Rakan.png, Support
+2019-12-27 21:46:08,443 [TRACE] [http-nio-8003-exec-6] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 91, Rammus, 披甲龙龟, Rammus.png, Tank
+2019-12-27 21:46:08,444 [TRACE] [http-nio-8003-exec-6] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 92, RekSai, 虚空遁地兽, RekSai.png, Fighter
+2019-12-27 21:46:08,445 [TRACE] [http-nio-8003-exec-6] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 93, Renekton, 荒漠屠夫, Renekton.png, Fighter
+2019-12-27 21:46:08,445 [TRACE] [http-nio-8003-exec-6] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 94, Rengar, 傲之追猎者, Rengar.png, Assassin
+2019-12-27 21:46:08,446 [TRACE] [http-nio-8003-exec-6] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 95, Riven, 放逐之刃, Riven.png, Fighter
+2019-12-27 21:46:08,447 [TRACE] [http-nio-8003-exec-6] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 96, Rumble, 机械公敌, Rumble.png, Fighter
+2019-12-27 21:46:08,447 [TRACE] [http-nio-8003-exec-6] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 97, Ryze, 符文法师, Ryze.png, Mage
+2019-12-27 21:46:08,448 [TRACE] [http-nio-8003-exec-6] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 98, Sejuani, 北地之怒, Sejuani.png, Tank
+2019-12-27 21:46:08,449 [TRACE] [http-nio-8003-exec-6] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 99, Shaco, 恶魔小丑, Shaco.png, Assassin
+2019-12-27 21:46:08,450 [TRACE] [http-nio-8003-exec-6] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 100, Shen, 暮光之眼, Shen.png, Tank
+2019-12-27 21:46:08,454 [TRACE] [http-nio-8003-exec-6] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 101, Shyvana, 龙血武姬, Shyvana.png, Fighter
+2019-12-27 21:46:08,457 [TRACE] [http-nio-8003-exec-6] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 102, Singed, 炼金术士, Singed.png, Tank
+2019-12-27 21:46:08,459 [TRACE] [http-nio-8003-exec-6] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 103, Sion, 亡灵战神, Sion.png, Tank
+2019-12-27 21:46:08,460 [TRACE] [http-nio-8003-exec-6] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 104, Sivir, 战争女神, Sivir.png, Marksman
+2019-12-27 21:46:08,460 [TRACE] [http-nio-8003-exec-6] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 105, Skarner, 水晶先锋, Skarner.png, Fighter
+2019-12-27 21:46:08,461 [TRACE] [http-nio-8003-exec-6] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 106, Sona, 琴瑟仙女, Sona.png, Support
+2019-12-27 21:46:08,461 [TRACE] [http-nio-8003-exec-6] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 107, Soraka, 众星之子, Soraka.png, Support
+2019-12-27 21:46:08,462 [TRACE] [http-nio-8003-exec-6] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 108, Swain, 诺克萨斯统领, Swain.png, Mage
+2019-12-27 21:46:08,466 [TRACE] [http-nio-8003-exec-6] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 109, Sylas, 解脱者, Sylas.png, Mage
+2019-12-27 21:46:08,467 [TRACE] [http-nio-8003-exec-6] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 110, Syndra, 暗黑元首, Syndra.png, Mage
+2019-12-27 21:46:08,470 [TRACE] [http-nio-8003-exec-6] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 111, TahmKench, 河流之王, TahmKench.png, Support
+2019-12-27 21:46:08,543 [TRACE] [http-nio-8003-exec-6] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 112, Taliyah, 岩雀, Taliyah.png, Mage
+2019-12-27 21:46:08,545 [TRACE] [http-nio-8003-exec-6] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 113, Talon, 刀锋之影, Talon.png, Assassin
+2019-12-27 21:46:08,547 [TRACE] [http-nio-8003-exec-6] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 114, Taric, 瓦洛兰之盾, Taric.png, Support
+2019-12-27 21:46:08,548 [TRACE] [http-nio-8003-exec-6] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 115, Teemo, 迅捷斥候, Teemo.png, Marksman
+2019-12-27 21:46:08,548 [TRACE] [http-nio-8003-exec-6] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 116, Thresh, 魂锁典狱长, Thresh.png, Support
+2019-12-27 21:46:08,549 [TRACE] [http-nio-8003-exec-6] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 117, Tristana, 麦林炮手, Tristana.png, Marksman
+2019-12-27 21:46:08,550 [TRACE] [http-nio-8003-exec-6] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 118, Trundle, 巨魔之王, Trundle.png, Fighter
+2019-12-27 21:46:08,553 [TRACE] [http-nio-8003-exec-6] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 119, Tryndamere, 蛮族之王, Tryndamere.png, Fighter
+2019-12-27 21:46:08,554 [TRACE] [http-nio-8003-exec-6] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 120, TwistedFate, 卡牌大师, TwistedFate.png, Mage
+2019-12-27 21:46:08,556 [TRACE] [http-nio-8003-exec-6] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 121, Twitch, 瘟疫之源, Twitch.png, Marksman
+2019-12-27 21:46:08,557 [TRACE] [http-nio-8003-exec-6] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 122, Udyr, 兽灵行者, Udyr.png, Fighter
+2019-12-27 21:46:08,558 [TRACE] [http-nio-8003-exec-6] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 123, Urgot, 无畏战车, Urgot.png, Fighter
+2019-12-27 21:46:08,558 [TRACE] [http-nio-8003-exec-6] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 124, Varus, 惩戒之箭, Varus.png, Marksman
+2019-12-27 21:46:08,559 [TRACE] [http-nio-8003-exec-6] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 125, Vayne, 暗夜猎手, Vayne.png, Marksman
+2019-12-27 21:46:08,560 [TRACE] [http-nio-8003-exec-6] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 126, Veigar, 邪恶小法师, Veigar.png, Mage
+2019-12-27 21:46:08,561 [TRACE] [http-nio-8003-exec-6] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 127, Velkoz, 虚空之眼, Velkoz.png, Mage
+2019-12-27 21:46:08,561 [TRACE] [http-nio-8003-exec-6] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 128, Vi, 皮城执法官, Vi.png, Fighter
+2019-12-27 21:46:08,562 [TRACE] [http-nio-8003-exec-6] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 129, Viktor, 机械先驱, Viktor.png, Mage
+2019-12-27 21:46:08,563 [TRACE] [http-nio-8003-exec-6] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 130, Vladimir, 猩红收割者, Vladimir.png, Mage
+2019-12-27 21:46:08,563 [TRACE] [http-nio-8003-exec-6] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 131, Volibear, 雷霆咆哮, Volibear.png, Fighter
+2019-12-27 21:46:08,564 [TRACE] [http-nio-8003-exec-6] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 132, Warwick, 祖安怒兽, Warwick.png, Fighter
+2019-12-27 21:46:08,564 [TRACE] [http-nio-8003-exec-6] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 133, Xayah, 逆羽, Xayah.png, Marksman
+2019-12-27 21:46:08,564 [TRACE] [http-nio-8003-exec-6] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 134, Xerath, 远古巫灵, Xerath.png, Mage
+2019-12-27 21:46:08,565 [TRACE] [http-nio-8003-exec-6] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 135, XinZhao, 德邦总管, XinZhao.png, Fighter
+2019-12-27 21:46:08,565 [TRACE] [http-nio-8003-exec-6] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 136, Yasuo, 疾风剑豪, Yasuo.png, Fighter
+2019-12-27 21:46:08,567 [TRACE] [http-nio-8003-exec-6] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 137, Yorick, 牧魂人, Yorick.png, Fighter
+2019-12-27 21:46:08,569 [TRACE] [http-nio-8003-exec-6] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 138, Yuumi, 魔法猫咪, Yuumi.png, Support
+2019-12-27 21:46:08,571 [TRACE] [http-nio-8003-exec-6] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 139, Zac, 生化魔人, Zac.png, Tank
+2019-12-27 21:46:08,589 [TRACE] [http-nio-8003-exec-6] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 140, Zed, 影流之主, Zed.png, Assassin
+2019-12-27 21:46:08,590 [TRACE] [http-nio-8003-exec-6] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 141, Ziggs, 爆破鬼才, Ziggs.png, Mage
+2019-12-27 21:46:08,590 [TRACE] [http-nio-8003-exec-6] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 142, Zilean, 时光守护者, Zilean.png, Support
+2019-12-27 21:46:08,591 [TRACE] [http-nio-8003-exec-6] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 143, Zoe, 暮光星灵, Zoe.png, Mage
+2019-12-27 21:46:08,591 [TRACE] [http-nio-8003-exec-6] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 149] <==        Row: 144, Zyra, 荆棘之兴, Zyra.png, Mage
+2019-12-27 21:46:08,591 [DEBUG] [http-nio-8003-exec-6] c.e.searchChampionservice.mapper.SearchChampMapper.showAll [BaseJdbcLogger.java : 143] <==      Total: 145
+2019-12-27 21:46:59,326 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-27 21:51:59,327 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-27 21:56:59,328 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-27 22:01:59,330 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-27 22:06:59,332 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-27 22:11:59,334 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-27 22:16:59,335 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-27 22:21:59,336 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-27 22:26:59,338 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-27 22:31:59,339 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-27 22:36:59,340 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-27 22:41:59,343 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-27 22:46:59,344 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-27 22:51:59,347 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-27 22:56:59,349 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-27 23:01:59,351 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-27 23:06:59,352 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-27 23:11:59,353 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-27 23:16:59,355 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-27 23:21:59,357 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-27 23:26:59,358 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-27 23:31:59,360 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-27 23:36:59,362 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-27 23:41:59,364 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-27 23:46:59,366 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-27 23:51:59,368 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration
+2019-12-27 23:56:59,370 [INFO] [AsyncResolver-bootstrap-executor-0] c.n.discovery.shared.resolver.aws.ConfigClusterResolver [ConfigClusterResolver.java : 43] Resolving eureka endpoints via configuration

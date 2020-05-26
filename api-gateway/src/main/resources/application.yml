@@ -1,0 +1,40 @@
+spring:
+  application:
+    name: api-gateway
+server:
+  port: 14000
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:7000/eureka/
+zuul:
+  ribbonIsolationStrategy: THREAD
+  routes:
+    loginAndlogon-producer:
+      path: /loginAndlogon-producer/** # 配置路由规则
+    searchSummoner-producer:
+      path: /searchSummoner-producer/** # 配置路由规则
+    guide-producer:
+      path: /guide-producer/** # 配置路由规则
+    searchChampion-producer:
+      path: /searchChampion-producer/** # 配置路由规则
+    manageInformation-producer:
+      path: /manageInformation-producer/** # 配置路由规则
+  threadPool:
+    useSeparateThreadPools: true
+    threadPoolKeyPrefix: zuulgw
+ribbon:
+  ReadTimeout: 60000
+  ConnectTimeout: 60000
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 240000
+management:
+  endpoints:
+    web:
+      exposure:
+        include: hystrix.stream
