@@ -1,2 +1,0 @@
-# SoftWareTestFinalProject
-软件测试课程期末大项目
